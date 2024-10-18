@@ -10,7 +10,6 @@ from anthropic import Anthropic
 
 load_dotenv()
 
-log_filename = f"{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 logging.basicConfig(
   level=logging.INFO,
   format='%(asctime)s - %(levelname)s - %(message)s',
@@ -23,10 +22,10 @@ logging.basicConfig(
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
-def setup_question_logger(question_id, log_type, model_name):
-  """Set up a logger for a specific question, log type, and model."""
-  log_filename = f"logs_testrun/{question_id}_{log_type}_{model_name}.log" # Change to logs/ for actual run
-  logger = logging.getLogger(f"{question_id}_{log_type}_{model_name}")
+def setup_question_logger(question_id, model_name):
+  """Set up a logger for a specific question and model."""
+  log_filename = f"logs/{question_id}_{model_name}.log"
+  logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
   formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
@@ -34,15 +33,15 @@ def setup_question_logger(question_id, log_type, model_name):
   logger.addHandler(file_handler)
   return logger
 
-def log_question_reasoning(question_id, reasoning, question_title, model_name):
-  """Log the reasoning for a specific question."""
-  logger = setup_question_logger(question_id, "reasoning", model_name)
+def log_question_reasoning(question_id, reasoning, question_title, model_name, run_number):
+  """Log the reasoning for a specific question and run."""
+  logger = setup_question_logger(question_id, model_name)
   logger.info(f"Question: {question_title}")
-  logger.info(f"Reasoning for question {question_id} ({model_name}):\n{reasoning}")
+  logger.info(f"Run {run_number}:\n{reasoning}\n")
 
 def list_questions():
   """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_nosolution.json"""
-  with open('scraping/test_metaculus_data_aibq3_nosolution.json', 'r', encoding='utf-8') as f: # remove test_ in actual run
+  with open('scraping/metaculus_data_aibq3_nosolution.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
     {
@@ -56,13 +55,13 @@ def list_questions():
   ]
 
 def get_news_for_question(question_id):
-    """Get news articles for a specific question ID from aibq3_news.json"""
-    with open('test_news.json', 'r', encoding='utf-8') as f: # Change to aibq3_news.json when doing actual run
-        news_data = json.load(f)
-    for item in news_data:
-        if item['question_id'] == question_id:
-            return item['news']
-    return "No news found for this question."
+  """Get news articles for a specific question ID from aibq3_news.json"""
+  with open('aibq3_news.json', 'r', encoding='utf-8') as f:
+    news_data = json.load(f)
+  for item in news_data:
+    if item['question_id'] == question_id:
+      return item['news']
+  return "No news found for this question."
 
 # Prompt
 PROMPT_DIRECT_PREDICTION = """
@@ -136,7 +135,7 @@ def get_gpt_prediction(question_details, formatted_articles):
 
 def get_claude_prediction(question_details, formatted_articles):
   today = datetime.datetime.now().strftime("%Y-%m-%d")
-  
+   
   prompt_input = {
     "title": question_details["title"],
     "background": question_details.get("description", ""),
@@ -147,7 +146,7 @@ def get_claude_prediction(question_details, formatted_articles):
   }
 
   client = Anthropic(api_key=ANTHROPIC_API_KEY)
-  
+
   try:
     response = client.messages.create(
       model="claude-3-5-sonnet-20240620",
@@ -163,58 +162,69 @@ def get_claude_prediction(question_details, formatted_articles):
     return None
 
 def log_questions_json(questions_data):
-    """Log question predictions to a JSON file."""
-    json_filename = "test_aibq3_predictions.json"
-    logging.info(f"Adding {len(questions_data)} items to the collection")
+  """Log question predictions to a JSON file."""
+  json_filename = "aibq3_predictions.json"
+  logging.info(f"Adding {len(questions_data)} items to the collection")
+  
+  try:
+    # Read existing data if file exists
+    if os.path.exists(json_filename):
+      with open(json_filename, 'r', encoding='utf-8') as json_file:
+        existing_data = json.load(json_file)
+    else:
+      existing_data = []
     
-    try:
-        # Read existing data if file exists
-        if os.path.exists(json_filename):
-            with open(json_filename, 'r', encoding='utf-8') as json_file:
-                existing_data = json.load(json_file)
-        else:
-            existing_data = []
-        
-        # Append new data
-        existing_data.extend(questions_data)
-        
-        # Write all questions to the JSON file
-        with open(json_filename, 'w', encoding='utf-8') as json_file:
-            json.dump(existing_data, json_file, ensure_ascii=False, indent=2)
-        
-        logging.info(f"Successfully wrote {len(existing_data)} total items to {json_filename}")
-    except Exception as e:
-        logging.error(f"Error writing to {json_filename}: {str(e)}")
+    # Update existing entries or add new ones
+    for new_entry in questions_data:
+      existing_entry = next((item for item in existing_data if item["question_id"] == new_entry["question_id"]), None)
+      if existing_entry:
+        existing_entry.update(new_entry)
+      else:
+        existing_data.append(new_entry)
+  
+    # Write all questions to the JSON file
+    with open(json_filename, 'w', encoding='utf-8') as json_file:
+      json.dump(existing_data, json_file, ensure_ascii=False, indent=2)
+    
+    logging.info(f"Successfully wrote {len(existing_data)} total items to {json_filename}")
+  except Exception as e:
+      logging.error(f"Error writing to {json_filename}: {str(e)}")
 
 def main():
   questions = list_questions()
   batch_questions_data = []
 
-  for i, question in enumerate(questions, 1):
+  for question in questions:
     question_id = question['id']
     print(f"Processing question id: {question_id}\n\n")
     
     formatted_articles = get_news_for_question(question_id)
     
-    gpt_result = get_gpt_prediction(question, formatted_articles)
-    print(f"4o response: {gpt_result}")
-    claude_result = get_claude_prediction(question, formatted_articles)
-    print(f"Sonnet response: {claude_result}")
-    
-    log_question_reasoning(question_id, gpt_result, question['title'], "4o")
-    log_question_reasoning(question_id, claude_result, question['title'], "Sonnet3-5")
-
-    batch_questions_data.append({
+    question_data = {
       "question_id": question_id,
-      "question_title": question['title'],
-      "gpt_reasoning": gpt_result,
-      "claude_reasoning": claude_result
-    })
+      "question_title": question['title']
+    }
+    
+    for run in range(5):
+      print(f"Run {run} for question {question_id}")
+      
+      gpt_result = get_gpt_prediction(question, formatted_articles)
+      print(f"4o response (Run {run}): {gpt_result}")
+      claude_result = get_claude_prediction(question, formatted_articles)
+      print(f"Sonnet response (Run {run}): {claude_result}")
+      
+      log_question_reasoning(question_id, gpt_result, question['title'], "4o", run)
+      log_question_reasoning(question_id, claude_result, question['title'], "Sonnet3-5", run)
 
-    if i % 10 == 0 or i == len(questions):
-      logging.info(f"Writing batch of {len(batch_questions_data)} questions to JSON")
-      log_questions_json(batch_questions_data)
-      batch_questions_data = []
+      question_data[f"gpt_reasoning{run}"] = gpt_result
+      question_data[f"claude_reasoning{run}"] = claude_result
+
+    batch_questions_data.append(question_data)
+
+    # Write to JSON after each question
+    logging.info(f"Writing batch of {len(batch_questions_data)} entries to JSON")
+    log_questions_json(batch_questions_data)
+    batch_questions_data = []
 
 if __name__ == "__main__":
-  main()
+    main()
