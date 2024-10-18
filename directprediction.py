@@ -162,10 +162,35 @@ def get_claude_prediction(question_details, formatted_articles):
     print(f"Error in Claude prediction: {e}")
     return None
 
+def log_questions_json(questions_data):
+    """Log question predictions to a JSON file."""
+    json_filename = "test_aibq3_predictions.json"
+    logging.info(f"Adding {len(questions_data)} items to the collection")
+    
+    try:
+        # Read existing data if file exists
+        if os.path.exists(json_filename):
+            with open(json_filename, 'r', encoding='utf-8') as json_file:
+                existing_data = json.load(json_file)
+        else:
+            existing_data = []
+        
+        # Append new data
+        existing_data.extend(questions_data)
+        
+        # Write all questions to the JSON file
+        with open(json_filename, 'w', encoding='utf-8') as json_file:
+            json.dump(existing_data, json_file, ensure_ascii=False, indent=2)
+        
+        logging.info(f"Successfully wrote {len(existing_data)} total items to {json_filename}")
+    except Exception as e:
+        logging.error(f"Error writing to {json_filename}: {str(e)}")
+
 def main():
   questions = list_questions()
+  batch_questions_data = []
 
-  for question in questions:
+  for i, question in enumerate(questions, 1):
     question_id = question['id']
     print(f"Processing question id: {question_id}\n\n")
     
@@ -176,8 +201,20 @@ def main():
     claude_result = get_claude_prediction(question, formatted_articles)
     print(f"Sonnet response: {claude_result}")
     
-    log_question_reasoning(question_id, gpt_result, question['title'], "GPT")
-    log_question_reasoning(question_id, claude_result, question['title'], "Claude")
+    log_question_reasoning(question_id, gpt_result, question['title'], "4o")
+    log_question_reasoning(question_id, claude_result, question['title'], "Sonnet3-5")
+
+    batch_questions_data.append({
+      "question_id": question_id,
+      "question_title": question['title'],
+      "gpt_reasoning": gpt_result,
+      "claude_reasoning": claude_result
+    })
+
+    if i % 10 == 0 or i == len(questions):
+      logging.info(f"Writing batch of {len(batch_questions_data)} questions to JSON")
+      log_questions_json(batch_questions_data)
+      batch_questions_data = []
 
 if __name__ == "__main__":
   main()
