@@ -7,6 +7,7 @@ import sys
 import logging
 import datetime
 from dotenv import load_dotenv
+from typing import List, Dict
 
 load_dotenv()
 
@@ -23,9 +24,12 @@ logging.basicConfig(
 ASKNEWS_CLIENT_ID = os.environ.get('ASKNEWS_CLIENT_ID')
 ASKNEWS_SECRET = os.environ.get('ASKNEWS_SECRET')
 
+# Global variable to store all questions
+all_questions: List[Dict] = []
+
 def setup_question_logger(question_id, log_type):
   """Set up a logger for a specific question and log type."""
-  log_filename = f"logs/{question_id}_{log_type}.log"
+  log_filename = f"logs/aibq3_{question_id}_{log_type}.log"
   logger = logging.getLogger(f"{question_id}_{log_type}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -34,11 +38,23 @@ def setup_question_logger(question_id, log_type):
   logger.addHandler(file_handler)
   return logger
 
-def log_question_news(question_id, news, question_title):
-  """Log the news articles for a specific question."""
-  logger = setup_question_logger(question_id, "news")
-  logger.info(f"Question: {question_title}")
-  logger.info(f"News articles for question {question_id}:\n{news}")
+def log_questions_news(questions_data: List[Dict]):
+    """Log questions and their news articles to a JSON file."""
+    global all_questions
+    json_filename = "aibq3_news.json"
+    logging.info(f"Adding {len(questions_data)} items to the collection")
+    
+    try:
+        # Add new questions to the global list
+        all_questions.extend(questions_data)
+        
+        # Write all questions to the JSON file
+        with open(json_filename, 'w', encoding='utf-8') as json_file:
+            json.dump(all_questions, json_file, ensure_ascii=False, indent=2)
+        
+        logging.info(f"Successfully wrote {len(all_questions)} total items to {json_filename}")
+    except Exception as e:
+        logging.error(f"Error writing to {json_filename}: {str(e)}")
 
 # Get questions ID, title, and open_time from scraped metaculus data
 def list_questions():
@@ -72,12 +88,11 @@ def asknews_api_call_with_retry(func, *args, **kwargs):
       else:
         raise
 
-
 def get_formatted_asknews_context(query, news_date, ask, news_logger):
   try:
-    question_open_date = datetime.datetime.strptime(question_open_date, "%Y-%m-%dT%H:%M:%SZ")
+    question_open_date = datetime.datetime.strptime(news_date, "%Y-%m-%dT%H:%M:%SZ")
     end_timestamp = int(question_open_date.replace(hour=23, minute=59, second=59).timestamp()) # End timestamp is set to the end of the day of the question's open date
-    start_timestamp = int((question_open_date - datetime.timedelta(days=89)).replace(hour=0, minute=0, second=0).timestamp())
+    start_timestamp = int((question_open_date - datetime.timedelta(days=59)).replace(hour=0, minute=0, second=0).timestamp())
 
     hot_response = asknews_api_call_with_retry(
       ask.news.search_news,
@@ -128,11 +143,32 @@ def format_asknews_context(hot_articles, historical_articles):
 def main():
   ask = AskNewsSDK(client_id=ASKNEWS_CLIENT_ID, client_secret=ASKNEWS_SECRET, scopes=["news"])
   questions = list_questions()
+  batch_questions_data = []
 
-  for question in questions:
+  logging.info(f"Starting to process {len(questions)} questions")
+
+  for i, question in enumerate(questions, 1):
     question_id = question['id']
-    print(f"Processing question id: {question_id}\n\n")
+    question_title = question['title']
+    logging.info(f"Processing question {i}/{len(questions)}: ID {question_id} - {question_title}")
     
     news_logger = setup_question_logger(question_id, "news")
     formatted_articles = get_formatted_asknews_context(question['title'], question['open_time'], ask, news_logger)
-    log_question_news(question_id, formatted_articles, question['title'])
+    
+    question_data = {
+      "question_id": question_id,
+      "question_title": question_title,
+      "open_time": question['open_time'],
+      "news": formatted_articles
+    } 
+    batch_questions_data.append(question_data)
+
+    if i % 10 == 0 or i == len(questions):
+      logging.info(f"Writing batch of {len(batch_questions_data)} questions to JSON")
+      log_questions_news(batch_questions_data)
+      batch_questions_data = []
+
+  logging.info("Finished processing all questions")
+
+if __name__ == "__main__":
+    main()

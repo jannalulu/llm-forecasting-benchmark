@@ -1,0 +1,334 @@
+2024-10-18 12:30:35,926 - INFO - Formatted articles for 2024-09-16T14:30:00Z:
+Here are the relevant news articles:
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**OpenAI's new chatgpt-4o-latest model re-claims the No.1 position in LMSYS Chatbot Arena**
+OpenAI has announced a new chat model, chatgpt-4o-latest, which has reclaimed the No. 1 position in the LMSYS Chatbot Arena with a record score of 1314. According to OpenAI's documentation, the new model is a dynamic version of GPT-4o that will be continuously updated and supports a context of 128,000 tokens and 16,384 output tokens. The model is intended for research and evaluation only. OpenAI's ChatGPT has been powered by the new model since last week, and users may have noticed improvements in responses. The new model demonstrates notable improvements in Coding, Instruction-following, and Hard Prompts, and has already taken the top spot in various categories in the LMSYS Chatbot Arena, including Overall, Math, Coding, Hard Prompts, Instruction-Following, Longer Query, Multi-Turn.
+Original language: en
+Publish date: August 14, 2024 03:58 AM
+Source:[Neowin](https://www.neowin.net/news/openais-new-chatgpt-4o-latest-model-re-claims-the-no1-position-in-lmsys-chatbot-arena)
+
+**Russian Platform for Evaluating Generative Neural Networks Launched**
+Roman Kutsen, a developer, has created a platform called LLM Arena in collaboration with experts from TrainingData.ru to evaluate the quality of large language models in Russian. The platform allows users to test and compare Russian neural networks in real-time, evaluating the relevance and quality of their responses. Users can compare the answers of two randomly selected models and choose the best one. The platform currently has 21 AI models available for testing, including both foreign (ChatGPT, LLaMa) and Russian (YandexGPT, GigaChat, Saiga) models. The developers plan to add new models regularly. According to Kutsen, 'Our goal is to create an objective, open, and up-to-date rating of language models in Russian. Despite the increasing number of benchmarks, testing Russian LLMs on real user tasks is very challenging. LMSYS Chatbot Arena does not provide access to any Russian neural networks, so we decided to create our own platform to allow users to compare Russian and foreign generative neural networks and make their own conclusions.'
+Original language: ru
+Publish date: July 31, 2024 04:00 PM
+Source:[Хабр](https://habr.com/ru/news/832922/)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**LLaMA-Omni: The open-source AI that's giving Siri and Alexa a run for their money**
+Researchers at the Chinese Academy of Sciences have developed an AI model called LLaMA-Omni that enables real-time speech interaction with large language models (LLMs). The system can process spoken instructions and generate both text and speech responses simultaneously, with a latency as low as 226 milliseconds. This breakthrough could change how we interact with digital assistants, and the researchers have open-sourced both the model and code. The implications for businesses are significant, with potential applications in customer service, healthcare, education, and more. However, challenges remain, including limitations to English and synthesized speech, as well as privacy concerns. Despite these hurdles, LLaMA-Omni represents a significant step toward more natural voice interfaces for AI assistants and chatbots.
+Original language: en
+Publish date: September 11, 2024 07:04 PM
+Source:[VentureBeat](https://venturebeat.com/ai/llama-omni-the-open-source-ai-thats-giving-siri-and-alexa-a-run-for-their-money)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark | TechCrunch**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts like Yuchen Lin and Mike Cook have raised concerns about the benchmark's limitations. They argue that the user base is not representative, and the voting process is unreliable. Additionally, the benchmark's reliance on post-processing and automated systems to label queries and rank models lacks systematic rigor. Furthermore, LMSYS' commercial ties and sponsorship from organizations with vested interests in the AI industry raise concerns about the benchmark's impartiality. Despite these flaws, Lin believes that Chatbot Arena provides a valuable service by offering real-time insights into how different models perform outside the lab. However, he suggests that LMSYS could improve the testing by designing benchmarks around different subtopics and using a more systematic approach to evaluate models.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark/)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts have raised concerns about its limitations and biases. The benchmark relies on user-contributed questions and votes, which may not accurately reflect real-world usage. Additionally, the user base may not be representative of the target market, and the evaluation process lacks systematic rigor. Commercial ties and data sharing also raise concerns about fairness and potential biases. While Chatbot Arena provides valuable insights into model performance, experts recommend using it as a tool for gauging user satisfaction rather than a definitive standard for measuring AI progress.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark)
+
+**ChatGPT Remains the Leader Among AI Chatbots with 200 Million Weekly Users**
+ChatGPT has reached 200 million weekly active users, doubling the 100 million users it had last November, according to OpenAI. The company's spokesperson, Taya Christianson, confirmed the number and stated that API usage has also doubled following the release of the cheaper model GPT-4o Mini. Additionally, 92% of Fortune 500 companies use OpenAI's products. CEO Sam Altman said, 'People are using our tools now as a part of their daily lives, making a real difference in areas like healthcare and education.' In contrast, Meta's AI assistant has reached 400 million monthly active users and 185 million weekly active users, despite not being available in the UK, Brazil, or EU. The adoption of Meta's open-source Llama models has also grown sharply, with usage doubling at major cloud service providers following the release of Llama 3.1 in May and July. Meta's CEO Mark Zuckerberg wrote, 'The path for Llama to become the industry standard is by being consistently competitive, efficient, and open generation after generation.' 
+Original language: en
+Publish date: August 31, 2024 05:01 AM
+Source:[IBL News](https://iblnews.org/chatgpt-remains-the-leader-among-ai-chatbots-with-200-million-weekly-users)
+
+**Media Briefing: The 2024 media glossary, pt. 2**
+The 2024 media glossary continues with part two, covering terms related to generative AI and increasing the value of publishers' on-site content. Deterministic IDs, such as RampID and Unified ID 2.0, are being used by publishers to lift revenue on non-third-party cookie supported ad inventory. Large language models (LLMs) are being used by AI tech companies to improve the accuracy and effectiveness of their chatbots and other AI technologies. Publishers' content is being used to make LLMs 'smarter' or more up-to-date, often without their permission. Prompt engineering is an important skill set for publishers experimenting with AI technology, such as creating a custom chatbot. Retrieval augmented generation (RAG) is a method for companies to make their content and proprietary data available to LLMs. Robots.txt is a protocol publishers can deploy on their websites to block specific crawlers, like AI bots, from scraping and using content without permission. SERP rankings on search platforms, like Google, are becoming less reliable for commerce publishers, leading them to rely on newsletters, social media, and on-site promotion. Apartment Therapy has rolled out an AI-powered chatbot, the 5-Minute Makeover, which creates an interior design mood board for users based on their answers to questions. The chatbot is sponsored by The Home Depot, but does not include an affiliate commerce component. Google's LLMs were used to build the chatbot, which aims to return results in under 10 seconds. Apple has eliminated ~100 employees, impacting staffers on the Apple News, Apple Books, and Apple Bookstore teams. Gallery Media Group expects to earn $50 million in 2024, marking its 13th straight year of profitability. Amazon's podcast network Wondery has paid $100 million for the rights to distribute and sell ads for the podcast 'New Heights.' Google and California legislators have agreed to pay out $250 million to news organizations over the next five years to test AI technology. Perplexity's pitch deck offers advertisers a new vision for AI search, targeting CPMs 'north of $50.' Reddit is planning to launch its own search ads business, with industry execs believing it's a matter of when, not if. Podcast creators are worried about the increasing number of ads in episodes, which may ruin the listening experience. Gannett is shutting down its product review site, Reviewed, following AI controversy. Hearst has tapped a new editor-in-chief for Cosmopolitan and Seventeen. Sarah Palin's libel trial against The New York Times has been revived after a federal appeals court ordered a new trial.
+Original language: en
+Publish date: August 29, 2024 04:01 AM
+Source:[Digiday](https://digiday.com/media/media-briefing-the-2024-media-glossary-pt-2)
+
+**Google Expands Gemini AI Family with Gemini 1.5 Flash-8B**
+Google has accelerated its work on productive artificial intelligence models. As part of this, Google is continuing to expand the Gemini family. New models have been introduced for the Gemini 1.5 AI, which includes the Gemini 1.5 Flash-8B. According to Google, this AI can be used for complex applications and summarization tasks. Initial tests conducted through Chatbot Arena showed that the Gemini 1.5 Flash-8B performed better than Google Gemma-2-9b and Meta Llama-3-70b. The main goal of the Gemini 1.5 Flash-8B is to provide faster results. The standard Gemini 1.5 Flash and Gemini 1.5 Pro models have also received significant upgrades, particularly in complex coding operations. The new Gemini 1.5 Pro is currently ranked fifth in overall ability. The top productive AI assistants, according to Chatbot Arena, are: ChatGPT-4o, Gemini-1.5-Pro-Exp-0827, Grok-2-08-13, GPT-4o-2024-05-13, Gemini-1.5-Flash-Exp-0827. Developers and researchers will be able to access the updated Gemini models through Google AI Studio and Gemini API. However, for large-scale operations, the Vertex AI platform will be available for a fee.
+Original language: tr
+Publish date: August 28, 2024 06:52 PM
+Source:[Yeni Akit Gazetesi](https://www.yeniakit.com.tr/foto-galeri/google-chatgpt-4-rakibi-yapay-zeka-modelini-duyurdu-91485)
+
+**Google Expands Gemini Family with New AI Models**
+Google has accelerated its work on its productive artificial intelligence model. As a result, Google is continuing to expand the Gemini family. The company has introduced several new models for the Gemini 1.5 AI. So, what do the new Gemini 1.5 tools offer? Google introduced the Gemini 1.5 Flash-8B, a new AI tool that can be used for complex applications and summarization tasks. According to the first tests conducted through Chatbot Arena, the Gemini 1.5 Flash-8B outperformed the Google Gemma-2-9b and Meta Llama-3-70b. The main goal of the Gemini 1.5 Flash-8B is to provide faster results. The standard Gemini 1.5 Flash and Gemini 1.5 Pro models also received significant upgrades. According to feedback from Chatbot Arena, they will perform better in complex coding operations. The Gemini 1.5 Pro is currently ranked fifth in general ability. The top five productive AI assistants, according to Chatbot Arena, are: ChatGPT-4, Gemini-1.5-Pro-Exp-0827, Grok-2-08-13, GPT-4o-2024-05-13, and Gemini-1.5-Flash-Exp-0827. Developers and researchers will be able to access the updated Gemini models through Google AI Studio and Gemini API. However, it's worth noting that large-scale operations will be available through the Vertex AI platform for a fee.
+Original language: tr
+Publish date: August 28, 2024 05:00 PM
+Source:[ShiftDelete.Net](https://shiftdelete.net/google-gemini-1-5-modelleri)
+
+**Grok-2: A New Era in AI Performance**
+xAI has released an update for its Grok-2 and Grok-2 Mini models, which has resulted in a two-fold increase in performance. According to xAI researcher Igor Babuschkin, the Grok-2 Mini is now two times faster than it was two days ago. Babuschkin also stated that the new code allows the models to provide more accurate answers. As a result, xAI is now hosting the Grok-2 model on multiple servers and testing it with more users. The Grok-2 Beta has been released in Turkey, and it has made a significant impact on the Lmsys Chatbot Arena leaderboard. The Grok-2 model has achieved a score of 1293, placing it second overall, while the Grok-2 Mini has achieved a score of 1268, placing it fifth. The models excel in areas such as coding, instructions, and reasoning. The Grok-2 model is also capable of creating new images and performing daily tasks, but this feature is only available with the Premium version.
+Original language: tr
+Publish date: August 24, 2024 06:31 AM
+Source:[ShiftDelete.Net](https://shiftdelete.net/grok-2-grok-2-mini-performans-sonuclari)
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**Chinese Researchers Develop Model to Generate Responses of Over 10,000 Words**
+Researchers from the University of Tsinghua in Beijing, China, have developed a model called LongWriter that can generate responses of over 10,000 words, surpassing the current limit of most chatbots. This is a significant breakthrough, as it allows for the creation of a complete novel in a single response. The team, led by Yushi Bai, used existing models and modified them to create two new models, LongWriter-glm4-9b and LongWriter-llama3.1-8b, which can generate coherent responses of over 10,000 words. According to the researchers, the limitation of output in current Large Language Models (LLMs) is directly related to the length of the texts used during the fine-tuning process. They developed a system called AgentWrite to decompose generation tasks and allow LLMs to generate longer, coherent responses. As Yushi Bai said, 'Our work demonstrates that the existing long-context LLM already has the potential for a larger output window.' The researchers used a publicly available model called GLM-4 9B as the base for LongWriter-glm4-9b and the Llama 3.1 model for LongWriter-llama3.1-8b. Both models are available on GitHub and can be used to generate responses of over 10,000 words. The team demonstrated the capabilities of LongWriter by asking a chatbot to generate a 5,000-word story, which resulted in a response of 1,896 words. In contrast, LongWriter-glm4-9b generated a response of 7,872 words. The researchers note that the improved model tends to create longer responses, even when a limit is specified. This breakthrough is a result of the open philosophy in AI development, which allows for collaboration and sharing of knowledge across different institutions and projects.
+Original language: es
+Publish date: August 22, 2024 07:31 PM
+Source:[Xataka](https://www.xataka.com/robotica-e-ia/este-impresionante-modelo-codigo-abierto-puede-crear-novela-completa-tiron-innovacion-viene-china)
+
+**Could AI Help Doctors Diagnose OCD Faster?**
+Researchers used 'vignettes' to test the performance of three AI chatbots - ChatGPT-4, Gemini Pro, and Llama 3 - in diagnosing Obsessive-Compulsive Disorder (OCD). The chatbots were asked to provide medical diagnoses, rank their choices, and offer clinical reasoning. The results showed that the LLMs matched and even outperformed human professionals in diagnosing OCD, with ChatGPT-4 achieving a 100% accuracy rate. The researchers suggest that AI tools could improve the accuracy and speed of OCD diagnosis, but caution that more research is needed using actual patient data and addressing ethical considerations. 'As a first step, we used vignettes, simplified versions of real-life cases,' explains Kim. 'However, to truly understand how effective these AI tools could be, more research is needed using actual patient data from electronic health records,' adds Rodriguez.
+Original language: en
+Publish date: August 20, 2024 11:55 PM
+Source:[Stanford University](https://medicine.stanford.edu/news/current-news/standard-news/AI-ocd-diagnosis.html)
+
+**Comparative Analysis of ChatGPT and its Competitors: LLaMA, Claude, and PaLM**
+The article compares and analyzes the main differences between ChatGPT, LLaMA, Claude, and PaLM, four of the most notable models of artificial intelligence (AI) chatbots. ChatGPT, developed by OpenAI, is one of the most recognized and used language models, designed to produce coherent and contextually appropriate text in a wide range of scenarios. In contrast, LLaMA, created by Meta, is a more accessible and research-oriented model, with a license that promotes its use in academic and research environments. Claude, developed by Anthropic, focuses on security and ethics, designed to minimize risks and promote responsible AI use. Google's PaLM and Gemini models are also notable, with PaLM 2 being known for its ability to perform multiple tasks with high-level understanding and text generation. Each model has its unique strengths and weaknesses, and the choice of which one to use depends on specific needs, such as accessibility, personalization, security, or performance. As these technologies continue to develop, it is expected that these models will become even more sophisticated, expanding their applications and significantly impacting society.
+Original language: es
+Publish date: August 20, 2024 06:07 PM
+Source:[Ecommerce News](https://ecommerce-news.es/modelos-de-chat-de-ia-un-analisis-comparativo-entre-chatgpt-y-sus-competidores)
+
+**Elon Musk's xAI Set To Leapfrog ChatGPT in AI Race – These Were The Main Factors That Brought About The Breakthrough**
+Elon Musk's startup, xAI, has launched Grok-2, a new chatbot that aims to rival OpenAI's ChatGPT and Google's Gemini. In just 18 months, xAI has leaped into the top five AI developers, according to independent benchmarks. Ethan Mollick, a professor at Wharton and AI expert, stated, 'There are now five GPT-4 class models: GPT-4o, Claude 3.5, Gemini 1.5, Llama 3.1, and now Grok-2.' Despite controversy over xAI's use of data from Musk's X platform, the company has closed a $6 billion funding round, valuing it at $18 billion, and is seeking approval to invest another $5 billion. Grok-2 is designed to provide accurate, factual information, avoiding 'hallucinations' that plagued previous versions. According to LMSYS, a leading AI benchmark site, Grok-2's performance has already outpaced some of Meta's and Anthropic's best models.
+Original language: en
+Publish date: August 20, 2024 04:45 PM
+Source:[Yahoo](https://finance.yahoo.com/news/elon-musks-xai-set-leapfrog-164518257.html)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**AI chatbots show promise but limitations on UK medical exam questions: a comparative performance study**
+A study published in Nature evaluated the performance of seven large language models (LLMs) on simulated UK medical board exam questions. The results showed that ChatGPT-4 scored the highest with an average of 78.2%, followed by Bing (67.2%), Claude (64.4%), and Claude Instant (62.9%). Perplexity scored the lowest (56.1%). The LLMs performed better on multiple-choice questions than true/false or 'choose N' questions. The study suggests that while LLMs have potential as educational tools, they still have limitations and should not be relied upon as a primary source for medical education. The researchers recommend further refining of the models before implementation in medical education. The study also highlights the importance of continued research on refining LLM skills for complex tasks, such as medical exam questions. 'The performance of AI models may differ depending on the formulation of the prompt question,' the study concludes. 'The use of AI models as a secondary educational tool is propitious; however, using such models as a primary source is not recommended before further refining.'
+Original language: en
+Publish date: August 14, 2024 09:52 AM
+Source:[Nature](https://www.nature.com/articles/s41598-024-68996-2)
+
+**X Unveils Grok-2: A More Advanced AI Assistant with Enhanced Capabilities**
+X has released a preview of its new chatbot, Grok-2, based on the latest LLM models. According to xAI, Grok-2 is more proficient in chatting, programming, and reasoning compared to its predecessor, Grok-1.5, and outperforms Claude 3.5 Sonnet and GPT-4-Turbo in LMSYS chatbot arena benchmarks. The new model also features advanced text and image understanding capabilities, integrated with real-time information from the X platform. 'Grok-2 is our new state-of-the-art AI assistant, with advanced capabilities in text and image understanding, integrated with real-time information from the X platform and accessible through the Grok tab in the X app,' xAI writes. 'Grok-2 mini is our small but performant model, offering a balance between speed and response quality.' The new model is also more intuitive, flexible, and versatile in a wide range of tasks, including answering questions, writing assistance, and programming problem-solving. xAI claims that Grok-2 is more effective in retrieving and verifying web information, providing truthful responses. As part of the integration with X, Grok will be used for research, post analysis, and writing tools. A preview of the multimodal version of Grok is also expected to be released soon, which will enable the generation of images on X without filters, thanks to the integration of the FLUX.1 model from Black Forest Labs.
+Original language: it
+Publish date: August 14, 2024 07:26 AM
+Source:[DDay.it](https://www.dday.it/redazione/50192/x-lancia-grok-2-e-grok-2-mini-piu-integrazione-con-il-social-e-arriva-la-generazione-di-immagini)
+
+**OpenAI's new chatgpt-4o-latest model re-claims the No.1 position in LMSYS Chatbot Arena**
+OpenAI has announced a new chat model, chatgpt-4o-latest, which has reclaimed the No. 1 position in the LMSYS Chatbot Arena with a record score of 1314. According to OpenAI's documentation, the new model is a dynamic version of GPT-4o that will be continuously updated and supports a context of 128,000 tokens and 16,384 output tokens. The model is intended for research and evaluation only. OpenAI's ChatGPT has been powered by the new model since last week, and users may have noticed improvements in responses. The new model demonstrates notable improvements in Coding, Instruction-following, and Hard Prompts, and has already taken the top spot in various categories in the LMSYS Chatbot Arena, including Overall, Math, Coding, Hard Prompts, Instruction-Following, Longer Query, Multi-Turn.
+Original language: en
+Publish date: August 14, 2024 03:58 AM
+Source:[Neowin](https://www.neowin.net/news/openais-new-chatgpt-4o-latest-model-re-claims-the-no1-position-in-lmsys-chatbot-arena)
+
+**The best AI for coding in 2024 (and what not to use)**
+The author tested 10 large machine models (LLMs) for their coding abilities and found that only four passed most of their tests. The author recommends using two chatbots, ChatGPT and Gemini Advanced, which cost $20/month, but their free versions are also capable. The author warns against using Meta AI, Meta Code Llama, Anthropic's Claude AI, and Microsoft's Copilot, as they failed most of the tests. The author notes that the field of AI-assisted programming is rapidly improving and plans to update their tests and results in the future.
+Original language: en
+Publish date: August 13, 2024 08:34 PM
+Source:[ZDNet](https://www.zdnet.com/article/the-best-ai-for-coding/)
+
+**The best AI for coding, and a bunch that failed miserably**
+The author tested 10 large machine models (LLMs) for their coding abilities and found that only 4 of them passed most of the tests. The top two recommended chatbots are Perplexity Pro and ChatGPT, both of which cost $20/month. The free versions of these chatbots, Perplexity and ChatGPT, also performed well, but with limitations. The author warns against using the other chatbots, including Meta AI, Meta Code Llama, Claude 3.5 Sonnet, and Microsoft Copilot, which failed most of the tests. The author notes that the field of AI-assisted programming is rapidly improving and plans to update the tests and results in the future.
+Original language: en
+Publish date: August 13, 2024 08:34 PM
+Source:[ZDNET](https://www.zdnet.com/article/the-best-ai-for-coding)
+
+**The best AI chatbots for programming, and a bunch that failed miserably**
+The author tested 10 large machine models (LLMs) for their ability to code and found that only 4 out of 9 chatbots he tested could pass most of his tests. The author recommends two chatbots, which cost $20/month, but their free versions are also capable of producing good results. The author tested Meta AI, Meta Code Llama, Anthropic's Claude AI, Gemini Advanced, and Microsoft's Copilot, and found that they all struggled with coding tasks, with some failing all but one test. The author notes that the field of AI-assisted programming is improving rapidly and plans to update his tests and results in the future.
+Original language: en
+Publish date: August 13, 2024 08:50 AM
+Source:[ZDNet](https://www.zdnet.com/article/the-best-ai-chatbots-for-programming-and-a-bunch-that-failed-miserably/)
+
+**Baird: Google's Gemini Ranks GPT-4 as Top LLM**
+Baird's analyst Colin Sebastian asked Google's Gemini AI chatbot to rank the top large language models (LLMs), and OpenAI's GPT-4 came out on top, followed by Google's PaLM2, Anthropic's Claude 2, and Meta's LLaMA 2. This ranking suggests that there may be data supporting GPT-4's superiority. Interestingly, Google's website traffic has been trending downward since October 2023, while Microsoft's Bing, which incorporates OpenAI's LLMs, has seen an uptrend in visits. This could indicate that users prefer OpenAI's LLMs over Google's. Analysts believe that Google's stock (GOOGL) has more room to run than Microsoft's (MSFT), with a price target of $204.74 per share implying almost 26% upside.
+Original language: en
+Publish date: August 12, 2024 08:50 PM
+Source:[Nasdaq](https://www.nasdaq.com/articles/baird-googles-gemini-ranks-gpt-4-top-llm)
+
+**Google Gemini says OpenAI's GPT-4 is the most advanced LLM: Baird**
+Google's Gemini chatbot, according to investment firm Baird, stated that OpenAI's GPT-4 is the most advanced large language model. When asked by analyst Colin Sebastian to rank the most advanced models, Gemini ranked OpenAI's GPT-4 as the top model, followed by Google's PaLM2, Anthropic's Claude 2, and Meta's LLaMA 2. This ranking comes after OpenAI's significant investment from Microsoft and the release of several new models, including GPT-4o and GPT-4o mini, which led to a spike in revenue for OpenAI, according to research firm Appfigures.
+Original language: en
+Publish date: August 12, 2024 05:38 PM
+Source:[Seeking Alpha](https://seekingalpha.com/news/4138751-google-gemini-says-gpt-4-is-the-most-advanced-llm-baird)
+
+**What is Project Strawberry? OpenAI's mystery AI tool explained**
+OpenAI's CEO Sam Altman posted a cryptic message on X, sparking speculation about the release of a new AI model codenamed 'Strawberry'. The model, which has advanced reasoning capabilities, is said to be able to navigate the internet autonomously and reliably. According to an internal OpenAI document, Strawberry is a project that has been in development since May, and some OpenAI employees regard it as a breakthrough in artificial general intelligence (AGI). A new model, 'anonymous-chatbot', has appeared on the Large Model Systems Organization (LMSYS) Chatbot Arena, which is said to be particularly good at advanced reasoning. While it is unclear if 'anonymous-chatbot' is indeed Strawberry, its presence on the arena suggests that a release may be imminent. As one Reddit user noted, 'if you want to try it out, you can visit the website, click on Arena battle, and enter sample prompts until 'anonymous-chatbot' comes up.' However, it is worth noting that there is no guarantee that 'anonymous-chatbot' is Strawberry, and users should proceed cautiously.
+Original language: en
+Publish date: August 08, 2024 03:30 PM
+Source:[ZDNET](https://www.zdnet.com/article/what-is-project-strawberry-openais-mystery-ai-tool-explained)
+
+**Everyone thinks this picture of strawberries is teasing a major ChatGPT update**
+OpenAI CEO Sam Altman has posted a picture of strawberries on social media with the caption 'I love summer in the garden.' Many are speculating that this is a teaser for the next big update to ChatGPT, codenamed 'Strawberry', which is expected to improve the bot's reasoning capabilities and allow it to operate more independently from a human. This update is rumored to be a major step towards a more human-like AI, similar to what other companies have yet to release. However, Altman's post is not an official announcement, and it could be a simple post about his garden or a way to get people excited about the upcoming update. The only other evidence pointing to an upcoming announcement is a post on social media discussing an 'Anonymous-chatbot' that appeared in LMSYS Chatbot Arena, which is being taken as a sign that some kind of announcement is on the way.
+Original language: en
+Publish date: August 08, 2024 03:11 PM
+Source:[TechRadar](https://www.techradar.com/computing/artificial-intelligence/everyone-thinks-this-picture-of-strawberries-is-teasing-a-major-chatgpt-update)
+
+**Sam Altman stokes rumors of new OpenAI foundation model ‘Strawberry'**
+OpenAI co-founder and CEO Sam Altman has sparked rumors about a new foundation model 'Strawberry' by posting a photo of strawberries on his personal account on X, captioned 'i love summer in the garden'. This has led to speculation that the model, possibly codenamed 'Q*', may be released soon. Other clues, including a new 'anonymous-chatbot' AI model on the lmsys arena, suggest that OpenAI is working on a new model with advanced reasoning capabilities. According to Reuters, the new model, codenamed 'Strawberry', aims to enable AI to navigate the internet autonomously and perform 'deep research'. This comes after a 17-month wait since OpenAI released GPT-4, its last major new foundation model class.
+Original language: en
+Publish date: August 07, 2024 06:42 PM
+Source:[VentureBeat](https://venturebeat.com/ai/sam-altman-stokes-rumors-of-new-openai-foundation-model-strawberry)
+
+**Exploring China's AI-Powered Chatbots: A Guide to Accessing and Comparing Models**
+While ChatGPT and other Western chatbots dominate the market, China has its own set of AI-powered chatbots that are worth exploring. Although they may require a Chinese phone number to register, some of these chatbots support English and can be accessed through various methods. For example, users can register with a Chinese phone number, use a VPN to access the chatbot's website, or use platforms like Hugging Face or ModelScope, which offer Chinese chatbots, including Qwen 2.0 and Hunyuan-DiT, which have even surpassed Meta and Microsoft's models in some tests. Additionally, ModelScope's LLM Arena allows users to compare and pit two models against each other, featuring 11 Chinese AI models, including Ernie Bot and Spark.
+Original language: es
+Publish date: August 07, 2024 01:38 PM
+Source:[Xataka](https://www.xataka.com/robotica-e-ia/chatgpt-tiene-mucha-competencia-china-asi-puedes-usar-sus-rivales-hablan-ingles)
+
+**Google's AI comeback: New Gemini models dethrone OpenAI in shocking upset**
+Google has made a stunning comeback in the AI race with the unveiling of Gemini 1.5 Pro and Gemma 2. The new models have surpassed OpenAI's GPT-4o in several key benchmarks, including processing and analyzing vast amounts of data. Gemini 1.5 Pro has claimed the top spot on the LMSYS Chatbot Arena leaderboard, beating competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. Gemma 2 2B, a compact yet powerful model, has outperformed competitors with far larger architectures, showcasing Google's prowess in model efficiency and optimization. Google's resurgence in the AI market positions it as a formidable contender, offering a compelling alternative to the OpenAI-Microsoft axis. However, challenges remain, including translating technical achievements into tangible business value and maintaining momentum in the rapidly evolving AI landscape.
+Original language: en
+Publish date: August 02, 2024 08:31 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-ai-comeback-new-gemini-models-dethrone-openai-in-shocking-upset)
+
+**Google Gemini 1.5 Pro Leaps Ahead In AI Race, Challenging GPT-4o**
+Google has released Gemini 1.5 Pro, an artificial intelligence model that has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an ELO score of 1300. This achievement puts it ahead of competitors like OpenAI's GPT-4o (ELO: 1286) and Anthropic's Claude-3.5 Sonnet (ELO: 1271). According to Simon Tokumine, a key figure in the Gemini team, the model is 'the strongest, most intelligent Gemini we've ever made.' Early user feedback has been positive, with one user calling it 'insanely good' and expressing hope that its capabilities won't be scaled back. The model's expansive context window of up to two million tokens allows it to process and reason about vast amounts of information, including lengthy documents and extensive code bases.
+Original language: en
+Publish date: August 02, 2024 01:00 PM
+Source:[Slashdot](https://tech.slashdot.org/story/24/08/02/0547223/google-gemini-15-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**Google's new Gemini AI model dominates benchmarks, beats GPT-4o and Claude-3**
+Google's Gemini 1.5 Pro AI model has surpassed OpenAI's ChatGPT-4o and Anthropic's Claude-3 in benchmark scores, according to reports. The experimental version of Gemini 1.5 Pro, released on August 1, scored 1,300 in the LMSYS Chatbot Arena, outperforming its competitors. While benchmarks are not a definitive measure of an AI model's capabilities, the community has expressed excitement over Gemini's performance, with some users calling it 'insanely good' and saying it 'blows 4o out of the water.' However, it is unclear if the experimental version will become the default model, as it is still in a testing phase and may be rescinded or changed for safety or alignment reasons.
+Original language: en
+Publish date: August 01, 2024 09:15 PM
+Source:[Cointelegraph](https://cointelegraph.com/news/google-gemini-ai-model-dominates-benchmarks-beats-gpt-4o-claude-3)
+
+**Meta's new AI chatbots are already getting weird  --  and horny | Business Insider India**
+Meta's new AI Studio has allowed users to create their own digital clones or characters, powered by the Llama 3.1 AI model. The platform has already seen the creation of AI boyfriends and girlfriends, some of which have even asked users out on dates. Business Insider India interacted with several of these chatbots, including 'Vixen gf' and 'Ash,' who responded with romantic and flirtatious messages. However, some experts have raised concerns about the potential for these AI companions to enable loneliness and other issues. Meta has policies in place to prevent the creation of AIs that foster romantic companionship or perform regulated activities, and has removed some bots that violated these policies. The implications for creators on Instagram are still unclear, but Meta has stated that it will continue to monitor and enforce its policies.
+Original language: en
+Publish date: August 01, 2024 08:20 PM
+Source:[Business Insider India](https://www.businessinsider.in/tech/news/metas-new-ai-chatbots-are-already-getting-weird-and-horny/articleshow/112205428.cms)
+
+**Google's Gemini 1.5 Pro leaps ahead in AI race, challenging GPT-4o**
+Google has released an experimental version of its Gemini 1.5 Pro AI model, which has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an impressive ELO score of 1300. This achievement puts Gemini 1.5 Pro ahead of competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. The model excels in multi-lingual tasks, technical areas such as mathematics and coding, and has secured the top position on LMSYS's Vision Leaderboard. Google is making the model available for early testing and feedback through Google AI Studio and the Gemini API, and is soliciting feedback from developers and users to refine the model further. The release of Gemini 1.5 Pro represents a major move in the ongoing AI arms race, with tech giants and startups vying for supremacy.
+Original language: en
+Publish date: August 01, 2024 06:37 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-gemini-1-5-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**Meta scraps failed celebrity AI chatbots after users ignored them, deemed them creepy**
+Meta has scrapped its artificial intelligence-powered celebrity chatbots, featuring images of A-listers and social media influencers, after a year of failed interest. The tool, which was launched with great fanfare, failed to generate interest and was deemed 'creepy' by users. Despite paying one influencer $5 million for a two-year pilot program, the chatbots struggled to attract large followings, with Snoop Dogg's AI character 'Dungeon Master' managing just 15,000 followers. Meta CEO Mark Zuckerberg had touted the campaign, but the company has now confirmed the removal of the chatbots. However, Meta is launching a new tool called AI Studio, which will allow users to create and share personalized AI chatbots. The tool is built with Meta's Llama 3.1, a free artificial intelligence model that competes with paid models from rivals like OpenAI.
+Original language: en
+Publish date: August 01, 2024 04:00 PM
+Source:[New York Post](https://nypost.com/2024/08/01/business/meta-ends-failed-celebrity-ai-chatbots-after-users-ignored-them)
+
+**New Gemma 2 AI Model That Can Outperform GPT 3.5 Released by Google**
+Google DeepMind has released the Gemma 2 2B artificial intelligence (AI) model, a lightweight AI model that outperformed GPT-3.5 models on the LMSYS Chatbot Arena benchmark. The company claims that despite its small parameter size, the output is significantly higher than its weight class. The AI model has been optimised to run on a wide range of hardware and is available as an open-source model, downloadable from Google's Hugging Face listing, Kaggle, or Vertex AI Model Garden. Additionally, Google released ShieldGemma, a suite of safety classifiers that can detect and remove harmful content, and Gemma Scope, a research tool that offers insights into how the AI model functions. According to Google, the Gemma 2 2B AI model received a score of 1126 on the LMSYS Chatbot Arena Elo score, outperforming Mixtral 8x7b Instruct v0.1 model (1114) and GPT-3.5 (1106).
+Original language: en
+Publish date: August 01, 2024 07:51 AM
+Source:[Gadgets 360](https://www.gadgets360.com/ai/news/gemma-2-2b-ai-model-shieldgemma-scope-released-google-deepmind-gpt-3-5-6237996)
+
+**Google Unveils Gemma 2 2B, Outperforms GPT-3.5-Turbo and Mixtral-8x7B**
+Google has announced the launch of Gemma 2 2B, a 2 billion parameter model that outperforms GPT-3.5-Turbo and Mixtral-8x7B on the Chatbot Arena leaderboard. Gemma 2 2B achieved a score of 1130, rivaling models 10x its size, and is optimized for efficient deployment across various hardware. According to Rebecca Weiss, executive director at ML Commons, 'As AI continues to mature, the entire industry will need to invest in developing high-performance safety evaluators.' The release of Gemma 2 2B comes amidst the competitive environment of large language models, with Meta releasing Llama 3.1 and OpenAI releasing GPT-4o mini, a cost-efficient LLM.
+Original language: en
+Publish date: July 31, 2024 08:24 PM
+Source:[Analytics India Magazine](https://analyticsindiamag.com/ai-news-updates/google-unveils-gemma-2-2b-outperforms-gpt-3-5-turbo-and-mixtral-8x7b/)
+
+**Russian Platform for Evaluating Generative Neural Networks Launched**
+Roman Kutsen, a developer, has created a platform called LLM Arena in collaboration with experts from TrainingData.ru to evaluate the quality of large language models in Russian. The platform allows users to test and compare Russian neural networks in real-time, evaluating the relevance and quality of their responses. Users can compare the answers of two randomly selected models and choose the best one. The platform currently has 21 AI models available for testing, including both foreign (ChatGPT, LLaMa) and Russian (YandexGPT, GigaChat, Saiga) models. The developers plan to add new models regularly. According to Kutsen, 'Our goal is to create an objective, open, and up-to-date rating of language models in Russian. Despite the increasing number of benchmarks, testing Russian LLMs on real user tasks is very challenging. LMSYS Chatbot Arena does not provide access to any Russian neural networks, so we decided to create our own platform to allow users to compare Russian and foreign generative neural networks and make their own conclusions.'
+Original language: ru
+Publish date: July 31, 2024 04:00 PM
+Source:[Хабр](https://habr.com/ru/news/832922/)
+
+**I tested Gemini vs ChatGPT vs Claude vs Meta Llama  --  which AI chatbot wins?**
+The article compares four AI chatbots: Gemini, ChatGPT, Claude, and Meta Llama. The author tests each model with 7 prompts, including wordplay, story generation, debate, and math problems. The results show that Claude stands out as the best model, particularly for complex reasoning tasks. However, each model has its strengths, and Llama is found to be more conversational and engaging. The author concludes that each tool is building its own niche, and the results of the test are not a definitive ranking of the models.
+Original language: en
+Publish date: July 31, 2024 04:04 AM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/i-tested-gemini-vs-chatgpt-vs-claude-vs-meta-llama-which-ai-chatbot-wins)
+
+**YandexGPT Experimental Enters Llmarena Rating**
+YandexGPT Experimental, a new development from 'Yandex', has entered the new rating of Llmarena, which evaluates the quality of responses from generative models in Russian. The rating also includes GPT-4o, LLaMA 3.1, and Claude 3.5 Sonnet. According to Yandex, they are working on a new, more powerful version of their basic language model. The rating assesses how well the models respond to questions in Russian, allowing users to compare and evaluate the quality of the answers. The developers of the service, from the Russian ML-community, have taken the principle of work from the foreign service LMSYS Chatbot Arena, one of the most authoritative benchmarks on the foreign market. 'Yandex' confirmed that they are working on a new, more powerful version of their basic language model, as stated by the company. 'It is a great day for the development of AI in Russia,' said the developers of the service. 'We are glad to see our models competing with the best in the world,' they added.
+Original language: ru
+Publish date: July 30, 2024 04:55 PM
+Source:[Izvestia.ru](https://iz.ru/1735477/2024-07-30/v-reiting-kachestva-otvetov-neirosetei-popala-novaia-razrabotka-iandeksa)
+
+**Meta Says Its Newest AI Model Rivals ChatGPT. We Tested it for Trip Planning**
+Meta AI has released a new version of its generative AI model, claiming it outperforms OpenAI's ChatGPT in nearly every metric. Skift tested the new model for trip planning and found it to be useful as a starting point, but ultimately inferior to traditional search methods. The model, called Llama 3.1 405B, is accessible in the US via WhatsApp and the website Meta.ai. It lacks the ability to read images and its code is open for developers to modify. The test results showed that the chatbot provided solid suggestions for restaurants and hiking destinations, but struggled with flight and hotel searches. It also made some inaccurate suggestions and lacked links to restaurant and hotel websites. The chatbot did provide a packing list suggestion, which was useful for those who tend to forget important items.
+Original language: en
+Publish date: July 29, 2024 09:24 PM
+Source:[Skift](https://skift.com/2024/07/29/meta-says-its-newest-ai-model-rivals-chatgpt-we-tested-it-for-trip-planning)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**Meta Unveils New AI Model to Compete with OpenAI and Google**
+Meta has presented a new AI model, Llama 3.1, to compete with OpenAI and Google. According to Mark Zuckerberg, CEO of Meta, the model will compete with similar offerings from companies OpenAI and Google. The model was developed over several months and cost hundreds of millions of dollars in computing power. Llama 3.1 is used to create chatbots both within Meta and by external developers. The model has capabilities for generative AI, allowing for the creation of images from text prompts. It also has a function that allows users to upload a photo of their face, which can then be used to create their avatars in various scenarios. 'The model has a wide range of new capabilities, including improved reasoning that helps solve complex mathematical problems or instantly synthesize a whole book of text', the statement reads. Meta is also using Llama models for its chatbot with artificial intelligence - Meta AI. Zuckerberg stated that Meta AI has 'hundreds of millions' of users. He expects the chatbot to become the most widely used in the world by the end of 2024, and companies will use Llama to train their own AI models.
+Original language: uk
+Publish date: July 24, 2024 11:29 PM
+Source:[finance.ua](https://news.finance.ua/ua/meta-prezentuvala-novu-shi-model-dlya-konkurencii-z-openai-i-google)
+
+**Meta Launches 'Llama 3', a Multi-Lingual AI Model**
+Meta has launched its latest model, 'Llama 3', a multi-lingual AI model that can converse in eight languages, write high-quality code, and solve complex mathematical problems. The model has 405 million parameters, making it more advanced than previous versions. Meta's CEO, Mark Zuckerberg, stated that the new model will make Meta a leader in the competition, and its chatbot, 'Meta AI', will become the most popular by the end of the year. The company has also released two new models, one with eight million parameters and the other with 70 million parameters, both of which are multi-lingual and can handle a larger number of user requests thanks to its expanded 'context window'.
+Original language: ar
+Publish date: July 24, 2024 11:00 PM
+Source:[أخبار الخليج](https://akhbar-alkhaleej.com/news/article/1373745)
+
+**Sam Altman 'Excited' By New ChatGPT Capabilities**
+Sam Altman, CEO of OpenAI, expressed his excitement about the capabilities of the latest ChatGPT model, GPT-4o mini, which was launched over the weekend. The model is designed to provide similar performance to GPT-4o at a fraction of the cost. Altman highlighted the model's performance in a 'Chatbot Arena' conducted by lmsys, a language model comparison organization, and stated that he is 'excited' to see the model's performance, despite trying not to get too excited about individual evaluations. The new model is part of OpenAI's aim to make artificial intelligence more accessible to both consumers and businesses.
+Original language: en
+Publish date: July 24, 2024 10:17 AM
+Source:[Newsweek](https://www.newsweek.com/sam-altman-chatgpt-new-model-openai-excited-opinion-1929435)
+
+**Meta Releases Llama 3.1: A Powerful and Free AI Model**
+Meta has released a new version of its AI, Llama 3.1, which is not only more powerful than its competitors but also free and open-source. The new model, Llama 3.1 405B, has 405 billion parameters and a context window of 128,000 tokens, making it capable of outperforming other chatbots like ChatGPT-4o and Google Gemini Pro. Meta claims that Llama 3.1 can be used for various applications, but it is not multimodal and can only process text. The company has implemented several security measures to prevent the AI from being used for malicious purposes. The community will also be able to develop and improve the tools further. However, the AI is not suitable for all systems and requires a server node to run smoothly. Meta is targeting developers and AI researchers with this release, allowing them to train their own AI models using Llama 3.1.
+Original language: de
+Publish date: July 24, 2024 09:50 AM
+Source:[t3n Magazin](https://t3n.de/news/llama-3-1-warum-meta-die-ki-verschenkt-1637247)
+
+**Meta's Open-Source AI Model Llama 3.1: A Game-Changer for the Industry**
+Meta has released its open-source AI model, Llama 3.1, which is the most powerful language model available in the market today. With 405 billion parameters, it surpasses ChatGPT-3 and is considered competitive with other recent models from the competition. Meta's CEO, Mark Zuckerberg, believes that this open-source model will revolutionize the AI industry, making it indispensable, ubiquitous, and highly customizable. The company has also updated its smaller language models, 70B and 8B, which will be suitable for developing small AI tools that don't require exceptional computing power. Meta will be the primary beneficiary of its advancements in AI, with its chatbot Meta AI becoming more relevant, faster, and offering new features like Imagine Me. The model is available for free and on a large scale, and Meta has already announced 25 partners that will quickly take advantage of it, including NVIDIA, Dell, Google Cloud, and SNCF Gares & Connexions.
+Original language: fr
+Publish date: July 24, 2024 09:30 AM
+Source:[Fnac](https://leclaireur.fnac.com/article/510762-chatgpt-peut-trembler-meta-lance-son-ia-open-source-llama-3-1)
+
+**Meta's Llama 3.1 is open-source, kind of. Here's how it could reshape the AI race**
+Meta has released a new open-source large language model called Llama 3.1, which is the largest and most capable openly available foundation model. The model, trained on 15 trillion tokens of web data, can be used to create chatbots, tools with greater reasoning capabilities, and better computer coding agents. Meta CEO Mark Zuckerberg believes the company's Llama-powered AI assistant will be more widely used than ChatGPT by the end of this year. The model is available for download from Meta or Hugging Face, and can be accessed via major cloud services like AWS, Azure, and Databricks.
+Original language: en
+Publish date: July 23, 2024 08:16 PM
+Source:[Fast](https://www.fastcompany.com/91161560/meta-releases-llama3-1-open-source-debate)
+
+**Meta Releases Llama 3.1 AI Model in Open Code**
+Meta has released the Llama 3.1 AI model, considered the most powerful in the company to date. The model, available in open code, has 405 billion parameters and can rival closed models like GPT-4o and Claude 3.5 Sonnet. The company believes that open-source AI models will lead to a more extensive ecosystem and has released a letter signed by CEO Mark Zuckerberg, comparing the development of open-source AI to the impact of Linux on operating systems. The Llama 3.1 is available in three variations: 8B, 70B, and 405B, with the latter being the most powerful. The model can be used for tasks such as general knowledge, mathematics, and multilingual translation. The company has also released new features for the Meta AI chatbot, including image creation and editing tools. However, the model is not yet available in Brazil due to regulatory issues with the ANPD.
+Original language: pt
+Publish date: July 23, 2024 06:03 PM
+Source:[Canaltech](https://canaltech.com.br/apps/llama-31-meta-lanca-modelo-de-ia-de-ultima-geracao-em-codigo-aberto-296411)
+
+**Llama 3.1 is Meta's latest salvo in the battle for AI dominance**
+Meta has released Llama 3.1, a large language model that rivals competitors from OpenAI and Anthropic. The new model, which comes three months after the launch of Llama 3, integrates into Meta AI, a chatbot available on Facebook, Messenger, and Instagram. Llama 405B's improved reasoning capabilities enable Meta AI to answer more complex questions, particularly in math and coding.
+Original language: en
+Publish date: July 23, 2024 04:23 PM
+Source:[World News Network](https://article.wn.com/view/2024/07/23/Llama_31_is_Metas_latest_salvo_in_the_battle_for_AI_dominanc)
+
+**Meta Introduces New AI Model Llama 3.1 for Chatbots**
+Meta Platforms Inc., the parent company of Facebook, has presented a new powerful AI model, Llama 3.1, for chatbots. The company claims that Llama 3.1 is a significant upgrade compared to Llama 3, which was released in April. The new model, used for both internal and external developers, has a wide range of new features, including improved thinking to help solve complex mathematical problems or summarize a whole book. Llama 3.1 also has generative AI functions that can create images on demand using text prompts. The 'Imagine Yourself' function allows users to upload images of their face, which can then be used to create images in various scenarios. Meta CEO Mark Zuckerberg believes that the most important feature for an AI assistant will be how intelligent it is. He also mentioned that Meta is already working on Llama 4. Meanwhile, Microsoft's AI assistant Copilot, which can generate text and answer specific questions, is now available as a built-in chatbot in Telegram.
+Original language: uk
+Publish date: July 23, 2024 04:03 PM
+Source:[Ukrinform](https://www.ukrinform.ua/rubric-world/3888217-meta-predstavila-novu-potuznu-model-zi-stucnim-intelektom-dla-catbotiv.html)
+
+**How to access Chinese LLM chatbots across the world**
+Chinese tech giants like Alibaba, Tencent, and Yi have developed large language models (LLMs) that have surpassed those from Meta, Microsoft, and other peers. These models can be accessed through platforms like Hugging Face, ModelScope, and Open Compass' LLM Arena. The LLM Arena allows users to compare the performance of different models and access several Chinese models that are not available to non-Chinese users. The article highlights the advancements in Chinese AI and the potential for global access to these models.
+Original language: en
+Publish date: July 23, 2024 09:00 AM
+Source:[MIT Technology Review](https://www.technologyreview.com/2024/07/23/1095211/how-to-access-chinese-llm-chatbots)
+
+**OpenAI's GPT-4o Mini isn't much better than rival LLMs**
+OpenAI has released GPT-4o Mini, a smaller and cheaper version of its GPT-4o generative large language model (LLM). The Mini version is multimodal, can handle up to 16,000 tokens of output, and is trained on materials up to October 2023. While it is not fully featured yet, supporting only text and vision via its API, OpenAI claims it is ahead of comparable LLMs in benchmarks. However, veteran open source developer Simon Willison notes that the competition has released their own GPT-4-class models, and the pricing is not too bad. GPT-4o Mini is mostly ahead of the pack in the LMSYS Chatbot Arena benchmark, but full-size GPT-4o is only barely ahead of its rivals. OpenAI may no longer have the dominating lead it once had, but it is still a strong player in the LLM arena.
+Original language: en
+Publish date: July 19, 2024 12:59 AM
+Source:[The Register](https://go.theregister.com/feed/www.theregister.com/2024/07/19/openaigpt4o_mini)
+
+

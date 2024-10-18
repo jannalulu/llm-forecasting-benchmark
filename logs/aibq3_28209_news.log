@@ -1,0 +1,334 @@
+2024-10-18 12:30:36,443 - INFO - Formatted articles for 2024-09-16T14:30:00Z:
+Here are the relevant news articles:
+
+**Grok-2: A New Era in AI Performance**
+xAI has released an update for its Grok-2 and Grok-2 Mini models, which has resulted in a two-fold increase in performance. According to xAI researcher Igor Babuschkin, the Grok-2 Mini is now two times faster than it was two days ago. Babuschkin also stated that the new code allows the models to provide more accurate answers. As a result, xAI is now hosting the Grok-2 model on multiple servers and testing it with more users. The Grok-2 Beta has been released in Turkey, and it has made a significant impact on the Lmsys Chatbot Arena leaderboard. The Grok-2 model has achieved a score of 1293, placing it second overall, while the Grok-2 Mini has achieved a score of 1268, placing it fifth. The models excel in areas such as coding, instructions, and reasoning. The Grok-2 model is also capable of creating new images and performing daily tasks, but this feature is only available with the Premium version.
+Original language: tr
+Publish date: August 24, 2024 06:31 AM
+Source:[ShiftDelete.Net](https://shiftdelete.net/grok-2-grok-2-mini-performans-sonuclari)
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**Elon Musk drops Grok 2  --  the X-based AI chatbot is now more powerful and can make images**
+X has released a new version of its AI chatbot, Grok-2, which is more powerful and can make images. According to X, Grok-2 represents 'a significant step forward' from the previous model, featuring frontier capabilities in chat, coding, and reasoning. In a test on the LMSYS leaderboard, an early version of Grok-2 outperformed both Claude 3.5 Sonnet and GPT-4-Turbo. Grok-2 achieves performance levels competitive to other frontier models in areas such as graduate-level science knowledge and math competition problems, and also excels in vision-based tasks. The new version will also gain a new interface on X and the option to generate images with a prompt through the integration of the Flux AI image generation model. An enterprise API for Grok-2 will be available later this month, offering a 'bespoke tech stack' and mandatory multi-factor authentication.
+Original language: en
+Publish date: August 14, 2024 10:22 AM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/elon-musk-drops-grok-2-the-x-based-ai-chatbot-is-now-more-powerful-and-can-make-images)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark | TechCrunch**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts like Yuchen Lin and Mike Cook have raised concerns about the benchmark's limitations. They argue that the user base is not representative, and the voting process is unreliable. Additionally, the benchmark's reliance on post-processing and automated systems to label queries and rank models lacks systematic rigor. Furthermore, LMSYS' commercial ties and sponsorship from organizations with vested interests in the AI industry raise concerns about the benchmark's impartiality. Despite these flaws, Lin believes that Chatbot Arena provides a valuable service by offering real-time insights into how different models perform outside the lab. However, he suggests that LMSYS could improve the testing by designing benchmarks around different subtopics and using a more systematic approach to evaluate models.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark/)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts have raised concerns about its limitations and biases. The benchmark relies on user-contributed questions and votes, which may not accurately reflect real-world usage. Additionally, the user base may not be representative of the target market, and the evaluation process lacks systematic rigor. Commercial ties and data sharing also raise concerns about fairness and potential biases. While Chatbot Arena provides valuable insights into model performance, experts recommend using it as a tool for gauging user satisfaction rather than a definitive standard for measuring AI progress.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark)
+
+**X Agrees to Obtain User Consent for KI-Chatbot Training**
+Elon Musk's KI-Chatbot Grok will no longer be trained with user data from X without their consent, following a complaint from the Irish Data Protection Authority. The authority had filed a lawsuit against X, but withdrew it after the company stopped using user data for training. Grok is a chatbot developed by xAI, a KI-firm owned by Musk, and is available to X's premium subscribers. Initially, X used user data from its platform to train Grok, but did not obtain explicit consent from users. Instead, they were given the option to opt out of data usage in their settings. The Irish Data Protection Authority argued that explicit consent was necessary, and X subsequently stopped using user data for training. This incident has sparked a broader debate on regulating access to user information for training AI models.
+Original language: de
+Publish date: September 04, 2024 05:55 PM
+Source:[Der Tagesspiegel](https://www.tagesspiegel.de/gesellschaft/medien/musks-ki-chatbot-x-beugt-sich-bei-ki-training-europaischen-datenschutzern-12317618.html)
+
+**X Agrees to Halt Data Processing for AI Chatbot Grok in Europe**
+X, the social media platform owned by Elon Musk, has agreed to stop processing personal data from European users to train its AI chatbot Grok, in compliance with demands from European regulators. The Irish Data Protection Commission (DPC) announced on Wednesday that X has committed to removing personal data from European users contained in public posts on its platform, collected between May 7 and August 1, 2024. This decision comes after a dispute began in August, when the DPC requested a court order to prevent X from processing the data for use in its AI model, citing EU data protection restrictions and arguing that X's action posed a risk to users' rights. The DPC stated that this is the first time a leading EU agency has taken such a measure against an online platform. X initially agreed to suspend temporarily the use of the data to train Grok, a commitment that became permanent on Wednesday, allowing the DPC to conclude the judicial proceedings. The DPC also requested the European Data Protection Board to initiate a debate on the interaction between data protection and AI model training, a topic that has led to disputes between data control bodies and tech companies, including X and Meta Platforms, Inc. 'The DPC hopes that the resulting opinion will enable proactive, effective, and consistent regulation across Europe in this area on a wider scale,' said DPC Commissioner Dale Sunderland in a press release. 'It will also serve as support for processing a series of complaints that have been submitted or transmitted to the DPC' on this matter.
+Original language: es
+Publish date: September 04, 2024 05:29 PM
+Source:[Diario La República](https://www.larepublica.co/globoeconomia/la-x-de-musk-cede-ante-las-demandas-de-la-proteccion-de-datos-de-la-union-europea-3944613)
+
+**X pledges to fix AI chatbot after it spread misinformation about US election**
+Social media platform X has modified its Grok chatbot after election officials in five US states called for accuracy. Grok had falsely claimed the ballot deadline had passed in nine states, and users were directed to the nonpartisan election information site Vote.gov, which officials consider a 'trustworthy resource'. This comes as part of a larger issue with AI-generated content spreading misinformation, particularly with Large Language Models (LLMs) being trained on extensive online data without filtering out inaccurate information. Despite the amendment, Grok still generates misleading images and uses real people's likenesses in questionable ways. X's owner, Musk, introduced Grok as 'rebellious' and boasted its ability to answer 'spicy questions', but the chatbot's creations have raised concerns about hate speech and misinformation campaigns on the platform.
+Original language: en
+Publish date: August 28, 2024 08:05 PM
+Source:[TechRadar](https://www.techradar.com/pro/x-fixes-ai-chatbot-after-it-spread-misinformation-about-us-election)
+
+**Google Expands Gemini AI Family with Gemini 1.5 Flash-8B**
+Google has accelerated its work on productive artificial intelligence models. As part of this, Google is continuing to expand the Gemini family. New models have been introduced for the Gemini 1.5 AI, which includes the Gemini 1.5 Flash-8B. According to Google, this AI can be used for complex applications and summarization tasks. Initial tests conducted through Chatbot Arena showed that the Gemini 1.5 Flash-8B performed better than Google Gemma-2-9b and Meta Llama-3-70b. The main goal of the Gemini 1.5 Flash-8B is to provide faster results. The standard Gemini 1.5 Flash and Gemini 1.5 Pro models have also received significant upgrades, particularly in complex coding operations. The new Gemini 1.5 Pro is currently ranked fifth in overall ability. The top productive AI assistants, according to Chatbot Arena, are: ChatGPT-4o, Gemini-1.5-Pro-Exp-0827, Grok-2-08-13, GPT-4o-2024-05-13, Gemini-1.5-Flash-Exp-0827. Developers and researchers will be able to access the updated Gemini models through Google AI Studio and Gemini API. However, for large-scale operations, the Vertex AI platform will be available for a fee.
+Original language: tr
+Publish date: August 28, 2024 06:52 PM
+Source:[Yeni Akit Gazetesi](https://www.yeniakit.com.tr/foto-galeri/google-chatgpt-4-rakibi-yapay-zeka-modelini-duyurdu-91485)
+
+**Google Expands Gemini Family with New AI Models**
+Google has accelerated its work on its productive artificial intelligence model. As a result, Google is continuing to expand the Gemini family. The company has introduced several new models for the Gemini 1.5 AI. So, what do the new Gemini 1.5 tools offer? Google introduced the Gemini 1.5 Flash-8B, a new AI tool that can be used for complex applications and summarization tasks. According to the first tests conducted through Chatbot Arena, the Gemini 1.5 Flash-8B outperformed the Google Gemma-2-9b and Meta Llama-3-70b. The main goal of the Gemini 1.5 Flash-8B is to provide faster results. The standard Gemini 1.5 Flash and Gemini 1.5 Pro models also received significant upgrades. According to feedback from Chatbot Arena, they will perform better in complex coding operations. The Gemini 1.5 Pro is currently ranked fifth in general ability. The top five productive AI assistants, according to Chatbot Arena, are: ChatGPT-4, Gemini-1.5-Pro-Exp-0827, Grok-2-08-13, GPT-4o-2024-05-13, and Gemini-1.5-Flash-Exp-0827. Developers and researchers will be able to access the updated Gemini models through Google AI Studio and Gemini API. However, it's worth noting that large-scale operations will be available through the Vertex AI platform for a fee.
+Original language: tr
+Publish date: August 28, 2024 05:00 PM
+Source:[ShiftDelete.Net](https://shiftdelete.net/google-gemini-1-5-modelleri)
+
+**Grok-2: A New Era in AI Performance**
+xAI has released an update for its Grok-2 and Grok-2 Mini models, which has resulted in a two-fold increase in performance. According to xAI researcher Igor Babuschkin, the Grok-2 Mini is now two times faster than it was two days ago. Babuschkin also stated that the new code allows the models to provide more accurate answers. As a result, xAI is now hosting the Grok-2 model on multiple servers and testing it with more users. The Grok-2 Beta has been released in Turkey, and it has made a significant impact on the Lmsys Chatbot Arena leaderboard. The Grok-2 model has achieved a score of 1293, placing it second overall, while the Grok-2 Mini has achieved a score of 1268, placing it fifth. The models excel in areas such as coding, instructions, and reasoning. The Grok-2 model is also capable of creating new images and performing daily tasks, but this feature is only available with the Premium version.
+Original language: tr
+Publish date: August 24, 2024 06:31 AM
+Source:[ShiftDelete.Net](https://shiftdelete.net/grok-2-grok-2-mini-performans-sonuclari)
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**Grok 2 tested: Is it better than ChatGPT in the real world?**
+Grok, a chatbot developed by xAI, a startup founded by Elon Musk, has been compared to ChatGPT in various real-world scenarios. Grok has access to real-time information via tweets on X, which can make it more useful for current affairs and recent events. However, this also means it can potentially spread fake news and misinformation. Grok can generate code, create AI-generated images, and provide detailed answers to nuanced questions. Unlike ChatGPT, Grok relies on the FLUX.1 model for image generation and requires an X Premium or X Premium Plus subscription. In a comparison of Grok and ChatGPT, Grok delivered more detailed answers to questions about the Tesla Cybertruck and provided a more comprehensive forecast for the weather in Mumbai. However, Grok's reliance on X posts can lead to biased output, and it may not be as accurate as ChatGPT in some cases. Ultimately, Grok is a competitive value-add for X users, but it still has some limitations.
+Original language: en
+Publish date: August 21, 2024 11:29 PM
+Source:[Android Authority](https://www.androidauthority.com/grok-2-vs-chatgpt-tested-3474111)
+
+**X Launches Grok 2 To Boost Premium Sign-Ups**
+X has launched the latest version of its Grok AI chatbot, Grok 2, to paying users in the app. The new version includes image generation capabilities and functional improvements, making it more intuitive, steerable, and versatile. According to xAI, Grok 2 outperforms both Claude and GPT-4 on the LMSYS leaderboard in terms of its overall Elo score. X is hoping to use Grok to boost premium sign-ups and reduce its dependence on ad revenue, which has declined by around 70% since Elon Musk took over in 2022. The company is also facing bans and fines in various regions over its refusal to comply with government requests. However, xAI has secured $6 billion in funding from investors, which could provide a valuable lifeline to X.
+Original language: en
+Publish date: August 21, 2024 04:06 PM
+Source:[Social Media Today](https://www.socialmediatoday.com/news/x-launches-grok-2-boost-x-premium-sign-ups/724922)
+
+**X Launches Grok 2 to Boost X Premium Sign-Ups**
+X has launched the latest version of its Grok AI chatbot, Grok 2, to paying users in the app. According to xAI, 'Grok-2 is our state-of-the-art AI assistant with advanced capabilities in both text and vision understanding, integrating real-time information from the platform.' The new version includes image generation capabilities and various functional improvements. xAI claims that Grok 2 outperforms both Claude and GPT-4 on the LMSYS leaderboard in terms of its overall Elo score. X is hoping to use Grok to pump X Premium sign-ups, which it hopes will help to reduce its dependence on ad revenue and get its business back on track. However, X is facing a tough spot, with a 70% decline in ad revenue since Elon Musk took over, and a loss of 5 million active users in Europe over the past year.
+Original language: en
+Publish date: August 21, 2024 04:06 PM
+Source:[Social Media Today](https://socialmediatoday.com/news/x-launches-grok-2-to-boost-x-premium-sign-ups/724922)
+
+**I've been trying Grok-2 on X — and it is a real competitor to ChatGPT and Gemini**
+Grok-2, an AI chatbot built into and trained on content from X, has been released in beta and is a significant improvement over its predecessor. It has reached the top five of the LMSys chatbot arena leaderboard, a feat typically dominated by Google, OpenAI, and Anthropic. Grok-2 has a more user-friendly interface and can generate images using Flux, an AI image generation model. The author tested Grok-2 and found it to be as responsive as ChatGPT, with a better sense of humor and the ability to respond to real-time events. Grok-2 can also analyze trending topics and pull in content from across the X platform, making it a powerful tool for news stories. It can generate images and provide context using its own training data. The author notes that Grok-2 is now a real competitor to ChatGPT and Claude, and that a viable AI integration is essential for an app to be considered an 'everything app'.
+Original language: en
+Publish date: August 21, 2024 05:15 AM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/ive-been-trying-grok-2-on-x-and-it-is-a-real-competitor-to-chatgpt-and-gemini)
+
+**Elon Musk's xAI Set To Leapfrog ChatGPT in AI Race – These Were The Main Factors That Brought About The Breakthrough**
+Elon Musk's startup, xAI, has launched Grok-2, a new chatbot that aims to rival OpenAI's ChatGPT and Google's Gemini. In just 18 months, xAI has leaped into the top five AI developers, according to independent benchmarks. Ethan Mollick, a professor at Wharton and AI expert, stated, 'There are now five GPT-4 class models: GPT-4o, Claude 3.5, Gemini 1.5, Llama 3.1, and now Grok-2.' Despite controversy over xAI's use of data from Musk's X platform, the company has closed a $6 billion funding round, valuing it at $18 billion, and is seeking approval to invest another $5 billion. Grok-2 is designed to provide accurate, factual information, avoiding 'hallucinations' that plagued previous versions. According to LMSYS, a leading AI benchmark site, Grok-2's performance has already outpaced some of Meta's and Anthropic's best models.
+Original language: en
+Publish date: August 20, 2024 04:45 PM
+Source:[Yahoo](https://finance.yahoo.com/news/elon-musks-xai-set-leapfrog-164518257.html)
+
+**Grok 2: The Unrestricted AI Model That's Causing Controversy**
+Grok 2 is the latest version of the chatbot created by xAI, the AI company founded by Elon Musk. It is a paid model available only to X Premium or Premium+ users, and allows users to generate images from text and share them directly on X (Twitter). Unlike other AI models, Grok 2 has no restrictions on generating images, which has led to controversy, with some users using it to sexualize celebrities or create provocative images of public figures. According to xAI, Grok 2 outperforms competitors like Claude 3.5 Sonnet and GPT-4-Turbo in terms of performance. The model comes in two versions: Grok-2 and Grok-2 mini, with the latter being a smaller version that balances speed and response quality. xAI's CEO, Elon Musk, has stated that Grok 2 is 'superior' to other AI models, but the European Commission is investigating X for possible violations of the Digital Services Act due to the lack of restrictions on Grok 2's image generation capabilities.
+Original language: es
+Publish date: August 20, 2024 10:36 AM
+Source:[Xataka](https://www.xataka.com/basics/que-grok-2-sirve-que-se-diferencia-otros-sistemas-inteligencia-artificial)
+
+**Grok 2.0 Takes Third Place in Chatbot Test, Partners with FLUX Generator**
+Grok 2, a neural network developed by Elon Musk, has taken third place in a chatbot test. According to the developers, the significant increase in test results is a testament to the network's progress. The most interesting aspect, however, is Grok's first participation in the ChatBot Arena, where the winner is chosen by users through a vote. The smart chatbots Grok appeared in late 2023, but Grok 1.0 and 1.5 were never on the 'arena'. Moreover, outside of the paid subscription X (formerly Twitter), it was also extremely difficult for a curious user to try Elon Musk's neural networks. The developers may have been afraid that Grok would be evaluated too low compared to other large language models. However, with the new version 2.0, the developers are more confident in the results. To avoid making a fuss and not revealing themselves too early, the new version of Grok 2 debuted on the service under the misleading name 'sus-column-r'. The developers have since revealed themselves, explaining in their official blog that 'sus-column-r' is actually Grok 2.0. The new version has achieved a high rating on the ChatBot Arena, but still lags behind the August versions of GPT-4o and Gemini 1.5 Pro. Grok 2.0 has also learned to create images, not just text responses. However, this feature is not available on the 'arena', but is currently being experimented with by premium users of X (Twitter). Elon Musk has taken a shortcut by not creating a generator from scratch, but instead partnering with the Black Forest Labs team, which includes former leading developers of Stable Diffusion. The team has developed a generator called FLUX, which has already taken the top spots in some ratings, even surpassing the paid Midjourney. According to Musk's Twitter account, he initially wanted to partner with Midjourney, but was surprised by the emergence of FLUX. In addition to quality, FLUX has a relatively low level of censorship. The neural network can draw people in underwear, does not shy away from politicians and famous people, and does not draw half of the characters as black as Google Imagen. The combination of Grok 2.0 and FLUX is reminiscent of the tandem of ChatGPT and Dall-E, but with higher quality and fewer restricted topics. Despite its high scores on the 'arena', many questions on logic and common sense that Grok 2.0 and its competitors cannot answer. The developers have confirmed that Grok 2.0 is just the beginning, and that more advanced versions will be released in the future. For example, if Grok 2 was trained on 20-25 thousand Nvidia H100 accelerators, the next model, Grok 3, is currently being trained on 100 thousand H100. Musk promises to complete the training and start deploying version 3.0 in December. The main competition for Grok 3 will be the new mysterious version of GPT from OpenAI, Gemini 2.0 from Google, and the powerful Claude 3.5 Opus from Anthropic. P.S. At the time of writing, Grok 2.0 is still available for free on ChatBot Arena under the name 'sus-column-r'. In turn, FLUX can be tried for free on the Hugging Face service in the Spaces section. There is an official FLUX Dev model available, which is not as good as Pro, but can occasionally produce high-quality results. 
+Original language: ru
+Publish date: August 19, 2024 04:45 AM
+Source:[Overclockers.ru](https://overclockers.ru/blog/Alex040/show/174885/Nejroset-Grok-2-ot-Ilona-Maska-zanyala-tret-e-mesto-na-arene-chat-botov)
+
+**10 Wildly Realistic Images Generated by Grok 2.0**
+xAI has launched a beta version of its latest AI assistant Grok 2.0, which includes an image generation tool similar to OpenAI's DALL-E and Google's Gemini. The new model can generate images on X and is available to Premium and Premium+ users. According to xAI, Grok-2 and Grok-2 mini are available to users on X in beta. The model has been tested on the LMSYS leaderboard and has shown advanced capabilities in chat, coding, and reasoning. The article showcases ten mind-blowing images produced by Grok 2.0, including a young girl taking a selfie, an astronaut on Mars, a college party, and a close-up shot of a woman with a tattoo. The images demonstrate the model's ability to create realistic images from text descriptions and its potential to revolutionize the way images are created. xAI plans to make both models available to developers through its enterprise API later this month.
+Original language: en
+Publish date: August 18, 2024 06:33 AM
+Source:[Analytics India Magazine](https://analyticsindiamag.com/ai-mysteries/10-wildly-realistic-images-generated-by-grok-2-0)
+
+**X Unveils Grok-2 Beta: Advanced Language Models for Enhanced AI Capabilities**
+X has announced the beta release of Grok-2, an advanced language model designed to enhance AI capabilities in chat, coding, and reasoning. The model has outperformed top-tier models like Claude 3.5 Sonnet and GPT-4-Turbo on the LMSYS leaderboard, showcasing its superior reasoning and comprehension abilities. Grok-2 is designed to excel in various tasks, including chat, coding, and complex reasoning, and has demonstrated significant improvements in understanding and responding to real-world tasks. Both Grok-2 and its compact sibling, Grok-2 mini, have shown remarkable performance across various academic benchmarks, including reasoning, reading comprehension, math, and science. Premium and Premium+ users on X will have access to Grok-2 and Grok-2 mini through the Grok tab in the X app, with plans to expand their applications to include enhanced search capabilities, deeper insights on posts, and improved reply functions.
+Original language: en
+Publish date: August 16, 2024 07:01 PM
+Source:[Small Business Trends](https://smallbiztrends.com/grok-2-now-available-premium-x-users)
+
+**Elon Musk's xAI Launches New AI Model, Grok-2, to Compete with ChatGPT and Gemini**
+Elon Musk's xAI has launched a new AI model, Grok-2, which is considered one of the five most powerful models of AI, according to the LMSYS Chatbot Arena benchmark. The model is available in beta for premium subscribers on the X social network and is designed to compete with ChatGPT, Gemini, and Claude. The Grok-2 model has a redesigned interface and new features, including the ability to speak, program, and reason. The startup also introduced the Grok-2 mini, a smaller version with capabilities. The new models are in beta testing on X, but an API for business integration is expected to be ready by the end of the month. The Grok-2 model promises advanced research capabilities, deeper posts, and improved response functions. Elon Musk described the Grok model as 'rebellious' and said it would answer difficult questions with a sense of humor and irony. However, the company has been accused of using personal data without authorization from over 60 million Europeans to train AI, and is facing nine complaints of violating the RGPD.
+Original language: pt
+Publish date: August 16, 2024 09:13 AM
+Source:[SAPO Tek](https://tek.sapo.pt/noticias/computadores/artigos/elon-musk-lanca-novo-modelo-de-ia-grok-2-para-concorrer-com-o-chatgpt-e-gemini)
+
+**Grok-2: Xcorp's AI Division Launches New Language Models with Image Generation Capabilities**
+xAI, the AI division of Xcorp, has launched the beta version of its new language models, Grok-2 and Grok-2 mini. These models have significant improvements in their chat, coding, and reasoning capabilities, as well as the ability to generate images on the social media platform X. According to xAI, Grok-2 surpasses competitors like Claude 3.5 Sonnet and GPT-4 Turbo in performance tests, particularly in advanced scientific knowledge, general knowledge, and complex mathematical problem-solving. 'We are pleased to launch a preliminary version of Grok-2, a significant advancement over our previous model, Grok-1.5, which includes cutting-edge capabilities in chat, coding, and reasoning. At the same time, we present Grok-2 mini, a smaller but capable brother of Grok-2. We have tested a preliminary version of Grok-2 on the LMSYS ranking table under the name 'sus-column-r'. At the time of this blog post, it is surpassing both Claude 3.5 Sonnet and GPT-4-Turbo,' the company stated on its website. Xcorp has also implemented new AI-powered features on the X platform, improving search, information retrieval, and automatic responses, all thanks to Grok. One of the most notable features is the ability to generate images from text descriptions, allowing users to create visuals directly on the platform.
+Original language: es
+Publish date: August 15, 2024 09:40 PM
+Source:[Mercado Negro](https://www.mercadonegro.pe/marketing/grok-2-la-inteligencia-artificial-de-elon-musk-te-permitira-crear-imagenes-en-x)
+
+**The reckless 'fun' of unfettered AI**
+Elon Musk's X platform has released a new AI chatbot called Grok-2, which allows users to generate images and text. The chatbot has been praised by Musk fans for its 'fun' and 'uncensored' nature, but others have expressed concerns about the potential for political disinformation and election-related trolling. The chatbot can generate images of historical figures in various scenarios, such as Kamala Harris as a dominatrix or Donald Trump as Rambo. However, it also has boundaries, such as refusing to generate nude images of Taylor Swift. The article highlights the risks of AI-generated content and the need for responsible use. Meanwhile, Google is redesigning its AI Overviews to display citations more prominently, and SAG-AFTRA has struck a deal with an AI startup to create voice clones for digital advertising. Additionally, a new study from the University of Oxford found that large language models become better at accomplishing goals when prompted to plan in the form of a graph.
+Original language: en
+Publish date: August 15, 2024 07:18 PM
+Source:[Fortune](https://fortune.com/2024/08/15/elon-musk-xai-grok-ai-images/)
+
+**Elon Musk's Grok 2 might not be "the most powerful AI," but it outperforms Anthropic's Claude 3.5 Sonnet and even GPT-4-Turbo**
+X has released an early preview of Grok-2, a new AI model with state-of-the-art reasoning capabilities. According to the company, Grok-2 is a significant step forward from the previous model, Grok-1.5, and outperforms Anthropic's Claude 3.5 Sonnet and GPT-4-Turbo in various benchmarks. The model has shown great performance in areas such as graduate-level science knowledge, general knowledge, and math competition problems, and is also capable of handling vision-based tasks. Additionally, users will soon be able to generate images using prompts directly from the chatbot. However, X may face a 4% loss in global annual turnover due to training Grok using data from 60 million EU users without consent. As OpenAI CEO Sam Altman noted, it's impossible to develop tools like ChatGPT without copyright content.
+Original language: en
+Publish date: August 15, 2024 09:08 AM
+Source:[Windows Central](https://www.windowscentral.com/software-apps/grok-2-outperforms-claude-35-sonnet-gpt-4-turbo)
+
+**xAI Launches Grok-2, a Chatbot Competing with ChatGPT**
+xAI has released the beta versions of their neural networks, Grok-2 and Grok-2 mini. According to the company, the new version is a 'significant step forward' compared to the previous version, Grok-1.5. The neural networks are available to premium users on the X platform and will be available to developers through the company's corporate API at the end of August. Independent tests have shown that Grok-2 is on par with advanced chatbots like ChatGPT and Gemini, with Ethan Mollick, a professor at the Wharton School of Business, stating, 'There are now five GPT-4 models: GPT-4o, Claude 3.5, Gemini 1.5, Llama 3.1, and now Grok-2.' Additionally, Grok-2 appears to have no limitations on generating images, using the FLUX.1 algorithm from Black Forest Labs, but it is unclear if the generated images contain any metadata indicating their origin.
+Original language: ru
+Publish date: August 15, 2024 09:04 AM
+Source:[dev.by](https://devby.io/news/xai-zapustil-chat-bot-grok-2-kotoryi-ne-huzhe-chatgpt)
+
+**Elon Musk's xAI Unveils Grok-2 and Grok-2 Mini: Here's Everything You Need To Know**
+Elon Musk's xAI has introduced its latest AI models, Grok-2 and Grok-2 Mini, which are expected to revolutionize conversational AI, coding, and complex reasoning tasks. Grok-2 is the more advanced model, offering state-of-the-art language processing abilities, while Grok-2 Mini is a more compact version, designed for users who need quick and accurate responses. The models have been benchmarked on the LMSYS leaderboard, outperforming competitors like Claude 2.5 Sonnet and GPT-4 Turbo in several key areas, including coding and mathematics. xAI has also introduced a revamped user interface for Grok AI models, including image generation powered by the Flux.1 model from Black Forest Labs. The beta success of Grok-2 and Grok-2 Mini indicates significant advancements in AI, promising a bright future for AI applications.
+Original language: en
+Publish date: August 15, 2024 03:52 AM
+Source:[Times Now](https://www.timesnownews.com/technology-science/elon-musks-xai-unveils-grok-2-and-grok-2-mini-heres-everything-you-need-to-know-article-112539492)
+
+**Grok 2.0 takes the guardrails off AI image generation**
+Elon Musk's xAI company has released two updated iterations of its Grok chatbot model, Grok-2 and Grok-2 mini. According to xAI, Grok-2 features improved performance and new image-generation capabilities, while Grok-2 mini is a smaller but capable sibling. The new models are currently in beta and available to Premium and Premium+ users. xAI has tested an early version of Grok-2 on the LMSYS leaderboard under the name 'sus-column-r', and claims it is a 'significant step forward' from the previous model, Grok-1.5.
+Original language: en
+Publish date: August 14, 2024 10:55 PM
+Source:[Knowledia](https://news.knowledia.com/all/all/articles/grok-20-takes-the-guardrails-off-ai-image-generation-4df3d929a52e22a24e0162ff9885b562dbcc1acf)
+
+**Grok gets an impressive upgrade - and unchecked AI image generation apparently**
+Elon Musk's AI company, xAI, has released an early preview of Grok-2, a large language model with advanced chat, coding, and reasoning capabilities. The release also included a lightweight version of Grok-2, called Grok-2 mini. Prior to the release, an early version of Grok-2 was tested on the Large Model Systems Organization (LMSYS) Chatbot Arena under the anonymous name 'sus-column-r.' This testing allowed users to evaluate the model's capabilities by chatting with it side by side with other models. Musk's involvement with AI is notable, as he was an investor in OpenAI when it was founded, but has since severed ties and criticized its approach to safety and political correctness.
+Original language: en
+Publish date: August 14, 2024 10:24 PM
+Source:[Knowledia](https://news.knowledia.com/all/all/articles/grok-gets-an-impressive-upgrade-and-unchecked-ai-image-generation-e0771d2e592917987aa4c1e000bc5694778db1fa)
+
+**X's Grok-AI-chatbot Can Now Generate Images, Including Those of Well-Known Individuals**
+X's Grok-AI-chatbot can now generate images, including those of well-known individuals, using the FLUX.1-model from Black Forest Labs. The platform's users have noted that Grok can create images of people like Elon Musk, Donald Trump, and Kamala Harris, often in humorous or provocative situations, without any watermarks indicating that they were generated by the chatbot. X has also released two new models, Grok-2 and Grok-2 mini, which are claimed to be faster and more accurate than the previous Grok-1.5 model. According to X, the Grok-2 model performs better in the Lmsys chatbot arena-benchmark than Claude 3.5 and ChatGPT-4, although the same benchmark shows that Grok-2 does not outperform GPT-4 or Gemini 1.5 Pro. The Grok-2 models are currently only available to paying Premium users, and are intended to improve search functionality and 'reactive functions' on the X platform.
+Original language: nl
+Publish date: August 14, 2024 04:47 PM
+Source:[Tweakers.net](https://tweakers.net/nieuws/225400/x-laat-grok-ai-chatbot-beelden-genereren-ook-van-bekende-mensen.html)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**Elon Musk's xAI Releases Grok-2 on X: How Does It Stack Up to OpenAI, Google?**
+Elon Musk's xAI startup has released an upgraded version of the Grok chatbot, called Grok-2, on X. The model is still in beta but offers improved performance, image generation capabilities, and real-time information gathered from X posts. According to the Large Model Systems Organization (LMSYS) chatbot arena, Grok-2 has outperformed models from OpenAI, Anthropic, Google, and Meta. However, the model has been caught spinning up inaccurate headlines and false information on X, particularly around elections. xAI aims to address this issue with Grok-2's improved performance in providing accurate, factual information. The company plans to release another version, Grok-3, later this year. 'Compared to its predecessor, Grok-2 is more intuitive, steerable, and versatile across a wide range of tasks,' says xAI. 'Grok-2 aims to be the state-of-the-art AI assistant experience,' Musk says. 'It correctly identifies missing information, reasons through sequences of events, and discards irrelevant posts.'
+Original language: en
+Publish date: August 14, 2024 02:55 PM
+Source:[PCMag](https://uk.pcmag.com/ai/153883/elon-musks-xai-releases-grok-2-on-x-how-does-it-stack-up-to-openai-google)
+
+**Elon Musk-led xAI's Grok chatbot can now generate images on X - Times of India**
+Elon Musk's AI company, xAI, has introduced the Grok-2 and Grok-2 mini models of its AI chatbot, Grok, in beta on X, formerly known as Twitter. These new models are designed to enhance reasoning capabilities and support image generation on X. According to xAI, the Grok-2 models outperform both Claude 3.5 Sonnet and GPT-4-Turbo. The company has confirmed that both Grok-2 and Grok-2 mini are now available to users on X in beta, but access is currently restricted to Premium and Premium+ users. xAI wrote, 'We are excited to release an early preview of Grok-2, a significant step forward from our previous model Grok-1.5, featuring frontier capabilities in chat, coding, and reasoning.' The company also announced its collaboration with Black Forest Labs and using its FLUX.1 model to expand Grok's capabilities on X.
+Original language: en
+Publish date: August 14, 2024 02:07 PM
+Source:[The Times of India](https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-led-xais-grok-chatbot-can-now-generate-images-on-x/articleshow/112528914.cms)
+
+**Elon Musk's Company Releases Grok-2 Chatbot, Raises Concerns About Misinformation**
+Elon Musk's company has released a new chatbot called Grok-2, which can generate photos of politicians without any restrictions. The new models, including the smaller Grok-2 mini, are available for Premium and Premium+ subscribers on X (Twitter). The AI models are still in beta testing. According to xAI's blog, 'We're excited to release a preview of Grok-2, which represents a significant step forward from our previous model, Grok-1.5, with advanced capabilities in chat management, coding, and reasoning. We're also introducing Grok-2 mini, a smaller but powerful sibling of Grok-2.' The company plans to make the models available to developers through a corporate API later this month. Users have already experimented with the new model, which can generate images based on text prompts. However, unlike many popular models, Grok-2 does not prevent users from creating realistic images of politicians, which could potentially lead to the creation and spread of misinformation on X and other platforms.
+Original language: ru
+Publish date: August 14, 2024 11:45 AM
+Source:[NV.ua](https://techno.nv.ua/popscience/grok-2-50442860.html)
+
+**Elon Musk's xAI unveils new Grok-2 and Grok-2 mini models**
+xAI, a generative artificial intelligence startup, has unveiled the newest versions of its Grok models, Grok-2 and Grok-2 mini. According to xAI, 'We are excited to release an early preview of Grok-2, a significant step forward from our previous model Grok-1.5, featuring frontier capabilities in chat, coding, and reasoning.' The Grok-2 model has already outperformed both Claude 3.5 Sonnet and GPT-4-Turbo on the LMSYS leaderboard. Both Grok-2 and Grok-2 mini are available in beta testing on X and will be available via the enterprise API later this month. xAI has received significant funding, reaching a $24B valuation in May after raising $6B in a new fundraising round.
+Original language: en
+Publish date: August 14, 2024 11:38 AM
+Source:[Seeking Alpha](https://seekingalpha.com/news/4139670-elon-musks-xai-unveils-new-grok-2-and-grok-2-mini-models)
+
+**xAI's new Grok-2 chatbots brings AI image generation to X**
+xAI has launched Grok-2 and Grok-2 mini, two new models of its Grok chatbot that offer upgraded performance and new image-generation capabilities. The chatbots are powered by Black Forest Lab's Flux 1 AI model and allow users to generate and publish images directly to the X social platform. xAI says that Grok-2 and Grok-2 mini are available in beta on X and will be available through the AI developer's enterprise API later this month. According to xAI, Grok-2 is a 'significant step forward' from its predecessor, featuring frontier capabilities in chat, coding, and reasoning. However, early examples of Grok-generated images have raised concerns about the chatbot spreading false information, as they depict recognizable political figures in compromising situations without any disclosure that they are AI-generated.
+Original language: en
+Publish date: August 14, 2024 11:11 AM
+Source:[The Verge](https://www.theverge.com/2024/8/14/24220127/grok-ai-chatbot-beta-image-generation-x-xai-update)
+
+**xAI's Grok-2 AI Assistant: A New Challenger in the AI Space**
+xAI, a startup founded by Elon Musk, has released the beta version of Grok-2, a new AI tool designed to chat, code, and reason. The tool is available on the X social platform, which is owned by Musk. Grok-2 includes two language models: Grok-2 and its less capable 'brother' Grok-2 mini. The assistant is available to X users with Premium or Premium+ memberships, but not to standard members. According to LMSYS Org, Grok-2 has equalled the capabilities of GPT-4o from OpenAI in several areas, including coding, difficult questions, and mathematics. However, ChatGPT-4o is still ranked as the best AI assistant in terms of general capabilities, followed by Gemini 1.5 from Google. xAI will make Grok-2 and Grok-2 Mini available to developers through a business API in late August. 'With over 12,000 votes from the community, Grok-2 has secured the third spot in the general ranking, even equaling GPT-4o!' said LMSYS Org. 'It excels in coding (n° 2), difficult questions (n° 4) and mathematics (n° 2).' 
+Original language: es
+Publish date: August 14, 2024 11:10 AM
+Source:[Cointelegraph](https://es.cointelegraph.com/news/grok-2-ai-assistant-xai-launch-x-platform)
+
+**Grok-2 is out in beta, now with added AI image generation**
+Grok-2, the AI chatbot integrated into X (formerly Twitter), has been released in beta for X Premium and Premium+ users. The updated version includes AI image generation, which has raised concerns for artists and copyright. The image generator can create realistic images of people and doctored imagery, which X is actively promoting. Early testers have shared their creations on X, including memes with mixed results. xAI claims that Grok-2 outperforms other large language models, including Claude 3.5 Sonnet and GPT-4-Turbo, according to the LMSYS leaderboard. However, Grok has been involved in controversy, including generating a fake headline about Iran striking Tel Aviv and using user posts to train the AI without consent. Features like Grok are intended to entice users to pay for X Premium and Premium+ plans, which offer ad-free experiences for $8 and $16 per month, respectively.
+Original language: en
+Publish date: August 14, 2024 10:45 AM
+Source:[Mashable](https://mashable.com/article/grok-2-beta-elon-musk)
+
+**Elon Musk drops Grok 2  --  the X-based AI chatbot is now more powerful and can make images**
+X has released a new version of its AI chatbot, Grok-2, which is more powerful and can make images. According to X, Grok-2 represents 'a significant step forward' from the previous model, featuring frontier capabilities in chat, coding, and reasoning. In a test on the LMSYS leaderboard, an early version of Grok-2 outperformed both Claude 3.5 Sonnet and GPT-4-Turbo. Grok-2 achieves performance levels competitive to other frontier models in areas such as graduate-level science knowledge and math competition problems, and also excels in vision-based tasks. The new version will also gain a new interface on X and the option to generate images with a prompt through the integration of the Flux AI image generation model. An enterprise API for Grok-2 will be available later this month, offering a 'bespoke tech stack' and mandatory multi-factor authentication.
+Original language: en
+Publish date: August 14, 2024 10:22 AM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/elon-musk-drops-grok-2-the-x-based-ai-chatbot-is-now-more-powerful-and-can-make-images)
+
+**Elon Musk's xAI launches Grok 2 chatbot with image generation feature**
+Elon Musk's xAI has launched a new version of its AI chatbot Grok, called Grok-2, which features advanced capabilities in text and vision understanding, and can generate images. Grok-2 is available to all subscribers of X Premium and X Premium+, and will integrate real-time information from the X platform. The chatbot is more intuitive, steerable, and versatile than its predecessor, and has outperformed both Claude and GPT-4 on the LMSYS leaderboard. xAI plans to release both Grok-2 and Grok-2 mini to developers through its enterprise API platform later this month, and will also introduce multimodal understanding as a core part of the Grok experience on X and API. 'Compared to its predecessor, Grok-2 is more intuitive, steerable, and versatile across a wide range of tasks, whether you're seeking answers, collaborating on writing, or solving coding tasks,' xAI said in a blogpost.
+Original language: en
+Publish date: August 14, 2024 07:47 AM
+Source:[moneycontrol.com](https://www.moneycontrol.com/technology/elon-musks-xai-launches-grok-2-chatbot-with-image-generation-feature-article-12796554.html)
+
+**X Unveils Grok-2: A More Advanced AI Assistant with Enhanced Capabilities**
+X has released a preview of its new chatbot, Grok-2, based on the latest LLM models. According to xAI, Grok-2 is more proficient in chatting, programming, and reasoning compared to its predecessor, Grok-1.5, and outperforms Claude 3.5 Sonnet and GPT-4-Turbo in LMSYS chatbot arena benchmarks. The new model also features advanced text and image understanding capabilities, integrated with real-time information from the X platform. 'Grok-2 is our new state-of-the-art AI assistant, with advanced capabilities in text and image understanding, integrated with real-time information from the X platform and accessible through the Grok tab in the X app,' xAI writes. 'Grok-2 mini is our small but performant model, offering a balance between speed and response quality.' The new model is also more intuitive, flexible, and versatile in a wide range of tasks, including answering questions, writing assistance, and programming problem-solving. xAI claims that Grok-2 is more effective in retrieving and verifying web information, providing truthful responses. As part of the integration with X, Grok will be used for research, post analysis, and writing tools. A preview of the multimodal version of Grok is also expected to be released soon, which will enable the generation of images on X without filters, thanks to the integration of the FLUX.1 model from Black Forest Labs.
+Original language: it
+Publish date: August 14, 2024 07:26 AM
+Source:[DDay.it](https://www.dday.it/redazione/50192/x-lancia-grok-2-e-grok-2-mini-piu-integrazione-con-il-social-e-arriva-la-generazione-di-immagini)
+
+**OpenAI's new chatgpt-4o-latest model re-claims the No.1 position in LMSYS Chatbot Arena**
+OpenAI has announced a new chat model, chatgpt-4o-latest, which has reclaimed the No. 1 position in the LMSYS Chatbot Arena with a record score of 1314. According to OpenAI's documentation, the new model is a dynamic version of GPT-4o that will be continuously updated and supports a context of 128,000 tokens and 16,384 output tokens. The model is intended for research and evaluation only. OpenAI's ChatGPT has been powered by the new model since last week, and users may have noticed improvements in responses. The new model demonstrates notable improvements in Coding, Instruction-following, and Hard Prompts, and has already taken the top spot in various categories in the LMSYS Chatbot Arena, including Overall, Math, Coding, Hard Prompts, Instruction-Following, Longer Query, Multi-Turn.
+Original language: en
+Publish date: August 14, 2024 03:58 AM
+Source:[Neowin](https://www.neowin.net/news/openais-new-chatgpt-4o-latest-model-re-claims-the-no1-position-in-lmsys-chatbot-arena)
+
+**What is Project Strawberry? OpenAI's mystery AI tool explained**
+OpenAI's CEO Sam Altman posted a cryptic message on X, sparking speculation about the release of a new AI model codenamed 'Strawberry'. The model, which has advanced reasoning capabilities, is said to be able to navigate the internet autonomously and reliably. According to an internal OpenAI document, Strawberry is a project that has been in development since May, and some OpenAI employees regard it as a breakthrough in artificial general intelligence (AGI). A new model, 'anonymous-chatbot', has appeared on the Large Model Systems Organization (LMSYS) Chatbot Arena, which is said to be particularly good at advanced reasoning. While it is unclear if 'anonymous-chatbot' is indeed Strawberry, its presence on the arena suggests that a release may be imminent. As one Reddit user noted, 'if you want to try it out, you can visit the website, click on Arena battle, and enter sample prompts until 'anonymous-chatbot' comes up.' However, it is worth noting that there is no guarantee that 'anonymous-chatbot' is Strawberry, and users should proceed cautiously.
+Original language: en
+Publish date: August 08, 2024 03:30 PM
+Source:[ZDNET](https://www.zdnet.com/article/what-is-project-strawberry-openais-mystery-ai-tool-explained)
+
+**Sam Altman stokes rumors of new OpenAI foundation model ‘Strawberry'**
+OpenAI co-founder and CEO Sam Altman has sparked rumors about a new foundation model 'Strawberry' by posting a photo of strawberries on his personal account on X, captioned 'i love summer in the garden'. This has led to speculation that the model, possibly codenamed 'Q*', may be released soon. Other clues, including a new 'anonymous-chatbot' AI model on the lmsys arena, suggest that OpenAI is working on a new model with advanced reasoning capabilities. According to Reuters, the new model, codenamed 'Strawberry', aims to enable AI to navigate the internet autonomously and perform 'deep research'. This comes after a 17-month wait since OpenAI released GPT-4, its last major new foundation model class.
+Original language: en
+Publish date: August 07, 2024 06:42 PM
+Source:[VentureBeat](https://venturebeat.com/ai/sam-altman-stokes-rumors-of-new-openai-foundation-model-strawberry)
+
+**Google's AI comeback: New Gemini models dethrone OpenAI in shocking upset**
+Google has made a stunning comeback in the AI race with the unveiling of Gemini 1.5 Pro and Gemma 2. The new models have surpassed OpenAI's GPT-4o in several key benchmarks, including processing and analyzing vast amounts of data. Gemini 1.5 Pro has claimed the top spot on the LMSYS Chatbot Arena leaderboard, beating competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. Gemma 2 2B, a compact yet powerful model, has outperformed competitors with far larger architectures, showcasing Google's prowess in model efficiency and optimization. Google's resurgence in the AI market positions it as a formidable contender, offering a compelling alternative to the OpenAI-Microsoft axis. However, challenges remain, including translating technical achievements into tangible business value and maintaining momentum in the rapidly evolving AI landscape.
+Original language: en
+Publish date: August 02, 2024 08:31 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-ai-comeback-new-gemini-models-dethrone-openai-in-shocking-upset)
+
+**Google Gemini 1.5 Pro Leaps Ahead In AI Race, Challenging GPT-4o**
+Google has released Gemini 1.5 Pro, an artificial intelligence model that has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an ELO score of 1300. This achievement puts it ahead of competitors like OpenAI's GPT-4o (ELO: 1286) and Anthropic's Claude-3.5 Sonnet (ELO: 1271). According to Simon Tokumine, a key figure in the Gemini team, the model is 'the strongest, most intelligent Gemini we've ever made.' Early user feedback has been positive, with one user calling it 'insanely good' and expressing hope that its capabilities won't be scaled back. The model's expansive context window of up to two million tokens allows it to process and reason about vast amounts of information, including lengthy documents and extensive code bases.
+Original language: en
+Publish date: August 02, 2024 01:00 PM
+Source:[Slashdot](https://tech.slashdot.org/story/24/08/02/0547223/google-gemini-15-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**Google's new Gemini AI model dominates benchmarks, beats GPT-4o and Claude-3**
+Google's Gemini 1.5 Pro AI model has surpassed OpenAI's ChatGPT-4o and Anthropic's Claude-3 in benchmark scores, according to reports. The experimental version of Gemini 1.5 Pro, released on August 1, scored 1,300 in the LMSYS Chatbot Arena, outperforming its competitors. While benchmarks are not a definitive measure of an AI model's capabilities, the community has expressed excitement over Gemini's performance, with some users calling it 'insanely good' and saying it 'blows 4o out of the water.' However, it is unclear if the experimental version will become the default model, as it is still in a testing phase and may be rescinded or changed for safety or alignment reasons.
+Original language: en
+Publish date: August 01, 2024 09:15 PM
+Source:[Cointelegraph](https://cointelegraph.com/news/google-gemini-ai-model-dominates-benchmarks-beats-gpt-4o-claude-3)
+
+**Google's Gemini 1.5 Pro leaps ahead in AI race, challenging GPT-4o**
+Google has released an experimental version of its Gemini 1.5 Pro AI model, which has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an impressive ELO score of 1300. This achievement puts Gemini 1.5 Pro ahead of competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. The model excels in multi-lingual tasks, technical areas such as mathematics and coding, and has secured the top position on LMSYS's Vision Leaderboard. Google is making the model available for early testing and feedback through Google AI Studio and the Gemini API, and is soliciting feedback from developers and users to refine the model further. The release of Gemini 1.5 Pro represents a major move in the ongoing AI arms race, with tech giants and startups vying for supremacy.
+Original language: en
+Publish date: August 01, 2024 06:37 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-gemini-1-5-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**New Gemma 2 AI Model That Can Outperform GPT 3.5 Released by Google**
+Google DeepMind has released the Gemma 2 2B artificial intelligence (AI) model, a lightweight AI model that outperformed GPT-3.5 models on the LMSYS Chatbot Arena benchmark. The company claims that despite its small parameter size, the output is significantly higher than its weight class. The AI model has been optimised to run on a wide range of hardware and is available as an open-source model, downloadable from Google's Hugging Face listing, Kaggle, or Vertex AI Model Garden. Additionally, Google released ShieldGemma, a suite of safety classifiers that can detect and remove harmful content, and Gemma Scope, a research tool that offers insights into how the AI model functions. According to Google, the Gemma 2 2B AI model received a score of 1126 on the LMSYS Chatbot Arena Elo score, outperforming Mixtral 8x7b Instruct v0.1 model (1114) and GPT-3.5 (1106).
+Original language: en
+Publish date: August 01, 2024 07:51 AM
+Source:[Gadgets 360](https://www.gadgets360.com/ai/news/gemma-2-2b-ai-model-shieldgemma-scope-released-google-deepmind-gpt-3-5-6237996)
+
+**Russian Platform for Evaluating Generative Neural Networks Launched**
+Roman Kutsen, a developer, has created a platform called LLM Arena in collaboration with experts from TrainingData.ru to evaluate the quality of large language models in Russian. The platform allows users to test and compare Russian neural networks in real-time, evaluating the relevance and quality of their responses. Users can compare the answers of two randomly selected models and choose the best one. The platform currently has 21 AI models available for testing, including both foreign (ChatGPT, LLaMa) and Russian (YandexGPT, GigaChat, Saiga) models. The developers plan to add new models regularly. According to Kutsen, 'Our goal is to create an objective, open, and up-to-date rating of language models in Russian. Despite the increasing number of benchmarks, testing Russian LLMs on real user tasks is very challenging. LMSYS Chatbot Arena does not provide access to any Russian neural networks, so we decided to create our own platform to allow users to compare Russian and foreign generative neural networks and make their own conclusions.'
+Original language: ru
+Publish date: July 31, 2024 04:00 PM
+Source:[Хабр](https://habr.com/ru/news/832922/)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**Sam Altman 'Excited' By New ChatGPT Capabilities**
+Sam Altman, CEO of OpenAI, expressed his excitement about the capabilities of the latest ChatGPT model, GPT-4o mini, which was launched over the weekend. The model is designed to provide similar performance to GPT-4o at a fraction of the cost. Altman highlighted the model's performance in a 'Chatbot Arena' conducted by lmsys, a language model comparison organization, and stated that he is 'excited' to see the model's performance, despite trying not to get too excited about individual evaluations. The new model is part of OpenAI's aim to make artificial intelligence more accessible to both consumers and businesses.
+Original language: en
+Publish date: July 24, 2024 10:17 AM
+Source:[Newsweek](https://www.newsweek.com/sam-altman-chatgpt-new-model-openai-excited-opinion-1929435)
+
+**OpenAI's GPT-4o Mini isn't much better than rival LLMs**
+OpenAI has released GPT-4o Mini, a smaller and cheaper version of its GPT-4o generative large language model (LLM). The Mini version is multimodal, can handle up to 16,000 tokens of output, and is trained on materials up to October 2023. While it is not fully featured yet, supporting only text and vision via its API, OpenAI claims it is ahead of comparable LLMs in benchmarks. However, veteran open source developer Simon Willison notes that the competition has released their own GPT-4-class models, and the pricing is not too bad. GPT-4o Mini is mostly ahead of the pack in the LMSYS Chatbot Arena benchmark, but full-size GPT-4o is only barely ahead of its rivals. OpenAI may no longer have the dominating lead it once had, but it is still a strong player in the LLM arena.
+Original language: en
+Publish date: July 19, 2024 12:59 AM
+Source:[The Register](https://go.theregister.com/feed/www.theregister.com/2024/07/19/openaigpt4o_mini)
+
+
