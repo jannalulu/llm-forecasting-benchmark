@@ -1,9 +1,7 @@
 import json
 import os
-import time
 import sys
 import logging
-import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
 from anthropic import Anthropic
@@ -24,7 +22,7 @@ ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
-  log_filename = f"logs/{question_id}_{model_name}.log"
+  log_filename = f"logs/{question_id}_{model_name}_past.log"
   logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -108,16 +106,15 @@ Output your prediction as "My Prediction: Between XX.XX% and YY.YY%, but ZZ.ZZ% 
 
 #GPT-4 predictions
 def get_gpt_prediction(question_details, formatted_articles):
-  today = datetime.datetime.now().strftime("%Y-%m-%d")
   client = OpenAI(api_key=OPENAI_API_KEY)
 
   prompt_input = {
     "title": question_details["title"],
-    "background": question_details.get("description", ""),
+    "background": question_details.get("background", ""),
     "resolution_criteria": question_details.get("resolution_criteria", ""),
     "fine_print": question_details.get("fine_print", ""),
     "formatted_articles": formatted_articles,
-    "today": today
+    "today": question_details["open_time"]
   }
 
   try:
@@ -134,15 +131,14 @@ def get_gpt_prediction(question_details, formatted_articles):
     return None
 
 def get_claude_prediction(question_details, formatted_articles):
-  today = datetime.datetime.now().strftime("%Y-%m-%d")
    
   prompt_input = {
     "title": question_details["title"],
-    "background": question_details.get("description", ""),
+    "background": question_details.get("background", ""),
     "resolution_criteria": question_details.get("resolution_criteria", ""),
     "fine_print": question_details.get("fine_print", ""),
     "formatted_articles": formatted_articles,
-    "today": today
+    "today": question_details["open_time"]
   }
 
   client = Anthropic(api_key=ANTHROPIC_API_KEY)
@@ -163,7 +159,7 @@ def get_claude_prediction(question_details, formatted_articles):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq3_predictions.json"
+  json_filename = "aibq3_predictions_past.json"
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
