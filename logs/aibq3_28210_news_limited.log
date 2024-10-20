@@ -1,0 +1,124 @@
+2024-10-19 21:38:08,789 - INFO - Formatted articles for 2024-09-16T14:30:00Z:
+Here are the relevant news articles:
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**OpenAI's new chatgpt-4o-latest model re-claims the No.1 position in LMSYS Chatbot Arena**
+OpenAI has announced a new chat model, chatgpt-4o-latest, which has reclaimed the No. 1 position in the LMSYS Chatbot Arena with a record score of 1314. According to OpenAI's documentation, the new model is a dynamic version of GPT-4o that will be continuously updated and supports a context of 128,000 tokens and 16,384 output tokens. The model is intended for research and evaluation only. OpenAI's ChatGPT has been powered by the new model since last week, and users may have noticed improvements in responses. The new model demonstrates notable improvements in Coding, Instruction-following, and Hard Prompts, and has already taken the top spot in various categories in the LMSYS Chatbot Arena, including Overall, Math, Coding, Hard Prompts, Instruction-Following, Longer Query, Multi-Turn.
+Original language: en
+Publish date: August 14, 2024 03:58 AM
+Source:[Neowin](https://www.neowin.net/news/openais-new-chatgpt-4o-latest-model-re-claims-the-no1-position-in-lmsys-chatbot-arena)
+
+**Russian Platform for Evaluating Generative Neural Networks Launched**
+Roman Kutsen, a developer, has created a platform called LLM Arena in collaboration with experts from TrainingData.ru to evaluate the quality of large language models in Russian. The platform allows users to test and compare Russian neural networks in real-time, evaluating the relevance and quality of their responses. Users can compare the answers of two randomly selected models and choose the best one. The platform currently has 21 AI models available for testing, including both foreign (ChatGPT, LLaMa) and Russian (YandexGPT, GigaChat, Saiga) models. The developers plan to add new models regularly. According to Kutsen, 'Our goal is to create an objective, open, and up-to-date rating of language models in Russian. Despite the increasing number of benchmarks, testing Russian LLMs on real user tasks is very challenging. LMSYS Chatbot Arena does not provide access to any Russian neural networks, so we decided to create our own platform to allow users to compare Russian and foreign generative neural networks and make their own conclusions.'
+Original language: ru
+Publish date: July 31, 2024 04:00 PM
+Source:[Хабр](https://habr.com/ru/news/832922/)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark | TechCrunch**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts like Yuchen Lin and Mike Cook have raised concerns about the benchmark's limitations. They argue that the user base is not representative, and the voting process is unreliable. Additionally, the benchmark's reliance on post-processing and automated systems to label queries and rank models lacks systematic rigor. Furthermore, LMSYS' commercial ties and sponsorship from organizations with vested interests in the AI industry raise concerns about the benchmark's impartiality. Despite these flaws, Lin believes that Chatbot Arena provides a valuable service by offering real-time insights into how different models perform outside the lab. However, he suggests that LMSYS could improve the testing by designing benchmarks around different subtopics and using a more systematic approach to evaluate models.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark/)
+
+**The AI industry is obsessed with Chatbot Arena, but it might not be the best benchmark**
+Chatbot Arena, a benchmark created by LMSYS, has become a popular tool for evaluating AI models. However, experts have raised concerns about its limitations and biases. The benchmark relies on user-contributed questions and votes, which may not accurately reflect real-world usage. Additionally, the user base may not be representative of the target market, and the evaluation process lacks systematic rigor. Commercial ties and data sharing also raise concerns about fairness and potential biases. While Chatbot Arena provides valuable insights into model performance, experts recommend using it as a tool for gauging user satisfaction rather than a definitive standard for measuring AI progress.
+Original language: en
+Publish date: September 05, 2024 03:30 PM
+Source:[TechCrunch](https://techcrunch.com/2024/09/05/the-ai-industry-is-obsessed-with-chatbot-arena-but-it-might-not-be-the-best-benchmark)
+
+**Google Expands Gemini Family with New AI Models**
+Google has accelerated its work on its productive artificial intelligence model. As a result, Google is continuing to expand the Gemini family. The company has introduced several new models for the Gemini 1.5 AI. So, what do the new Gemini 1.5 tools offer? Google introduced the Gemini 1.5 Flash-8B, a new AI tool that can be used for complex applications and summarization tasks. According to the first tests conducted through Chatbot Arena, the Gemini 1.5 Flash-8B outperformed the Google Gemma-2-9b and Meta Llama-3-70b. The main goal of the Gemini 1.5 Flash-8B is to provide faster results. The standard Gemini 1.5 Flash and Gemini 1.5 Pro models also received significant upgrades. According to feedback from Chatbot Arena, they will perform better in complex coding operations. The Gemini 1.5 Pro is currently ranked fifth in general ability. The top five productive AI assistants, according to Chatbot Arena, are: ChatGPT-4, Gemini-1.5-Pro-Exp-0827, Grok-2-08-13, GPT-4o-2024-05-13, and Gemini-1.5-Flash-Exp-0827. Developers and researchers will be able to access the updated Gemini models through Google AI Studio and Gemini API. However, it's worth noting that large-scale operations will be available through the Vertex AI platform for a fee.
+Original language: tr
+Publish date: August 28, 2024 05:00 PM
+Source:[ShiftDelete.Net](https://shiftdelete.net/google-gemini-1-5-modelleri)
+
+**Grok-2 gets a speed bump after developers rewrite code in three days**
+xAI's Grok-2 large language model (LLM) chatbot has seen significant improvements in speed and accuracy after two developers, Lianmin Zheng and Saeed Maleki, rewrote the inference code stack in just three days using SGLang. The Grok-2 mini model is now 2x faster than it was yesterday, and both models have become slightly more accurate. According to xAI developer Igor Babuschkin, the main advantage of using Grok-2-mini is its enhanced speed, and the company plans to make it even faster. The Grok-2 model has secured the #2 spot on the Lmsys Chatbot Arena leaderboard with an impressive Arena Score of 1293, while the Grok-2-mini model has climbed to the #5 position with an Arena Score of 1268.
+Original language: en
+Publish date: August 23, 2024 09:05 PM
+Source:[VentureBeat](https://venturebeat.com/ai/grok-2-gets-a-speed-bump-after-developers-rewrite-code-in-three-days)
+
+**OpenAI knocks Gemini off the top of chatbot leaderboard with its new model**
+OpenAI's new ChatGPT-4o model has taken the top spot on the LMSys Chatbot Arena leaderboard, surpassing Google's Gemini with a score of 1314, 17 points ahead. According to lmsys.org, the new model demonstrates notable improvement in technical domains, particularly in Coding, Instruction-following, and Hard Prompts. In testing, the model was found to be much snappier than prior versions, even building an entire iOS app in an hour. This comes just a day after Google mentioned its lead on the arena board, and with new models and revamped ones arriving all the time, there's every chance we'll see a reshuffle at the top of the pile in the coming months.
+Original language: en
+Publish date: August 14, 2024 04:41 PM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/openai-knocks-gemini-off-the-top-of-chatbot-leaderboard-with-its-new-model)
+
+**OpenAI's new chatgpt-4o-latest model re-claims the No.1 position in LMSYS Chatbot Arena**
+OpenAI has announced a new chat model, chatgpt-4o-latest, which has reclaimed the No. 1 position in the LMSYS Chatbot Arena with a record score of 1314. According to OpenAI's documentation, the new model is a dynamic version of GPT-4o that will be continuously updated and supports a context of 128,000 tokens and 16,384 output tokens. The model is intended for research and evaluation only. OpenAI's ChatGPT has been powered by the new model since last week, and users may have noticed improvements in responses. The new model demonstrates notable improvements in Coding, Instruction-following, and Hard Prompts, and has already taken the top spot in various categories in the LMSYS Chatbot Arena, including Overall, Math, Coding, Hard Prompts, Instruction-Following, Longer Query, Multi-Turn.
+Original language: en
+Publish date: August 14, 2024 03:58 AM
+Source:[Neowin](https://www.neowin.net/news/openais-new-chatgpt-4o-latest-model-re-claims-the-no1-position-in-lmsys-chatbot-arena)
+
+**Google's AI comeback: New Gemini models dethrone OpenAI in shocking upset**
+Google has made a stunning comeback in the AI race with the unveiling of Gemini 1.5 Pro and Gemma 2. The new models have surpassed OpenAI's GPT-4o in several key benchmarks, including processing and analyzing vast amounts of data. Gemini 1.5 Pro has claimed the top spot on the LMSYS Chatbot Arena leaderboard, beating competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. Gemma 2 2B, a compact yet powerful model, has outperformed competitors with far larger architectures, showcasing Google's prowess in model efficiency and optimization. Google's resurgence in the AI market positions it as a formidable contender, offering a compelling alternative to the OpenAI-Microsoft axis. However, challenges remain, including translating technical achievements into tangible business value and maintaining momentum in the rapidly evolving AI landscape.
+Original language: en
+Publish date: August 02, 2024 08:31 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-ai-comeback-new-gemini-models-dethrone-openai-in-shocking-upset)
+
+**Google Gemini 1.5 Pro Leaps Ahead In AI Race, Challenging GPT-4o**
+Google has released Gemini 1.5 Pro, an artificial intelligence model that has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an ELO score of 1300. This achievement puts it ahead of competitors like OpenAI's GPT-4o (ELO: 1286) and Anthropic's Claude-3.5 Sonnet (ELO: 1271). According to Simon Tokumine, a key figure in the Gemini team, the model is 'the strongest, most intelligent Gemini we've ever made.' Early user feedback has been positive, with one user calling it 'insanely good' and expressing hope that its capabilities won't be scaled back. The model's expansive context window of up to two million tokens allows it to process and reason about vast amounts of information, including lengthy documents and extensive code bases.
+Original language: en
+Publish date: August 02, 2024 01:00 PM
+Source:[Slashdot](https://tech.slashdot.org/story/24/08/02/0547223/google-gemini-15-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**Google's Gemini 1.5 Pro leaps ahead in AI race, challenging GPT-4o**
+Google has released an experimental version of its Gemini 1.5 Pro AI model, which has quickly taken the top spot on the LMSYS Chatbot Arena leaderboard with an impressive ELO score of 1300. This achievement puts Gemini 1.5 Pro ahead of competitors like OpenAI's GPT-4o and Anthropic's Claude-3.5 Sonnet. The model excels in multi-lingual tasks, technical areas such as mathematics and coding, and has secured the top position on LMSYS's Vision Leaderboard. Google is making the model available for early testing and feedback through Google AI Studio and the Gemini API, and is soliciting feedback from developers and users to refine the model further. The release of Gemini 1.5 Pro represents a major move in the ongoing AI arms race, with tech giants and startups vying for supremacy.
+Original language: en
+Publish date: August 01, 2024 06:37 PM
+Source:[VentureBeat](https://venturebeat.com/ai/googles-gemini-1-5-pro-leaps-ahead-in-ai-race-challenging-gpt-4o)
+
+**Google Unveils Gemma 2 2B, Outperforms GPT-3.5-Turbo and Mixtral-8x7B**
+Google has announced the launch of Gemma 2 2B, a 2 billion parameter model that outperforms GPT-3.5-Turbo and Mixtral-8x7B on the Chatbot Arena leaderboard. Gemma 2 2B achieved a score of 1130, rivaling models 10x its size, and is optimized for efficient deployment across various hardware. According to Rebecca Weiss, executive director at ML Commons, 'As AI continues to mature, the entire industry will need to invest in developing high-performance safety evaluators.' The release of Gemma 2 2B comes amidst the competitive environment of large language models, with Meta releasing Llama 3.1 and OpenAI releasing GPT-4o mini, a cost-efficient LLM.
+Original language: en
+Publish date: July 31, 2024 08:24 PM
+Source:[Analytics India Magazine](https://analyticsindiamag.com/ai-news-updates/google-unveils-gemma-2-2b-outperforms-gpt-3-5-turbo-and-mixtral-8x7b/)
+
+**Russian Platform for Evaluating Generative Neural Networks Launched**
+Roman Kutsen, a developer, has created a platform called LLM Arena in collaboration with experts from TrainingData.ru to evaluate the quality of large language models in Russian. The platform allows users to test and compare Russian neural networks in real-time, evaluating the relevance and quality of their responses. Users can compare the answers of two randomly selected models and choose the best one. The platform currently has 21 AI models available for testing, including both foreign (ChatGPT, LLaMa) and Russian (YandexGPT, GigaChat, Saiga) models. The developers plan to add new models regularly. According to Kutsen, 'Our goal is to create an objective, open, and up-to-date rating of language models in Russian. Despite the increasing number of benchmarks, testing Russian LLMs on real user tasks is very challenging. LMSYS Chatbot Arena does not provide access to any Russian neural networks, so we decided to create our own platform to allow users to compare Russian and foreign generative neural networks and make their own conclusions.'
+Original language: ru
+Publish date: July 31, 2024 04:00 PM
+Source:[Хабр](https://habr.com/ru/news/832922/)
+
+**I tested Gemini vs ChatGPT vs Claude vs Meta Llama  --  which AI chatbot wins?**
+The article compares four AI chatbots: Gemini, ChatGPT, Claude, and Meta Llama. The author tests each model with 7 prompts, including wordplay, story generation, debate, and math problems. The results show that Claude stands out as the best model, particularly for complex reasoning tasks. However, each model has its strengths, and Llama is found to be more conversational and engaging. The author concludes that each tool is building its own niche, and the results of the test are not a definitive ranking of the models.
+Original language: en
+Publish date: July 31, 2024 04:04 AM
+Source:[Tom's Guide](https://www.tomsguide.com/ai/i-tested-gemini-vs-chatgpt-vs-claude-vs-meta-llama-which-ai-chatbot-wins)
+
+**YandexGPT Experimental Enters Llmarena Rating**
+YandexGPT Experimental, a new development from 'Yandex', has entered the new rating of Llmarena, which evaluates the quality of responses from generative models in Russian. The rating also includes GPT-4o, LLaMA 3.1, and Claude 3.5 Sonnet. According to Yandex, they are working on a new, more powerful version of their basic language model. The rating assesses how well the models respond to questions in Russian, allowing users to compare and evaluate the quality of the answers. The developers of the service, from the Russian ML-community, have taken the principle of work from the foreign service LMSYS Chatbot Arena, one of the most authoritative benchmarks on the foreign market. 'Yandex' confirmed that they are working on a new, more powerful version of their basic language model, as stated by the company. 'It is a great day for the development of AI in Russia,' said the developers of the service. 'We are glad to see our models competing with the best in the world,' they added.
+Original language: ru
+Publish date: July 30, 2024 04:55 PM
+Source:[Izvestia.ru](https://iz.ru/1735477/2024-07-30/v-reiting-kachestva-otvetov-neirosetei-popala-novaia-razrabotka-iandeksa)
+
+**OpenAI's newly released GPT-4o mini dominates the Chatbot Arena. Here's why.**
+OpenAI's newly released GPT-4o mini has dominated the Large Model Systems Organization (LMSYS) Chatbot Arena, surpassing established models like Claude 3.5 Sonnet and Gemini Advanced. The Chatbot Arena is a platform where users can evaluate large language models by chatting with two models side by side and comparing their responses. GPT-4o mini's success is notable because it is 20 times cheaper than its predecessor. Some users expressed concerns about the mini model's high ranking, but LMSYS explained that the results are based on human preferences and encouraged users to look at the per-category breakdowns to understand the models' technical capabilities.
+Original language: en
+Publish date: July 25, 2024 07:43 PM
+Source:[ZDNET](https://www.zdnet.com/article/openais-newly-released-gpt-4o-mini-dominates-the-chatbot-arena-heres-why)
+
+**OpenAI's GPT-4o Mini isn't much better than rival LLMs**
+OpenAI has released GPT-4o Mini, a smaller and cheaper version of its GPT-4o generative large language model (LLM). The Mini version is multimodal, can handle up to 16,000 tokens of output, and is trained on materials up to October 2023. While it is not fully featured yet, supporting only text and vision via its API, OpenAI claims it is ahead of comparable LLMs in benchmarks. However, veteran open source developer Simon Willison notes that the competition has released their own GPT-4-class models, and the pricing is not too bad. GPT-4o Mini is mostly ahead of the pack in the LMSYS Chatbot Arena benchmark, but full-size GPT-4o is only barely ahead of its rivals. OpenAI may no longer have the dominating lead it once had, but it is still a strong player in the LLM arena.
+Original language: en
+Publish date: July 19, 2024 12:59 AM
+Source:[The Register](https://go.theregister.com/feed/www.theregister.com/2024/07/19/openaigpt4o_mini)
+
+
