@@ -64,6 +64,7 @@ def list_questions(tournament_id, count=None):
 						filtered_question = {
 							"title": question_details["title"],
 							"id": question_details["id"],
+							"background": question_details["question"].get("description", ""),
 							"open_time": question_details["open_time"],
 							"actual_close_time": question_details["actual_close_time"],
 							"status": question_details["status"],
@@ -95,9 +96,9 @@ def list_questions(tournament_id, count=None):
 
 def write_to_json():
 	processed_questions = list_questions(tournament_id=3349)
-	with open("metaculus_data_aibq3.json", 'w', encoding='utf-8') as f:
+	with open("metaculus_data_aibq3_wd.json", 'w', encoding='utf-8') as f:
 		json.dump(processed_questions, f)
 		
 if __name__ == "__main__":
 	write_to_json()
-	print(f"Scraped {len(json.load(open('metaculus_data_aibq3.json')))} questions.")
+	print(f"Scraped {len(json.load(open('metaculus_data_aibq3_wd.json')))} questions.")
