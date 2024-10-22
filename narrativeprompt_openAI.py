@@ -4,7 +4,6 @@ import sys
 import logging
 from dotenv import load_dotenv
 from openai import OpenAI
-from anthropic import Anthropic
 
 load_dotenv()
 
@@ -49,13 +48,14 @@ def list_questions():
       'background': item.get('background', ''),
       'fine_print': item.get('fine_print', ''),
       'open_time': item['open_time'],
+      'scheduled_resolve_time': item['scheduled_resolve_time']
     }
     for item in data
   ]
 
 def get_news_for_question(question_id):
   """Get news articles for a specific question ID from aibq3_news.json"""
-  with open('aibq3_news_limited.json', 'r', encoding='utf-8') as f: #change to aibq3_news for actual run
+  with open('aibq3_news.json', 'r', encoding='utf-8') as f: #change to aibq3_news for actual run
     news_data = json.load(f)
   for item in news_data:
     if item['question_id'] == question_id:
@@ -64,18 +64,16 @@ def get_news_for_question(question_id):
 
 # Prompt
 PROMPT_NARRATIVE_PREDICTION = """
-  Write a brief fictional narrative scene set the day after the event described in the following question:
-  "{title}"
-
-  The scene should be a conversation between two experts discussing the event. The event may not have occurred. 
-
-  The scene is set the day after the potential event. The title contains the date for which the event should have occurred. If the title says "would x occur by September 10th?", the scene is set on September 11.  
-  Keep the parameters of the story in mind: {resolution_criteria}
-  Background: {background}
-  Additional context: {fine_print}
-
-  Give the two experts real names of actual experts based on the context of the question and have them briefly discuss what actually happened based on the information provided. For example, the character should be Jerome Powell telling us about inflation numbers if the {title} asked about inflation percentages. 
-  The scene should be written in a screenplay format. It should be less than 100 words.
+  You are a talented script writer for a movie about predicting probabilities of something happening in the future, but with a twist. Here are the rules:
+  1. The event is described in question form: {title}.
+  2. The parameters of the story is determined by the {resolution_criteria}.
+  3. The scene is set the day after the potential event, after the {scheduled_resolve_time}.
+  4. The superforecasters talk about the event as if it has or has not happened. The event may not occur. 
+  5. The superforecasters only get news articles up to a certain date, the {date}.
+  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong. The probabilities given by the superforecaster reflect the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
+  8. Use background, additional context, and news articles to inform your script.
+    {background}, {fine_print}, {formatted_articles}
+  9. The script should be less than 150 words.
 """
 
 #GPT-4 predictions
@@ -87,12 +85,15 @@ def get_gpt_prediction(question_details, formatted_articles):
     "background": question_details.get("background", ""),
     "resolution_criteria": question_details.get("resolution_criteria", ""),
     "fine_print": question_details.get("fine_print", ""),
-    "formatted_articles": formatted_articles
+    "formatted_articles": formatted_articles,
+    "date": question_details["open_time"],
+    "scheduled_resolve_time": question_details["scheduled_resolve_time"]
   }
 
   try:
     response = client.chat.completions.create(
       model="gpt-4o",
+      temperature=0.5,
       messages=[
         {"role": "user", "content": PROMPT_NARRATIVE_PREDICTION.format(**prompt_input)}
       ]
@@ -147,7 +148,7 @@ def main():
       "question_title": question['title']
     }
     
-    for run in range(10):
+    for run in range(5):
       print(f"Run {run} for question {question_id}")
       
       gpt_result = get_gpt_prediction(question, formatted_articles)
