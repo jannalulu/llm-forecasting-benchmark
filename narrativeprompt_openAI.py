@@ -21,7 +21,7 @@ ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
-  log_filename = f"logs_testrun/narrative_{question_id}_{model_name}.log" #remove test_run
+  log_filename = f"logs/narrative_{question_id}_{model_name}.log"
   logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -38,7 +38,7 @@ def log_question_reasoning(question_id, reasoning, question_title, model_name, r
 
 def list_questions():
   """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_nosolution.json"""
-  with open('scraping/test_metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
+  with open('scraping/metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
     {
@@ -71,6 +71,7 @@ PROMPT_NARRATIVE_PREDICTION = """
   4. The superforecasters talk about the event as if it has or has not happened. The event may not occur. 
   5. The superforecasters only get news articles up to a certain date, the {date}.
   6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong. The probabilities given by the superforecaster reflect the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
+  7. The superforecaster says that "our models had it at ZZ.ZZ%." 
   8. Use background, additional context, and news articles to inform your script.
     {background}, {fine_print}, {formatted_articles}
   9. The script should be less than 150 words.
@@ -106,7 +107,7 @@ def get_gpt_prediction(question_details, formatted_articles):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "test_aibq3_narrative_predictions_4o.json" #change when not testing
+  json_filename = "aibq3_narrative_predictions_4o.json"
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
