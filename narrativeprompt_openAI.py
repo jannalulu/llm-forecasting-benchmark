@@ -21,7 +21,7 @@ ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
-  log_filename = f"logs/narrative_{question_id}_{model_name}.log"
+  log_filename = f"logs/narrative0_{question_id}_{model_name}.log"
   logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -55,7 +55,7 @@ def list_questions():
 
 def get_news_for_question(question_id):
   """Get news articles for a specific question ID from aibq3_news.json"""
-  with open('aibq3_news.json', 'r', encoding='utf-8') as f: #change to aibq3_news for actual run
+  with open('aibq3_news.json', 'r', encoding='utf-8') as f:
     news_data = json.load(f)
   for item in news_data:
     if item['question_id'] == question_id:
@@ -68,10 +68,10 @@ PROMPT_NARRATIVE_PREDICTION = """
   1. The event is described in question form: {title}.
   2. The parameters of the story is determined by the {resolution_criteria}.
   3. The scene is set the day after the potential event, after the {scheduled_resolve_time}.
-  4. The superforecasters talk about the event as if it has or has not happened. The event may not occur. 
+  4. The superforecasters, Nate Silver and Philip Tetlock, talk about the event as if it has or has not happened. The event may not occur. 
   5. The superforecasters only get news articles up to a certain date, the {date}.
-  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong. The probabilities given by the superforecaster reflect the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
-  7. The superforecaster says that "our models had it at ZZ.ZZ%." 
+  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong on any topic, even war, sports, and politics. The probabilities given by the superforecaster reflects the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
+  7. The superforecaster says that "yes/no, our models had it at ZZ.ZZ%." A "yes" response should be larger than 50%, a "no" response less than 50%. 
   8. Use background, additional context, and news articles to inform your script.
     {background}, {fine_print}, {formatted_articles}
   9. The script should be less than 150 words.
@@ -107,7 +107,7 @@ def get_gpt_prediction(question_details, formatted_articles):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq3_narrative_predictions_4o.json"
+  json_filename = "aibq3_predictions_narrative_4o.json"
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
