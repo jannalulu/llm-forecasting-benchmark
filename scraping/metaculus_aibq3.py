@@ -66,7 +66,9 @@ def list_questions(tournament_id, count=None):
 							"id": question_details["id"],
 							"background": question_details["question"].get("description", ""),
 							"open_time": question_details["open_time"],
-							"actual_close_time": question_details["actual_close_time"],
+							"actual_close_time": question_details["actual_close_time"], # Time the question closes
+							"scheduled_resolve_time": question_details["scheduled_resolve_time"], # Time the question is scheduled to resolve
+							"actual_resolve_time": question_details["question"]["actual_resolve_time"], # Time the question is actually resolved
 							"status": question_details["status"],
 							"type": question_details["question"].get("type", ""),
 							"resolution_criteria": question_details["question"].get("resolution_criteria", ""),
