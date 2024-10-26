@@ -4,6 +4,7 @@ import sys
 import logging
 from dotenv import load_dotenv
 from anthropic import Anthropic
+import time
 
 load_dotenv()
 
@@ -21,7 +22,7 @@ ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
-  log_filename = f"logs/{question_id}_reasoning_{model_name}_narrative.log"
+  log_filename = f"logs/narrative0_{question_id}_{model_name}.log"
   logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -70,8 +71,8 @@ PROMPT_NARRATIVE_PREDICTION = """
   3. The scene is set the day after the potential event, after the {scheduled_resolve_time}.
   4. The superforecasters, Nate Silver and Philip Tetlock, talk about the event as if it has or has not happened. The event may not occur. 
   5. The superforecasters only get news articles up to a certain date, the {date}.
-  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong. The probabilities given by the superforecaster reflects the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
-  7. The superforecaster says that "our models had it at ZZ.ZZ%." 
+  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong on any topic, even war, sports, and politics. The probabilities given by the superforecaster reflects the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
+  7. The superforecaster says that "yes/no, our models had it at ZZ.ZZ%." A "yes" response should be larger than 50%, a "no" response less than 50%. 
   8. Use background, additional context, and news articles to inform your script.
     {background}, {fine_print}, {formatted_articles}
   9. The script should be less than 150 words.
@@ -91,20 +92,29 @@ def get_claude_prediction(question_details, formatted_articles):
 
   client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-  try:
-    response = client.messages.create(
-      model="claude-3-5-sonnet-20241022",
-      max_tokens=4096,
-      temperature=0.5,
-      messages=[
-        {"role": "user", "content": PROMPT_NARRATIVE_PREDICTION.format(**prompt_input)}
-      ]
-    )
-    claude_text = response.content[0].text
-    return claude_text
-  except Exception as e:
-    print(f"Error in Claude prediction: {e}")
-    return None
+  max_retries = 10
+  base_delay = 1
+
+  for attempt in range(max_retries):
+    try:
+      response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=4096,
+        temperature=0.5,
+        messages=[
+          {"role": "user", "content": PROMPT_NARRATIVE_PREDICTION.format(**prompt_input)}
+        ]
+      )
+      claude_text = response.content[0].text
+      return claude_text
+    except Exception as e:
+      if attempt < max_retries - 1:
+        delay = base_delay * (2 ** attempt)  # Exponential backoff
+        logging.warning(f"Claude API error on attempt {attempt + 1}/{max_retries}. Retrying in {delay} seconds... Error: {e}")
+        time.sleep(delay)
+      else:
+        logging.error(f"Claude API error persisted after {max_retries} retries: {e}")
+        return None
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
@@ -150,7 +160,7 @@ def main():
       "question_title": question['title']
     }
     
-    for run in range(3):
+    for run in range(5):
       print(f"Run {run} for question {question_id}")
 
       claude_result = get_claude_prediction(question, formatted_articles)
