@@ -94,7 +94,7 @@ Carefully outline your reasons for each forecast: list the strongest evidence an
 3. Strike the right balance between inside and outside views.
 4. Strike the right balance between under- and overreacting to evidence.
 5. Look for the clashing causal forces at work in each problem.
-6. Extrapolate current the trends linearly.
+6. Extrapolate the current trends linearly.
 7. Strive to distinguish as many degrees of doubt as the problem permits but no more.
 8. Strike the right balance between under- and overconfidence, between prudence and decisiveness.
 9. Look for the errors behind your mistakes but beware of rearview-mirror hindsight biases.
