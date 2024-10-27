@@ -11,7 +11,7 @@ directprediction.py makes the prediction after reading articles from aibq3_news.
 
 extract_probabilities.py gets probabilities from aibq3_predictions.json and writes it to a .csv
 
-Narrativeprompt.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
+Narrativeprompt_{company}.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
 
 Results:
 Average Brier Scores:
@@ -116,12 +116,21 @@ Ensemble Brier Scores:
 Median Ensemble: 0.2284
 Mean Ensemble: 0.2216
 
-Average Brier Scores (sonnet-new):
+Average Brier Scores (sonnet-new): <-- only ran 3 times by mistake
 claude0: 0.2177
 claude1: 0.2278
 claude2: 0.2348
-claude median: 0.2156
-claude mean: 0.2090
+Median: 0.2156
+Mean: 0.2090
+
+Average Brier Scores (sonnet-new):
+claude0: 0.2245
+claude1: 0.2219
+claude2: 0.2463
+claude3: 0.2329
+claude4: 0.2264
+Median: 0.2197
+Mean: 0.2180
 
 ### Comparing Sonnet new and o1 preview on test set
 

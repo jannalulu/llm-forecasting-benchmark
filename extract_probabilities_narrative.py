@@ -40,26 +40,26 @@ def process_json_data(json_file):
         results[question_id] = {}
         
         for i in range(5):
-            gpt_key = f'gpt_reasoning{i}'
+            claude_key = f'claude_reasoning{i}'
             
-            if gpt_key in item:
-                results[question_id][f'gpt{i}'] = extract_probabilities(item[gpt_key])
+            if claude_key in item:
+                results[question_id][f'claude{i}'] = extract_probabilities(item[claude_key])
 
     return results
 
-def write_to_csv(results, filename='aibq3_outcomes_narrative_4o.csv'):
+def write_to_csv(results, filename='aibq3_outcomes_narrative_claude_sonnet.csv'):
     file_exists = os.path.isfile(filename)
     
     with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         
         if not file_exists:
-            headers = ['question_id'] + [f'{model}{i}_prob' for model in ['gpt'] for i in range(5)]
+            headers = ['question_id'] + [f'{model}{i}_prob' for model in ['claude'] for i in range(5)]
             writer.writerow(headers)
         
         for question_id, probabilities in results.items():
             row = [question_id]
-            for model in ['gpt']:
+            for model in ['claude']:
                 for i in range(5):
                     key = f'{model}{i}'
                     prob = probabilities.get(key, None)
@@ -69,6 +69,6 @@ def write_to_csv(results, filename='aibq3_outcomes_narrative_4o.csv'):
     logging.info(f"Results written to {filename}")
 
 if __name__ == "__main__":
-    json_file = "aibq3_predictions_narrative_4o.json" 
+    json_file = "aibq3_predictions_narrative_claude_sonnet.json" 
     results = process_json_data(json_file)
     write_to_csv(results)
