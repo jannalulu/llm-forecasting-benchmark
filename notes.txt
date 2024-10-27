@@ -1,0 +1,147 @@
+Notes: 
+
+Scraping folder contains scraping information
+- metaculus.py scrapes all binary, resolved questions.
+- metaculus_aibq3.py scrapes all resolved questions from aibq3 tournament
+- metaculus_aibq3_wd.py scrapes all resolved questions and background information
+
+newspipeline.py takes each question query and open_date and gets the relevant articles from **before** that date from AskNews
+
+directprediction.py makes the prediction after reading articles from aibq3_news.json
+
+extract_probabilities.py gets probabilities from aibq3_predictions.json and writes it to a .csv
+
+Narrativeprompt.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
+
+Results:
+Average Brier Scores:
+gpt0: 0.2104
+gpt1: 0.1989
+gpt2: 0.1985
+gpt3: 0.1951
+gpt4: 0.2010
+claude0: 0.1923
+claude1: 0.2015
+claude2: 0.2100
+claude3: 0.1985
+claude4: 0.1992
+GPT average: 0.2008
+Claude average: 0.2003
+
+Median Brier Scores:
+GPT median: 0.2169
+Claude median: 0.2169
+
+Statistical Test Results:
+Paired t-test (GPT vs Claude):
+t-statistic: 0.1078
+p-value: 0.9141
+The difference between GPT and Claude scores is not statistically significant (p >= 0.05).
+
+Effect size (Cohen's d): 0.0021
+The effect size is small.
+
+### Brier scores for new Sonnet model: 
+Individual Model Brier Scores:
+claude0: 0.1860
+claude1: 0.1798
+claude2: 0.1919
+claude3: 0.1826
+claude4: 0.1851
+
+Ensemble Brier Scores:
+Median Ensemble: 0.1810
+Mean Ensemble: 0.1785
+
+Cross-Model Ensemble Brier Scores (4o and Sonnet-new):
+Median of all predictions: 0.1791
+Mean of all predictions: 0.1792
+
+### future prompt:
+Average Brier Scores:
+gpt0: 0.2099
+gpt1: 0.2005
+gpt2: 0.2117
+gpt3: 0.1887
+gpt4: 0.2097
+claude0: 0.1987
+claude1: 0.2074
+claude2: 0.2038
+claude3: 0.2119
+claude4: 0.2013
+
+Median Brier Scores:
+GPT median: 0.2038
+Claude median: 0.2169
+
+Statistical Test Results:
+Paired t-test (GPT vs Claude):
+t-statistic: -0.0984
+p-value: 0.9216
+The difference between GPT and Claude scores is not statistically significant (p >= 0.05).
+
+Effect size (Cohen's d): -0.0022
+The effect size is small.
+
+### Narrative prompt
+Average Brier Scores:
+gpt0: 0.2694
+gpt1: 0.2819
+gpt2: 0.2439
+gpt3: 0.2644
+gpt4: 0.2805
+
+GPT median: 0.2430
+
+### Narrative prompt after I fixed reversed predictions
+Average Brier Scores:
+gpt0: 0.2651
+gpt1: 0.2718
+gpt2: 0.2252
+gpt3: 0.2552
+gpt4: 0.2766
+
+GPT median: 0.2313
+GPT average: 0.2080
+
+### Narrative prompt with Tetlock and Silver (eq. to sonnet-new narrative prompt)
+Individual Model Brier Scores:
+gpt0: 0.2529
+gpt1: 0.2255
+gpt2: 0.2277
+gpt3: 0.2406
+gpt4: 0.2442
+
+Ensemble Brier Scores:
+Median Ensemble: 0.2284
+Mean Ensemble: 0.2216
+
+Average Brier Scores (sonnet-new):
+claude0: 0.2177
+claude1: 0.2278
+claude2: 0.2348
+claude median: 0.2156
+claude mean: 0.2090
+
+### Comparing Sonnet new and o1 preview on test set
+
+Individual Model Brier Scores:
+gpt0: 0.1213
+gpt1: 0.3114
+gpt2: 0.2421
+gpt3: 0.2142
+gpt4: 0.2813
+
+Ensemble Brier Scores:
+Median Ensemble: 0.2625
+Mean Ensemble: 0.2097
+
+claude0: 0.2179
+claude1: 0.0845
+claude2: 0.2255
+claude3: 0.1563
+claude4: 0.2629
+
+Ensemble Brier Scores:
+Median Ensemble: 0.1566
+Mean Ensemble: 0.1748
