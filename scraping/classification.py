@@ -23,7 +23,6 @@ def categorize_batch(batch):
     'Education & Research',
     'Arts & Recreation',
     'Security & Defense',
-    'Social Sciences',
     'Sports',
     'Other']
 
