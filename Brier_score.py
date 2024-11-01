@@ -5,6 +5,13 @@ from scipy import stats
 resolutions_file = 'aibq3_resolutions.csv'
 outcomes_file = 'aibq3_outcomes_past.csv'
 
+def calculate_standard_error(scores):
+    n = len(scores)
+    if n < 2:  # Need at least 2 samples to calculate standard deviation
+        return None
+    std_dev = statistics.stdev(scores)
+    return std_dev / (n ** 0.5)
+
 def calculate_brier_scores(resolutions_file, outcomes_file):
     # Read resolutions
     resolutions = {}
@@ -13,35 +20,82 @@ def calculate_brier_scores(resolutions_file, outcomes_file):
         for row in reader:
             resolutions[row['question_id']] = int(row['resolution'])
 
-    # Read outcomes and calculate Brier scores
+    # Initialize data structures to store predictions by question
+    question_predictions = {qid: {'gpt_preds': [], 'claude_preds': []} for qid in resolutions.keys()}
+    
+    # Read outcomes and organize predictions by question
     brier_scores = {model: [] for model in ['gpt0', 'gpt1', 'gpt2', 'gpt3', 'gpt4', 'claude0', 'claude1', 'claude2', 'claude3', 'claude4']}
-    predictions = {model: [] for model in brier_scores.keys()}
     
     with open(outcomes_file, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             question_id = row['question_id']
             if question_id in resolutions:
-                resolution = resolutions[question_id]
+                # Store individual model predictions and calculate their Brier scores
                 for model in brier_scores.keys():
-                    prediction = float(row[f'{model}_final']) / 100  # Convert percentage to probability
-                    predictions[model].append(prediction)
-                    brier_score = (resolution - prediction) ** 2
+                    prediction = float(row[f'{model}_final']) / 100
+                    if model.startswith('gpt'):
+                        question_predictions[question_id]['gpt_preds'].append(prediction)
+                    else:
+                        question_predictions[question_id]['claude_preds'].append(prediction)
+                    brier_score = (resolutions[question_id] - prediction) ** 2
                     brier_scores[model].append(brier_score)
 
-    # Calculate average Brier score for each model
-    average_brier_scores = {model: sum(scores) / len(scores) for model, scores in brier_scores.items()}
-
-    # Calculate median Brier score for GPT and Claude models
-    gpt_median_prediction = statistics.median([p for model in ['gpt0', 'gpt1', 'gpt2', 'gpt3', 'gpt4'] for p in predictions[model]])
-    claude_median_prediction = statistics.median([p for model in ['claude0', 'claude1', 'claude2', 'claude3', 'claude4'] for p in predictions[model]])
+    # Calculate per-question median and mean predictions and their Brier scores
+    gpt_median_scores = []
+    claude_median_scores = []
+    gpt_mean_scores = []
+    claude_mean_scores = []
     
-    median_scores = {
-        'GPT median': sum((resolution - gpt_median_prediction) ** 2 for resolution in resolutions.values()) / len(resolutions),
-        'Claude median': sum((resolution - claude_median_prediction) ** 2 for resolution in resolutions.values()) / len(resolutions)
+    for question_id, preds in question_predictions.items():
+        if preds['gpt_preds'] and preds['claude_preds']:  # Ensure we have predictions for both
+            resolution = resolutions[question_id]
+            
+            # Calculate median prediction for each question
+            gpt_median_pred = statistics.median(preds['gpt_preds'])
+            claude_median_pred = statistics.median(preds['claude_preds'])
+            
+            # Calculate mean prediction for each question
+            gpt_mean_pred = statistics.mean(preds['gpt_preds'])
+            claude_mean_pred = statistics.mean(preds['claude_preds'])
+            
+            # Calculate Brier scores using per-question medians
+            gpt_median_scores.append((resolution - gpt_median_pred) ** 2)
+            claude_median_scores.append((resolution - claude_median_pred) ** 2)
+            
+            # Calculate Brier scores using per-question means
+            gpt_mean_scores.append((resolution - gpt_mean_pred) ** 2)
+            claude_mean_scores.append((resolution - claude_mean_pred) ** 2)
+
+    # Calculate average Brier score and standard error for each model
+    average_brier_scores = {}
+    for model, scores in brier_scores.items():
+        average_brier_scores[model] = {
+            'score': sum(scores) / len(scores),
+            'se': calculate_standard_error(scores)
+        }
+
+    # Calculate ensemble scores (both median and mean)
+    ensemble_scores = {
+        'GPT median': {
+            'score': sum(gpt_median_scores) / len(gpt_median_scores),
+            'se': calculate_standard_error(gpt_median_scores)
+        },
+        'Claude median': {
+            'score': sum(claude_median_scores) / len(claude_median_scores),
+            'se': calculate_standard_error(claude_median_scores)
+        },
+        'GPT mean': {
+            'score': sum(gpt_mean_scores) / len(gpt_mean_scores),
+            'se': calculate_standard_error(gpt_mean_scores)
+        },
+        'Claude mean': {
+            'score': sum(claude_mean_scores) / len(claude_mean_scores),
+            'se': calculate_standard_error(claude_mean_scores)
+        }
     }
 
-    return brier_scores, average_brier_scores, median_scores
+    return brier_scores, average_brier_scores, ensemble_scores
 
 def perform_statistical_tests(brier_scores):
     gpt_scores = [score for model, scores in brier_scores.items() if model.startswith('gpt') for score in scores]
@@ -75,15 +129,15 @@ def perform_statistical_tests(brier_scores):
         print("The effect size is large.")
 
 # Calculate and print results
-brier_scores, average_scores, median_scores = calculate_brier_scores(resolutions_file, outcomes_file)
+brier_scores, average_scores, ensemble_scores = calculate_brier_scores(resolutions_file, outcomes_file)
 
-print("Average Brier Scores:")
-for model, score in average_scores.items():
-    print(f"{model}: {score:.4f}")
+print("Average Brier Scores (score, standard error):")
+for model, result in average_scores.items():
+    print(f"{model}: {result['score']:.4f}, {result['se']:.4f}")
 
-print("\nMedian Brier Scores:")
-for model, score in median_scores.items():
-    print(f"{model}: {score:.4f}")
+print("\nEnsemble Brier Scores (score, standard error):")
+for model, result in ensemble_scores.items():
+    print(f"{model}: {result['score']:.4f}, {result['se']:.4f}")
 
 # Perform statistical tests
 perform_statistical_tests(brier_scores)
