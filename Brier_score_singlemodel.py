@@ -6,6 +6,13 @@ import numpy as np
 resolutions_file = 'aibq3_resolutions.csv'
 outcomes_file = 'aibq3_outcomes_past_claude_sonnet.csv'
 
+def calculate_standard_error(scores):
+    n = len(scores)
+    if n < 2:  # Need at least 2 samples to calculate standard deviation
+        return None
+    std_dev = statistics.stdev(scores)
+    return std_dev / (n ** 0.5)
+
 def calculate_brier_scores(resolutions_file, outcomes_file):
     # Read resolutions
     resolutions = {}
@@ -65,19 +72,35 @@ def calculate_brier_scores(resolutions_file, outcomes_file):
         mean_pred = statistics.mean(predictions)
         mean_prediction_brier.append((resolution - mean_pred) ** 2)
     
-    # Add ensemble results
-    results['median_ensemble'] = sum(median_prediction_brier) / len(median_prediction_brier)
-    results['mean_ensemble'] = sum(mean_prediction_brier) / len(mean_prediction_brier)
+    # Add ensemble results with standard errors
+    results['median_ensemble'] = {
+        'score': sum(median_prediction_brier) / len(median_prediction_brier),
+        'se': calculate_standard_error(median_prediction_brier)
+    }
+    results['mean_ensemble'] = {
+        'score': sum(mean_prediction_brier) / len(mean_prediction_brier),
+        'se': calculate_standard_error(mean_prediction_brier)
+    }
+    
+    # Add standard errors for individual models
+    for model in brier_scores.keys():
+        score = results[model]
+        results[model] = {
+            'score': score,
+            'se': calculate_standard_error(brier_scores[model])
+        }
     
     return results
 
 # Calculate and print results
 results = calculate_brier_scores(resolutions_file, outcomes_file)
 
-print("\nIndividual Model Brier Scores:")
+print("\nIndividual Model Brier Scores (score, standard error):")
 for model in ['claude0', 'claude1', 'claude2', 'claude3', 'claude4']:
-    print(f"{model}: {results[model]:.4f}")
+    score = results[model]['score']
+    se = results[model]['se']
+    print(f"{model}: {score:.4f}, {se:.4f}")
 
-print("\nEnsemble Brier Scores:")
-print(f"Median Ensemble: {results['median_ensemble']:.4f}")
-print(f"Mean Ensemble: {results['mean_ensemble']:.4f}")
+print("\nEnsemble Brier Scores (score, standard error):")
+print(f"Median Ensemble: {results['median_ensemble']['score']:.4f}, {results['median_ensemble']['se']:.4f}")
+print(f"Mean Ensemble: {results['mean_ensemble']['score']:.4f}, {results['mean_ensemble']['se']:.4f}")
