@@ -116,15 +116,14 @@ gpt4: 0.2805
 GPT median: 0.2430
 
 ### Narrative prompt after I fixed reversed predictions
-Average Brier Scores:
-gpt0: 0.2651
-gpt1: 0.2718
-gpt2: 0.2252
-gpt3: 0.2552
-gpt4: 0.2766
-
-GPT median: 0.2313
-GPT average: 0.2080
+Individual Model Brier Scores (score, standard error):
+gpt0: 0.2651, 0.0187
+gpt1: 0.2718, 0.0191
+gpt2: 0.2252, 0.0179
+gpt3: 0.2552, 0.0184
+gpt4: 0.2766, 0.0188
+Median: 0.2313, 0.0173
+Mean: 0.2080, 0.0133
 
 ### Narrative prompt with Tetlock and Silver (eq. to sonnet-new narrative prompt)
 Individual Model Brier Scores (score, standard error):
