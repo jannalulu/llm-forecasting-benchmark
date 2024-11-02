@@ -4,7 +4,7 @@ from scipy import stats
 import numpy as np
 
 resolutions_file = 'aibq3_resolutions.csv'
-outcomes_file = 'aibq3_outcomes_past_claude_sonnet.csv'
+outcomes_file = 'aibq3_outcomes_conf_4o.csv'
 
 def calculate_standard_error(scores):
     n = len(scores)
@@ -24,7 +24,7 @@ def calculate_brier_scores(resolutions_file, outcomes_file):
     # Store predictions by question for ensemble calculations
     question_predictions = {}
     # Store individual model Brier scores
-    brier_scores = {model: [] for model in ['claude0', 'claude1', 'claude2', 'claude3', 'claude4']}
+    brier_scores = {model: [] for model in ['gpt0', 'gpt1', 'gpt2', 'gpt3', 'gpt4']}
     
     # Read outcomes and store predictions by question
     with open(outcomes_file, 'r') as f:
@@ -96,7 +96,7 @@ def calculate_brier_scores(resolutions_file, outcomes_file):
 results = calculate_brier_scores(resolutions_file, outcomes_file)
 
 print("\nIndividual Model Brier Scores (score, standard error):")
-for model in ['claude0', 'claude1', 'claude2', 'claude3', 'claude4']:
+for model in ['gpt0', 'gpt1', 'gpt2', 'gpt3', 'gpt4']:
     score = results[model]['score']
     se = results[model]['se']
     print(f"{model}: {score:.4f}, {se:.4f}")
