@@ -4,33 +4,43 @@ Scraping folder contains scraping information
 - metaculus.py scrapes all binary, resolved questions.
 - metaculus_aibq3.py scrapes all resolved questions from aibq3 tournament
 - metaculus_aibq3_wd.py scrapes all resolved questions and background information
+- metaculus_data_aibq3_categories.csv has all the categorizes
+- classification gets Gemini to categorize the questions
+- metaculus_data_path.json exists because claude sonnet 3.5 old errorred out in the first resolution
 
 newspipeline.py takes each question query and open_date and gets the relevant articles from **before** that date from AskNews
 
 directprediction.py makes the prediction after reading articles from aibq3_news.json
+directprediction_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model
+direct_prediction_conf_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model and does 
 
 extract_probabilities.py gets probabilities from aibq3_predictions.json and writes it to a .csv
+extract_probabilities_conf.py gets probabilities from aibq3_predictions_conf_{model name}.json and writes it to a .csv
 
 Narrativeprompt_{company}.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
 
-Results:
-Average Brier Scores:
-gpt0: 0.2104
-gpt1: 0.1989
-gpt2: 0.1985
-gpt3: 0.1951
-gpt4: 0.2010
-claude0: 0.1923
-claude1: 0.2015
-claude2: 0.2100
-claude3: 0.1985
-claude4: 0.1992
-GPT average: 0.2008
-Claude average: 0.2003
+Brier_score.py calculates the Brier score for the .csv that has BOTH gpt-4o and sonnet 3.5 old
+Brier_score_singlemodel.py calculates the Brier score for a .csv that only has one model (currently 4o) 
 
-Median Brier Scores:
-GPT median: 0.2169
-Claude median: 0.2169
+Results:
+Average Brier Scores (score, standard error):
+gpt0: 0.2104, 0.0132
+gpt1: 0.1989, 0.0130
+gpt2: 0.1985, 0.0127
+gpt3: 0.1951, 0.0118
+gpt4: 0.2010, 0.0125
+claude0: 0.1923, 0.0127
+claude1: 0.2015, 0.0130
+claude2: 0.2100, 0.0135
+claude3: 0.1985, 0.0129
+claude4: 0.1992, 0.0129
+
+Ensemble Brier Scores (score, standard error):
+GPT median: 0.1968, 0.0122
+Claude median: 0.1947, 0.0125
+GPT mean: 0.1924, 0.0115
+Claude mean: 0.1910, 0.0119
+Combined mean: 0.1912
 
 Statistical Test Results:
 Paired t-test (GPT vs Claude):
@@ -40,39 +50,51 @@ The difference between GPT and Claude scores is not statistically significant (p
 
 Effect size (Cohen's d): 0.0021
 The effect size is small.
+### Brier scores for 4o with confidence levels:
+Individual Model Brier Scores (score, standard error):
+gpt0: 0.2186, 0.0133
+gpt1: 0.2141, 0.0134
+gpt2: 0.2166, 0.0130
+gpt3: 0.2095, 0.0129
+gpt4: 0.2122, 0.0133
+
+Ensemble Brier Scores (score, standard error):
+Median Ensemble: 0.2100, 0.0126
+Mean Ensemble: 0.2046, 0.0120
 
 ### Brier scores for new Sonnet model: 
-Individual Model Brier Scores:
-claude0: 0.1860
-claude1: 0.1798
-claude2: 0.1919
-claude3: 0.1826
-claude4: 0.1851
-
-Ensemble Brier Scores:
-Median Ensemble: 0.1810
-Mean Ensemble: 0.1785
+Individual Model Brier Scores (score, standard error):
+claude0: 0.1860, 0.0127
+claude1: 0.1798, 0.0127
+claude2: 0.1919, 0.0131
+claude3: 0.1826, 0.0127
+claude4: 0.1851, 0.0128
+Ensemble Brier Scores (score, standard error):
+Median Ensemble: 0.1810, 0.0126
+Mean Ensemble: 0.1785, 0.0120
 
 Cross-Model Ensemble Brier Scores (4o and Sonnet-new):
 Median of all predictions: 0.1791
 Mean of all predictions: 0.1792
 
 ### future prompt:
-Average Brier Scores:
-gpt0: 0.2099
-gpt1: 0.2005
-gpt2: 0.2117
-gpt3: 0.1887
-gpt4: 0.2097
-claude0: 0.1987
-claude1: 0.2074
-claude2: 0.2038
-claude3: 0.2119
-claude4: 0.2013
+Average Brier Scores (score, standard error):
+gpt0: 0.2099, 0.0143
+gpt1: 0.2005, 0.0138
+gpt2: 0.2117, 0.0143
+gpt3: 0.1887, 0.0136
+gpt4: 0.2097, 0.0147
+claude0: 0.1987, 0.0132
+claude1: 0.2074, 0.0137
+claude2: 0.2038, 0.0135
+claude3: 0.2119, 0.0133
+claude4: 0.2013, 0.0135
 
-Median Brier Scores:
-GPT median: 0.2038
-Claude median: 0.2169
+Ensemble Brier Scores (score, standard error):
+GPT median: 0.1950, 0.0132
+Claude median: 0.1897, 0.0123
+GPT mean: 0.1901, 0.0124
+Claude mean: 0.1891, 0.0117
 
 Statistical Test Results:
 Paired t-test (GPT vs Claude):
@@ -82,7 +104,7 @@ The difference between GPT and Claude scores is not statistically significant (p
 
 Effect size (Cohen's d): -0.0022
 The effect size is small.
-
+-------------------------------------------------------------------
 ### Narrative prompt
 Average Brier Scores:
 gpt0: 0.2694
@@ -105,16 +127,24 @@ GPT median: 0.2313
 GPT average: 0.2080
 
 ### Narrative prompt with Tetlock and Silver (eq. to sonnet-new narrative prompt)
-Individual Model Brier Scores:
-gpt0: 0.2529
-gpt1: 0.2255
-gpt2: 0.2277
-gpt3: 0.2406
-gpt4: 0.2442
+Individual Model Brier Scores (score, standard error):
+gpt0: 0.2302, 0.0104
+gpt1: 0.2255, 0.0097
+gpt2: 0.2161, 0.0096
+gpt3: 0.2177, 0.0100
+gpt4: 0.2212, 0.0101
+Median: 0.2053, 0.0088
+Mean: 0.2087, 0.0079
 
-Ensemble Brier Scores:
-Median Ensemble: 0.2284
-Mean Ensemble: 0.2216
+Average Brier Scores (sonnet-new):
+Individual Model Brier Scores (score, standard error):
+claude0: 0.2245, 0.0135
+claude1: 0.2219, 0.0135
+claude2: 0.2463, 0.0175
+claude3: 0.2329, 0.0136
+claude4: 0.2264, 0.0133
+Median: 0.2197, 0.0130
+Mean: 0.2180, 0.0120
 
 Average Brier Scores (sonnet-new): <-- only ran 3 times by mistake
 claude0: 0.2177
@@ -123,17 +153,7 @@ claude2: 0.2348
 Median: 0.2156
 Mean: 0.2090
 
-Average Brier Scores (sonnet-new):
-claude0: 0.2245
-claude1: 0.2219
-claude2: 0.2463
-claude3: 0.2329
-claude4: 0.2264
-Median: 0.2197
-Mean: 0.2180
-
 ### Comparing Sonnet new and o1 preview on test set
-
 Individual Model Brier Scores:
 gpt0: 0.1213
 gpt1: 0.3114
