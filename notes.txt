@@ -50,6 +50,7 @@ The difference between GPT and Claude scores is not statistically significant (p
 
 Effect size (Cohen's d): 0.0021
 The effect size is small.
+
 ### Brier scores for 4o with confidence levels:
 Individual Model Brier Scores (score, standard error):
 gpt0: 0.2186, 0.0133
@@ -57,10 +58,8 @@ gpt1: 0.2141, 0.0134
 gpt2: 0.2166, 0.0130
 gpt3: 0.2095, 0.0129
 gpt4: 0.2122, 0.0133
-
-Ensemble Brier Scores (score, standard error):
-Median Ensemble: 0.2100, 0.0126
-Mean Ensemble: 0.2046, 0.0120
+Median: 0.2100, 0.0126
+Mean: 0.2046, 0.0120
 
 ### Brier scores for new Sonnet model: 
 Individual Model Brier Scores (score, standard error):
@@ -69,9 +68,8 @@ claude1: 0.1798, 0.0127
 claude2: 0.1919, 0.0131
 claude3: 0.1826, 0.0127
 claude4: 0.1851, 0.0128
-Ensemble Brier Scores (score, standard error):
-Median Ensemble: 0.1810, 0.0126
-Mean Ensemble: 0.1785, 0.0120
+Median: 0.1810, 0.0126
+Mean: 0.1785, 0.0120
 
 Cross-Model Ensemble Brier Scores (4o and Sonnet-new):
 Median of all predictions: 0.1791
@@ -152,7 +150,7 @@ claude2: 0.2348
 Median: 0.2156
 Mean: 0.2090
 
-### Comparing Sonnet new and o1 preview on test set
+### Comparing Sonnet new and o1-preview on test set
 Individual Model Brier Scores:
 gpt0: 0.1213
 gpt1: 0.3114
