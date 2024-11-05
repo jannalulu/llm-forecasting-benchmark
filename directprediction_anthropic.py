@@ -123,7 +123,7 @@ def get_claude_prediction(question_details, formatted_articles):
   for attempt in range(max_retries):
     try:
       response = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
+        model="claude-3-5-haiku-20241022",
         max_tokens=4096,
         messages=[
           {"role": "user", "content": PROMPT_DIRECT_PREDICTION.format(**prompt_input)}
@@ -142,7 +142,7 @@ def get_claude_prediction(question_details, formatted_articles):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq3_predictions_past_claude_sonnet.json"
+  json_filename = "aibq3_predictions_past_claude_haiku.json"
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
@@ -188,8 +188,8 @@ def main():
       print(f"Run {run} for question {question_id}")
       
       claude_result = get_claude_prediction(question, formatted_articles)
-      print(f"Sonnet response (Run {run}): {claude_result}")
-      log_question_reasoning(question_id, claude_result, question['title'], "Sonnet3-5-new", run)
+      print(f"Haiku response (Run {run}): {claude_result}")
+      log_question_reasoning(question_id, claude_result, question['title'], "Haiku 3-5-new", run)
 
       question_data[f"claude_reasoning{run}"] = claude_result
 
