@@ -21,7 +21,7 @@ def calculate_standard_error(scores: List[float]) -> Optional[float]:
 def process_predictions(outcomes_file: str, resolutions: Dict[str, int]) -> Tuple[Dict[str, Dict], Dict[str, List[float]]]:
     """Process predictions from outcomes file and organize data for calculations."""
     question_predictions = {}
-    brier_scores = {f'gpt{i}': [] for i in range(5)}
+    brier_scores = {f'claude{i}': [] for i in range(5)}
     
     with open(outcomes_file, 'r') as f:
         reader = csv.DictReader(f)
@@ -96,7 +96,7 @@ def calculate_brier_scores(resolutions_file: str, outcomes_file: str) -> Dict[st
 def print_results(results: Dict[str, Dict[str, float]]) -> None:
     """Print formatted results."""
     print("\nIndividual Model Brier Scores (score, standard error):")
-    for model in [f'gpt{i}' for i in range(5)]:
+    for model in [f'claude{i}' for i in range(5)]:
         score = results[model]['score']
         se = results[model]['se']
         print(f"{model}: {score:.4f}, {se:.4f}")
@@ -107,7 +107,7 @@ def print_results(results: Dict[str, Dict[str, float]]) -> None:
 
 if __name__ == "__main__":
     resolutions_file = 'aibq3_resolutions.csv'
-    outcomes_file = 'aibq3_outcomes_conf_4o.csv'
+    outcomes_file = 'aibq3_outcomes_past_claude_haiku.csv'
     
     results = calculate_brier_scores(resolutions_file, outcomes_file)
     print_results(results)
