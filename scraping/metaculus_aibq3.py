@@ -8,7 +8,7 @@ from requests.exceptions import Timeout, RequestException
 load_dotenv()
 
 API_BASE_URL = "https://www.metaculus.com/api2"
-MAX_RETRIES = 3 # Retries 3 times
+MAX_RETRIES = 3
 RETRY_DELAY = 5 # Retry after 5 seconds
 
 def make_request_with_retry(url, headers=None, params=None):
@@ -97,7 +97,7 @@ def list_questions(tournament_id, count=None):
 	return all_questions
 
 def write_to_json():
-	processed_questions = list_questions(tournament_id=3349)
+	processed_questions = list_questions()
 	with open("metaculus_data_aibq3_wd.json", 'w', encoding='utf-8') as f:
 		json.dump(processed_questions, f)
 		
