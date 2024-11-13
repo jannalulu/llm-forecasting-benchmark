@@ -11,7 +11,7 @@ def create_calibration_plot():
     resolutions_df = pd.read_csv('aibq3_resolutions.csv')
     
     # Create bins for predictions (5% wide)
-    bins = np.arange(0, 105, 5) / 100  # Convert to probabilities
+    bins = np.arange(0, 105, 10) / 100  # Convert to probabilities
     bin_centers = (bins[:-1] + bins[1:]) / 2
     
     plt.figure(figsize=(10, 10))
