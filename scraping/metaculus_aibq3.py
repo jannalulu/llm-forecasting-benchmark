@@ -34,13 +34,12 @@ def get_question_details(question_id):
 	"""
 	url = f"{API_BASE_URL}/questions/{question_id}/"
 	response = make_request_with_retry(url)
-	return json.loads(response.content)
+	return response.json()
 
-def list_questions(tournament_id, count=None):
+def list_questions(tournament_id=3349, count=None):
 	"""
 	Get all resolved binary questions with specified fields
 	"""
-	tournament_id = 3349
 	offset = 0
 	all_questions = []
 	while True:
@@ -53,7 +52,7 @@ def list_questions(tournament_id, count=None):
 		url = f"{API_BASE_URL}/questions/"
 		try:
 			response = make_request_with_retry(url, params=url_params)
-			data = json.loads(response.content)
+			data = response.json()
 			questions = data.get('results', [])
 			
 			for question in questions:
@@ -96,11 +95,13 @@ def list_questions(tournament_id, count=None):
 	
 	return all_questions
 
-def write_to_json():
+def write_to_json(filename="metaculus_data_aibq3_wd.json"):
 	processed_questions = list_questions()
-	with open("metaculus_data_aibq3_wd.json", 'w', encoding='utf-8') as f:
+	with open(filename, 'w', encoding='utf-8') as f:
 		json.dump(processed_questions, f)
 		
 if __name__ == "__main__":
 	write_to_json()
-	print(f"Scraped {len(json.load(open('metaculus_data_aibq3_wd.json')))} questions.")
+	with open('metaculus_data_aibq3_wd.json', 'r') as f:
+		data = json.load(f)
+		print(f"Successfully scraped {len(data)} questions.")
