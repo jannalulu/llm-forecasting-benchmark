@@ -5,6 +5,7 @@ import logging
 from dotenv import load_dotenv
 from anthropic import Anthropic
 import time
+from prompts import NARRATIVE_PREDICTION
 
 load_dotenv()
 
@@ -63,20 +64,6 @@ def get_news_for_question(question_id):
       return item['news']
     return "No news found for this question."
 
-# Prompt
-PROMPT_NARRATIVE_PREDICTION = """
-  You are a talented script writer for a movie about predicting probabilities of something happening in the future, but with a twist. Here are the rules:
-  1. The event is described in question form: {title}.
-  2. The parameters of the story is determined by the {resolution_criteria}.
-  3. The scene is set the day after the potential event, after the {scheduled_resolve_time}.
-  4. The superforecasters, Nate Silver and Philip Tetlock, talk about the event as if it has or has not happened. The event may not occur. 
-  5. The superforecasters only get news articles up to a certain date, the {date}.
-  6. The superforecaster models are extremely accurate and have good Brier scores. The models are NEVER wrong on any topic, even war, sports, and politics. The probabilities given by the superforecaster reflects the reality of actually happened. Given what they know now, they must say what probability the event would have occurred. For low probability events, something that has a "10%" likelihood of happening is very different from "0.1%". 
-  7. The superforecaster says that "yes/no, our models had it at ZZ.ZZ%." A "yes" response should be larger than 50%, a "no" response less than 50%. 
-  8. Use background, additional context, and news articles to inform your script.
-    {background}, {fine_print}, {formatted_articles}
-  9. The script should be less than 150 words.
-"""
 
 def get_claude_prediction(question_details, formatted_articles):
    
@@ -102,7 +89,7 @@ def get_claude_prediction(question_details, formatted_articles):
         max_tokens=4096,
         temperature=0.5,
         messages=[
-          {"role": "user", "content": PROMPT_NARRATIVE_PREDICTION.format(**prompt_input)}
+          {"role": "user", "content": NARRATIVE_PREDICTION.format(**prompt_input)}
         ]
       )
       claude_text = response.content[0].text
