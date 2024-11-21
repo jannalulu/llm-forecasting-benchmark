@@ -4,11 +4,11 @@ import numpy as np
 
 def create_calibration_plot():
     # Read the predictions and resolutions
-    narrative_claude_df = pd.read_csv('aibq3_outcomes_narrative_claude_sonnet.csv')
-    direct_claude_df = pd.read_csv('aibq3_outcomes_past_claude_sonnet.csv')
-    old_sonnet_df = pd.read_csv('aibq3_outcomes_past_4osonnet.csv')
-    narrative_gpt_df = pd.read_csv('aibq3_outcomes_narrative_4o.csv')
-    resolutions_df = pd.read_csv('aibq3_resolutions.csv')
+    narrative_claude_df = pd.read_csv('../aibq3_outcomes_narrative_claude_sonnet.csv')
+    direct_claude_df = pd.read_csv('../aibq3_outcomes_past_claude_sonnet.csv')
+    old_sonnet_df = pd.read_csv('../aibq3_outcomes_past_4osonnet.csv')
+    narrative_gpt_df = pd.read_csv('../aibq3_outcomes_narrative_4o.csv')
+    resolutions_df = pd.read_csv('../aibq3_resolutions.csv')
     
     # Create bins for predictions (5% wide)
     bins = np.arange(0, 105, 10) / 100  # Convert to probabilities

@@ -5,11 +5,11 @@ from sklearn.calibration import calibration_curve
 
 def create_prediction_scatterplot():
     # Read the CSV files
-    narrative_df = pd.read_csv('aibq3_outcomes_narrative_4o.csv')
-    sonnet_df = pd.read_csv('aibq3_outcomes_past_claude_sonnet.csv')
-    haiku_df = pd.read_csv('aibq3_outcomes_past_claude_haiku.csv')
-    old_sonnet_df = pd.read_csv('aibq3_outcomes_past_4osonnet.csv')
-    narrative_sonnet_df = pd.read_csv('aibq3_outcomes_narrative_claude_sonnet.csv')
+    narrative_df = pd.read_csv('../aibq3_outcomes_narrative_4o.csv')
+    sonnet_df = pd.read_csv('../aibq3_outcomes_past_claude_sonnet.csv')
+    haiku_df = pd.read_csv('../aibq3_outcomes_past_claude_haiku.csv')
+    old_sonnet_df = pd.read_csv('../aibq3_outcomes_past_4osonnet.csv')
+    narrative_sonnet_df = pd.read_csv('../aibq3_outcomes_narrative_claude_sonnet.csv')
     
     # Create figure with subplots
     fig, ax = plt.subplots(figsize=(10, 6))
