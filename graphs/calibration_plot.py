@@ -44,10 +44,10 @@ def create_calibration_plot():
         plt.plot(bin_centers, observed_freqs, marker, label=label)
     
     # Plot each model
-    plot_model_calibration(narrative_claude_df, 'claude', 'Claude (narrative)', 's-', 'prob')
-    plot_model_calibration(direct_claude_df, 'claude', 'Claude (direct)', 'o-', 'final')
-    plot_model_calibration(old_sonnet_df, 'claude', 'Claude (old)', '^-', 'final')
-    plot_model_calibration(narrative_gpt_df, 'gpt', 'GPT-4 (narrative)', 'd-', 'prob')
+    plot_model_calibration(narrative_claude_df, 'claude', 'Claude Sonnet (narrative)', 's-', 'prob')
+    plot_model_calibration(direct_claude_df, 'claude', 'Claude Sonnet (direct)', 'o-', 'final')
+    plot_model_calibration(old_sonnet_df, 'claude', 'Claude Sonnet (old)', '^-', 'final')
+    plot_model_calibration(narrative_gpt_df, 'gpt', 'GPT-4o (narrative)', 'd-', 'prob')
     
     plt.xlabel('Predicted probability')
     plt.ylabel('Observed frequency')
