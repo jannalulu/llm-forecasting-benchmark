@@ -14,7 +14,7 @@ directprediction.py makes the prediction after reading articles from aibq3_news.
 directprediction_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model
 direct_prediction_conf_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model and does 
 
-extract_probabilities.py gets probabilities from aibq3_predictions.json and writes it to a .csv
+extract_probabilities.py gets probabilities from aibq3_predictions_{model name}.json and writes it to a .csv
 extract_probabilities_conf.py gets probabilities from aibq3_predictions_conf_{model name}.json and writes it to a .csv
 
 Narrativeprompt_{company}.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
