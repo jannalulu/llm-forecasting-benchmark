@@ -4,8 +4,10 @@ Scraping folder contains scraping information
 - `metaculus.py` scrapes all binary, resolved questions.
 - `metaculus_aibq3.py` scrapes all resolved questions from aibq3 tournament
 - `metaculus_aibq3_wd.py` scrapes all resolved questions and background information
-- `metaculus_data_aibq3_categories.csv` has all the categorizes
-- classification gets Gemini to categorize the questions
+- `metaculus_data_binary_resolved_all.json` contains ALL binary, resolved questions from Metaculus
+- `metaculus_data_binary_resolved_May24.json` contains ALL binary, resolved questions from Metaculus after May 1, 2024
+- `classification.py` gets Gemini to categorize the questions
+- `metaculus_data_aibq3_categories.csv` has all the categories
 - `metaculus_data_path.json` exists because claude sonnet 3.5 old errorred out in the first resolution
 
 Graphs folder contains visualizations
