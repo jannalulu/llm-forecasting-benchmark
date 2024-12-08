@@ -5,6 +5,7 @@ from anthropic import Anthropic
 from openai import OpenAI
 from dotenv import load_dotenv
 from prompts import DIRECT_PREDICTION
+from prompts import NARRATIVE_PREDICTION
 
 load_dotenv()
 
@@ -117,3 +118,68 @@ def get_gemini_prediction(question_details, formatted_articles):
       else:
         logging.error(f"Gemini API error persisted after {max_retries} retries: {e}")
         return None
+
+def get_claude_prediction_narrative(question_details, formatted_articles):
+   
+  prompt_input = {
+    "title": question_details["title"],
+    "background": question_details.get("background", ""),
+    "resolution_criteria": question_details.get("resolution_criteria", ""),
+    "fine_print": question_details.get("fine_print", ""),
+    "formatted_articles": formatted_articles,
+    "date": question_details["open_time"],
+    "scheduled_resolve_time": question_details["scheduled_resolve_time"]
+  }
+
+  client = Anthropic(api_key=ANTHROPIC_API_KEY)
+
+  max_retries = 10
+  base_delay = 1
+
+  for attempt in range(max_retries):
+    try:
+      response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=4096,
+        temperature=0.5,
+        messages=[
+          {"role": "user", "content": NARRATIVE_PREDICTION.format(**prompt_input)}
+        ]
+      )
+      claude_text = response.content[0].text
+      return claude_text
+    except Exception as e:
+      if attempt < max_retries - 1:
+        delay = base_delay * (2 ** attempt)  # Exponential backoff
+        logging.warning(f"Claude API error on attempt {attempt + 1}/{max_retries}. Retrying in {delay} seconds... Error: {e}")
+        time.sleep(delay)
+      else:
+        logging.error(f"Claude API error persisted after {max_retries} retries: {e}")
+        return None
+
+def get_gpt_prediction_narrative(question_details, formatted_articles):
+  client = OpenAI(api_key=OPENAI_API_KEY)
+
+  prompt_input = {
+    "title": question_details["title"],
+    "background": question_details.get("background", ""),
+    "resolution_criteria": question_details.get("resolution_criteria", ""),
+    "fine_print": question_details.get("fine_print", ""),
+    "formatted_articles": formatted_articles,
+    "date": question_details["open_time"],
+    "scheduled_resolve_time": question_details["scheduled_resolve_time"]
+  }
+
+  try:
+    response = client.chat.completions.create(
+      model="gpt-4o",
+      temperature=0.5,
+      messages=[
+        {"role": "user", "content": NARRATIVE_PREDICTION.format(**prompt_input)}
+      ]
+    )
+    gpt_text = response.choices[0].message.content
+    return gpt_text
+  except Exception as e:
+    print(f"Error in GPT prediction: {e}")
+    return None
