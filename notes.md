@@ -1,29 +1,30 @@
-Notes: 
+# Notes: 
 
 Scraping folder contains scraping information
-- metaculus.py scrapes all binary, resolved questions.
-- metaculus_aibq3.py scrapes all resolved questions from aibq3 tournament
-- metaculus_aibq3_wd.py scrapes all resolved questions and background information
-- metaculus_data_aibq3_categories.csv has all the categorizes
+- `metaculus.py` scrapes all binary, resolved questions.
+- `metaculus_aibq3.py` scrapes all resolved questions from aibq3 tournament
+- `metaculus_aibq3_wd.py` scrapes all resolved questions and background information
+- `metaculus_data_aibq3_categories.csv` has all the categorizes
 - classification gets Gemini to categorize the questions
-- metaculus_data_path.json exists because claude sonnet 3.5 old errorred out in the first resolution
+- `metaculus_data_path.json` exists because claude sonnet 3.5 old errorred out in the first resolution
 
-newspipeline.py takes each question query and open_date and gets the relevant articles from **before** that date from AskNews
+newspipeline.py takes each question query and open_date and gets the relevant articles from *before* that date from AskNews
 
-directprediction.py makes the prediction after reading articles from aibq3_news.json
-directprediction_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model
-direct_prediction_conf_{company name}.py makes predictions after reading articles from aibq3_news.json for each {company name} model and does 
+`models.py` contains all the code to call models. Prompts located in `prompts.py`
+`directprediction.py` asks the LLM makes the prediction after reading articles from aibq3_news.json
 
-extract_probabilities.py gets probabilities from aibq3_predictions_{model name}.json and writes it to a .csv
-extract_probabilities_conf.py gets probabilities from aibq3_predictions_conf_{model name}.json and writes it to a .csv
+`extract_probabilities.py` gets probabilities from aibq3_predictions_{model name}.json and writes it to a .csv
+`extract_probabilities_conf.py` gets probabilities from aibq3_predictions_conf_{model name}.json and writes it to a .csv
 
-Narrativeprompt_{company}.py contains the prompt to Opus to turn the question and resolution criteria into a prompt
+`Narrativeprediction.py` asks the LLM to write a script between Tetlock and Silver the day *after* the question's scheduled close date, and say the probability the models had calculated before the event.
 
-Brier_score.py calculates the Brier score for the .csv that has BOTH gpt-4o and sonnet 3.5 old
-Brier_score_singlemodel.py calculates the Brier score for a .csv that only has one model (currently 4o) 
+`Brier_score.py` calculates the Brier score for the .csv that has BOTH gpt-4o and sonnet 3.5 old
+`Brier_score_singlemodel.py` calculates the Brier score for a .csv that only has one model (currently 4o) 
 
-Results:
-Average Brier Scores (score, standard error):
+# Results:
+## Direct Prediction
+### Brier Scores for 4o and old Sonnet 3.5
+Individual Model Brier Scores(score, standard error):
 gpt0: 0.2104, 0.0132
 gpt1: 0.1989, 0.0130
 gpt2: 0.1985, 0.0127
@@ -112,8 +113,10 @@ The difference between GPT and Claude scores is not statistically significant (p
 
 Effect size (Cohen's d): -0.0022
 The effect size is small.
--------------------------------------------------------------------
-### Narrative prompt
+
+## Narrative Prompt
+
+### Brier scores for 4o
 Average Brier Scores:
 gpt0: 0.2694
 gpt1: 0.2819
@@ -123,7 +126,7 @@ gpt4: 0.2805
 
 GPT median: 0.2430
 
-### Narrative prompt after I fixed reversed predictions
+### Brier scores for 4o after I fixed flipped scenarios
 Individual Model Brier Scores (score, standard error):
 gpt0: 0.2651, 0.0187
 gpt1: 0.2718, 0.0191
@@ -133,7 +136,7 @@ gpt4: 0.2766, 0.0188
 Median: 0.2313, 0.0173
 Mean: 0.2080, 0.0133
 
-### Narrative prompt with Tetlock and Silver (eq. to sonnet-new narrative prompt)
+### 4o Brier scores prompted to be Tetlock and Silver
 Individual Model Brier Scores (score, standard error):
 gpt0: 0.2302, 0.0104
 gpt1: 0.2255, 0.0097
@@ -143,6 +146,7 @@ gpt4: 0.2212, 0.0101
 Median: 0.2053, 0.0088
 Mean: 0.2087, 0.0079
 
+### new Sonnet 3.5 Brier scores prompted to be Tetlock and Silver
 Average Brier Scores (sonnet-new):
 Individual Model Brier Scores (score, standard error):
 claude0: 0.2245, 0.0135
@@ -160,6 +164,18 @@ claude2: 0.2348
 Median: 0.2156
 Mean: 0.2090
 
+
+##  Brier Scores by Category (average of 5 runs)
+category,Claude Sonnet (new),Claude Haiku,Claude Sonnet (old),GPT-4o,Narrative Claude,Narrative 4o,Conf 4o
+Arts & Recreation,0.1657,0.1686,0.1584,0.1683,0.1686,0.2076,0.1633
+Economics & Business,0.2223,0.2767,0.2258,0.2149,0.2819,0.2429,0.2289
+Environment & Energy,0.2073,0.338,0.2334,0.2845,0.2695,0.2568,0.3087
+Healthcare & Biology,0.1697,0.2087,0.1769,0.1658,0.1989,0.1868,0.181
+Politics & Governance,0.1624,0.2324,0.1807,0.1699,0.2283,0.1919,0.19
+Science & Tech,0.2047,0.3134,0.2425,0.2623,0.1994,0.2503,0.2744
+Sports,0.1554,0.2086,0.1714,0.1925,0.2075,0.2677,0.1844
+
+## Misc
 ### Comparing Sonnet new and o1-preview on test set
 Individual Model Brier Scores:
 gpt0: 0.1213
@@ -181,13 +197,3 @@ claude4: 0.2629
 Ensemble Brier Scores:
 Median Ensemble: 0.1566
 Mean Ensemble: 0.1748
-
-# Categorization
-category,Claude Sonnet (new),Claude Haiku,Claude Sonnet (old),GPT-4o,Narrative Claude,Narrative 4o,Conf 4o
-Arts & Recreation,0.1657,0.1686,0.1584,0.1683,0.1686,0.2076,0.1633
-Economics & Business,0.2223,0.2767,0.2258,0.2149,0.2819,0.2429,0.2289
-Environment & Energy,0.2073,0.338,0.2334,0.2845,0.2695,0.2568,0.3087
-Healthcare & Biology,0.1697,0.2087,0.1769,0.1658,0.1989,0.1868,0.181
-Politics & Governance,0.1624,0.2324,0.1807,0.1699,0.2283,0.1919,0.19
-Science & Tech,0.2047,0.3134,0.2425,0.2623,0.1994,0.2503,0.2744
-Sports,0.1554,0.2086,0.1714,0.1925,0.2075,0.2677,0.1844
