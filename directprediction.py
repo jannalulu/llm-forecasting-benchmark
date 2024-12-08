@@ -2,12 +2,9 @@ import json
 import os
 import sys
 import logging
-from dotenv import load_dotenv
 from models import CLAUDE_MODEL, get_claude_prediction
 from models import GPT_MODEL, get_gpt_prediction
 from models import GEMINI_MODEL, get_gemini_prediction
-
-load_dotenv()
 
 logging.basicConfig(
   level=logging.INFO,
@@ -37,7 +34,7 @@ def log_question_reasoning(question_id, reasoning, question_title, model_name, r
 
 def list_questions():
   """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_nosolution.json"""
-  with open('scraping/metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
+  with open('test/test_metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
     {
