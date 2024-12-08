@@ -8,6 +8,8 @@ Scraping folder contains scraping information
 - classification gets Gemini to categorize the questions
 - `metaculus_data_path.json` exists because claude sonnet 3.5 old errorred out in the first resolution
 
+Graphs folder contains visualizations
+
 newspipeline.py takes each question query and open_date and gets the relevant articles from *before* that date from AskNews
 
 `models.py` contains all the code to call models. Prompts located in `prompts.py`
