@@ -2,10 +2,10 @@ import json
 import os
 import sys
 import logging
-import time
 from dotenv import load_dotenv
-from anthropic import Anthropic
-from prompts import DIRECT_PREDICTION
+from models import CLAUDE_MODEL, get_claude_prediction
+from models import GPT_MODEL, get_gpt_prediction
+from models import GEMINI_MODEL, get_gemini_prediction
 
 load_dotenv()
 
@@ -17,9 +17,6 @@ logging.basicConfig(
     logging.StreamHandler(sys.stdout)
   ]
 )
-
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
@@ -61,42 +58,6 @@ def get_news_for_question(question_id):
     if item['question_id'] == question_id:
       return item['news']
   return "No news found for this question."
-
-def get_claude_prediction(question_details, formatted_articles):
-   
-  prompt_input = {
-    "title": question_details["title"],
-    "background": question_details.get("background", ""),
-    "resolution_criteria": question_details.get("resolution_criteria", ""),
-    "fine_print": question_details.get("fine_print", ""),
-    "formatted_articles": formatted_articles,
-    "today": question_details["open_time"]
-  }
-
-  client = Anthropic(api_key=ANTHROPIC_API_KEY)
-
-  max_retries = 10
-  base_delay = 1
-
-  for attempt in range(max_retries):
-    try:
-      response = client.messages.create(
-        model="claude-3-5-haiku-20241022",
-        max_tokens=4096,
-        messages=[
-          {"role": "user", "content": DIRECT_PREDICTION.format(**prompt_input)}
-        ]
-      )
-      claude_text = response.content[0].text
-      return claude_text
-    except Exception as e:
-      if attempt < max_retries - 1:
-        delay = base_delay * (2 ** attempt)  # Exponential backoff
-        logging.warning(f"Claude API error on attempt {attempt + 1}/{max_retries}. Retrying in {delay} seconds... Error: {e}")
-        time.sleep(delay)
-      else:
-        logging.error(f"Claude API error persisted after {max_retries} retries: {e}")
-        return None
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
@@ -145,11 +106,11 @@ def main():
     for run in range(5):
       print(f"Run {run} for question {question_id}")
       
-      claude_result = get_claude_prediction(question, formatted_articles)
-      print(f"Haiku response (Run {run}): {claude_result}")
-      log_question_reasoning(question_id, claude_result, question['title'], "Haiku 3-5-new", run)
+      llm_result = get_claude_prediction(question, formatted_articles) # get_"llm"_prediction
+      print(f"{CLAUDE_MODEL} response (Run {run}): {llm_result}")
+      log_question_reasoning(question_id, llm_result, question['title'], CLAUDE_MODEL, run)
 
-      question_data[f"claude_reasoning{run}"] = claude_result
+      question_data[f"claude_reasoning{run}"] = llm_result
 
     batch_questions_data.append(question_data)
 
