@@ -33,7 +33,7 @@ def log_question_reasoning(question_id, reasoning, question_title, model_name, r
   logger.info(f"Run {run_number}:\n{reasoning}\n")
 
 def list_questions():
-  """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_nosolution.json"""
+  """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_wd.json"""
   with open('test/test_metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
