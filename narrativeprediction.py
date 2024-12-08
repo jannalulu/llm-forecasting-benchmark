@@ -2,11 +2,10 @@ import json
 import os
 import sys
 import logging
-from dotenv import load_dotenv
-from openai import OpenAI
-from prompts import NARRATIVE_PREDICTION
+from models import CLAUDE_MODEL, get_claude_prediction_narrative
+from models import GPT_MODEL, get_gpt_prediction_narrative
+from models import GEMINI_MODEL, get_gemini_prediction_narrative
 
-load_dotenv()
 
 logging.basicConfig(
   level=logging.INFO,
@@ -16,9 +15,6 @@ logging.basicConfig(
     logging.StreamHandler(sys.stdout)
   ]
 )
-
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
@@ -38,7 +34,7 @@ def log_question_reasoning(question_id, reasoning, question_title, model_name, r
   logger.info(f"Run {run_number}:\n{reasoning}\n")
 
 def list_questions():
-  """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_nosolution.json"""
+  """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_wd.json"""
   with open('scraping/metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
@@ -63,36 +59,9 @@ def get_news_for_question(question_id):
       return item['news']
     return "No news found for this question."
 
-def get_gpt_prediction(question_details, formatted_articles):
-  client = OpenAI(api_key=OPENAI_API_KEY)
-
-  prompt_input = {
-    "title": question_details["title"],
-    "background": question_details.get("background", ""),
-    "resolution_criteria": question_details.get("resolution_criteria", ""),
-    "fine_print": question_details.get("fine_print", ""),
-    "formatted_articles": formatted_articles,
-    "date": question_details["open_time"],
-    "scheduled_resolve_time": question_details["scheduled_resolve_time"]
-  }
-
-  try:
-    response = client.chat.completions.create(
-      model="gpt-4o",
-      temperature=0.5,
-      messages=[
-        {"role": "user", "content": NARRATIVE_PREDICTION.format(**prompt_input)}
-      ]
-    )
-    gpt_text = response.choices[0].message.content
-    return gpt_text
-  except Exception as e:
-    print(f"Error in GPT prediction: {e}")
-    return None
-
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq3_predictions_narrative_4o.json"
+  json_filename = "aibq3_predictions_narrative_{CLAUDE_MODEL}.json"
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
@@ -136,13 +105,13 @@ def main():
     
     for run in range(5):
       print(f"Run {run} for question {question_id}")
-      
-      gpt_result = get_gpt_prediction(question, formatted_articles)
-      print(f"4o response (Run {run}): {gpt_result}")
-      
-      log_question_reasoning(question_id, gpt_result, question['title'], "4o", run)
 
-      question_data[f"gpt_reasoning{run}"] = gpt_result
+      llm_result = get_claude_prediction_narrative(question, formatted_articles)
+      print(f"{CLAUDE_MODEL} response (Run {run}): {llm_result}")
+      
+      log_question_reasoning(question_id, llm_result, question['title'], CLAUDE_MODEL, run)
+
+      question_data[f"{CLAUDE_MODEL}_reasoning{run}"] = llm_result
 
     batch_questions_data.append(question_data)
 
