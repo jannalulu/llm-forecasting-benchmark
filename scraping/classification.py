@@ -20,9 +20,7 @@ def categorize_batch(batch):
     'Economics & Business',
     'Environment & Energy',
     'Politics & Governance',
-    'Education & Research',
     'Arts & Recreation',
-    'Security & Defense',
     'Sports',
     'Other']
 
@@ -87,7 +85,7 @@ def process_json_file(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
 
-    output_file = 'scraping/metaculus_data_aibq3_categories_1.csv'
+    output_file = 'metaculus_data_aibq4_categories.csv'
     with open(output_file, 'w', newline='') as outfile:
         writer = csv.writer(outfile)
         writer.writerow(['question_id', 'category'])
@@ -112,4 +110,4 @@ def process_json_file(file_path):
         print(f"Categorization complete. Processed {processed_count} items. Results saved in '{output_file}'")
 
 if __name__ == "__main__":
-    process_json_file('scraping/metaculus_data_aibq3_wd.json')
+    process_json_file('metaculus_data_aibq4_wd.json')
