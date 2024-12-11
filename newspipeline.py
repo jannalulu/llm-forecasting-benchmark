@@ -16,7 +16,7 @@ logging.basicConfig(
   level=logging.INFO,
   format='%(asctime)s - %(levelname)s - %(message)s',
   handlers=[
-    logging.FileHandler("newspipelineq3.log", mode='a', encoding='utf-8'),
+    logging.FileHandler("newspipeline.log", mode='a', encoding='utf-8'),
     logging.StreamHandler(sys.stdout)
   ]
 )
@@ -29,7 +29,7 @@ all_questions: List[Dict] = []
 
 def setup_question_logger(question_id, log_type):
   """Set up a logger for a specific question and log type."""
-  log_filename = f"logs/aibq3_{question_id}_{log_type}.log"
+  log_filename = f"logs/aibq4_{question_id}_{log_type}.log"
   logger = logging.getLogger(f"{question_id}_{log_type}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -41,7 +41,7 @@ def setup_question_logger(question_id, log_type):
 def log_questions_news(questions_data: List[Dict]):
     """Log questions and their news articles to a JSON file."""
     global all_questions
-    json_filename = "aibq3_news.json"
+    json_filename = "aibq4_news.json"
     logging.info(f"Adding {len(questions_data)} items to the collection")
     
     try:
@@ -58,7 +58,7 @@ def log_questions_news(questions_data: List[Dict]):
 
 # Get questions ID, title, and open_time from scraped metaculus data
 def list_questions():
-  with open('scraping/metaculus_data_aibq3_nosolution.json', 'r') as f:
+  with open('scraping/metaculus_data_aibq4_wd.json', 'r') as f:
     data = json.load(f)
   return [
     {
@@ -92,7 +92,7 @@ def get_formatted_asknews_context(query, news_date, ask, news_logger):
   try:
     question_open_date = datetime.datetime.strptime(news_date, "%Y-%m-%dT%H:%M:%SZ")
     end_timestamp = int(question_open_date.replace(hour=23, minute=59, second=59).timestamp()) # End timestamp is set to the end of the day of the question's open date
-    start_timestamp = int((question_open_date - datetime.timedelta(days=59)).replace(hour=0, minute=0, second=0).timestamp())
+    start_timestamp = int((question_open_date - datetime.timedelta(days=58)).replace(hour=0, minute=0, second=0).timestamp())
 
     hot_response = asknews_api_call_with_retry(
       ask.news.search_news,
