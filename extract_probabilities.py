@@ -37,26 +37,26 @@ def process_json_data(json_file):
         results[question_id] = {}
         
         for i in range(5):
-            claude_key = f'claude_reasoning{i}'
+            gemini_key = f'gemini-2.0-flash-exp_reasoning{i}'
             
-            if claude_key in item:
-                results[question_id][f'claude{i}'] = extract_probabilities(item[claude_key])
+            if gemini_key in item:
+                results[question_id][f'geminiflash2{i}'] = extract_probabilities(item[gemini_key])
 
     return results
 
-def write_to_csv(results, filename='aibq3_outcomes_past_claude_haiku.csv'):
+def write_to_csv(results, filename='aibq4_outcomes_past_gemini_flash2.csv'):
     file_exists = os.path.isfile(filename)
     
     with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         
         if not file_exists:
-            headers = ['question_id'] + [f'{model}{i}_{metric}' for model in ['claude'] for i in range(5) for metric in ['min', 'max', 'final']]
+            headers = ['question_id'] + [f'{model}{i}_{metric}' for model in ['geminiflash2'] for i in range(5) for metric in ['min', 'max', 'final']]
             writer.writerow(headers)
         
         for question_id, probabilities in results.items():
             row = [question_id]
-            for model in ['claude']:
+            for model in ['geminiflash2']:
                 for i in range(5):
                     key = f'{model}{i}'
                     probs = probabilities.get(key, (None, None, None))
@@ -66,6 +66,6 @@ def write_to_csv(results, filename='aibq3_outcomes_past_claude_haiku.csv'):
     logging.info(f"Results written to {filename}")
 
 if __name__ == "__main__":
-    json_file = "aibq3_predictions_past_claude_haiku.json" 
+    json_file = "aibq4_predictions_past_gemini_flash2.json" 
     results = process_json_data(json_file)
     write_to_csv(results)

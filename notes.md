@@ -12,7 +12,7 @@ Scraping folder contains scraping information
 
 Graphs folder contains visualizations
 
-newspipeline.py takes each question query and open_date and gets the relevant articles from *before* that date from AskNews
+`newspipeline.py` takes each question query and open_date and gets the relevant articles from *before* that date from AskNews
 
 `models.py` contains all the code to call models. Prompts located in `prompts.py`
 `directprediction.py` asks the LLM makes the prediction after reading articles from aibq3_news.json
