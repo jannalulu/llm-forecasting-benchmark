@@ -34,7 +34,7 @@ def log_question_reasoning(question_id, reasoning, question_title, model_name, r
 
 def list_questions():
   """Get questions and resolution_criteria, fine_print, open_time, title, and id from scraping/metaculus_data_aibq3_wd.json"""
-  with open('test/test_metaculus_data_aibq3_wd.json', 'r', encoding='utf-8') as f:
+  with open('scraping/metaculus_data_aibq4_wd.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
   return [
     {
@@ -49,7 +49,7 @@ def list_questions():
 
 def get_news_for_question(question_id):
   """Get news articles for a specific question ID from aibq3_news.json"""
-  with open('aibq3_news.json', 'r', encoding='utf-8') as f:
+  with open('aibq4_news.json', 'r', encoding='utf-8') as f:
     news_data = json.load(f)
   for item in news_data:
     if item['question_id'] == question_id:
@@ -58,7 +58,7 @@ def get_news_for_question(question_id):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq3_predictions_past_claude_haiku.json"
+  json_filename = "aibq4_predictions_past_gemini_2_flash.json" # test
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
@@ -103,11 +103,11 @@ def main():
     for run in range(5):
       print(f"Run {run} for question {question_id}")
       
-      llm_result = get_claude_prediction(question, formatted_articles) # get_"llm"_prediction
-      print(f"{CLAUDE_MODEL} response (Run {run}): {llm_result}")
-      log_question_reasoning(question_id, llm_result, question['title'], CLAUDE_MODEL, run)
+      llm_result = get_gemini_prediction(question, formatted_articles) # get_"llm"_prediction
+      print(f"{GEMINI_MODEL} response (Run {run}): {llm_result}")
+      log_question_reasoning(question_id, llm_result, question['title'], GEMINI_MODEL, run)
 
-      question_data[f"claude_reasoning{run}"] = llm_result
+      question_data[f"{GEMINI_MODEL}_reasoning{run}"] = llm_result
 
     batch_questions_data.append(question_data)
 

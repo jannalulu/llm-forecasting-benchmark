@@ -1,3 +1,4 @@
+# This script processes resolution data from metaculus_data_aibq3.json which is created by scraping/metaculus_aibq3.py
 import json
 import csv
 
@@ -22,7 +23,7 @@ def process_json_file(input_file, output_file):
 
   print(f"File '{output_file}' has been created successfully.")
 
-input_file = 'scraping/metaculus_data_aibq3.json'
-output_file = 'aibq3_resolutions.csv'
+input_file = 'scraping/metaculus_data_aibq4_wd.json'
+output_file = 'aibq4_resolutions.csv'
 
 process_json_file(input_file, output_file)
