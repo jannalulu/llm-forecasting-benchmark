@@ -90,6 +90,18 @@ gpt4: 0.2122, 0.0133
 Median: 0.2100, 0.0126
 Mean: 0.2046, 0.0120
 
+### Brier scores for Gemini 2.0 Flash (q4 dataset):
+Individual Model Brier Scores (score, standard error):
+geminiflash20: 0.2351, 0.0192
+geminiflash21: 0.2249, 0.0179
+geminiflash22: 0.2338, 0.0206
+geminiflash23: 0.2216, 0.0203
+geminiflash24: 0.2439, 0.0208
+
+Ensemble Brier Scores (score, standard error):
+Median Ensemble: 0.2227, 0.0189
+Mean Ensemble: 0.2194, 0.0173
+
 ### future prompt:
 Average Brier Scores (score, standard error):
 gpt0: 0.2099, 0.0143
