@@ -36,7 +36,7 @@ def get_question_details(question_id):
 	response = make_request_with_retry(url)
 	return response.json()
 
-def list_questions(tournament_id=3349, count=None):
+def list_questions(tournament_id=32506, count=None):
 	"""
 	Get all resolved binary questions with specified fields
 	"""
@@ -95,13 +95,13 @@ def list_questions(tournament_id=3349, count=None):
 	
 	return all_questions
 
-def write_to_json(filename="metaculus_data_aibq3_wd.json"):
+def write_to_json(filename="metaculus_data_aibq4_wd.json"):
 	processed_questions = list_questions()
 	with open(filename, 'w', encoding='utf-8') as f:
 		json.dump(processed_questions, f)
 		
 if __name__ == "__main__":
 	write_to_json()
-	with open('metaculus_data_aibq3_wd.json', 'r') as f:
+	with open('metaculus_data_aibq4_wd.json', 'r') as f:
 		data = json.load(f)
 		print(f"Successfully scraped {len(data)} questions.")
