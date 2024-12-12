@@ -14,7 +14,7 @@ OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
 GPT_MODEL = "gpt-4o"
-GEMINI_MODEL = "gemini-1.5-pro-002"
+GEMINI_MODEL = "gemini-2.0-flash-exp"
 
 max_retries = 10
 base_delay = 1

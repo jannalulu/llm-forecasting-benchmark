@@ -1,0 +1,1073 @@
+2024-12-11 16:05:34,136 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:34,137 - INFO - Run 0:
+Okay, let's break down this forecasting question.
+
+**1. Triage and Reference Predictions:**
+
+*   **Existing Predictions:** I don't have access to live polling aggregators or prediction markets like Polymarket or FiveThirtyEight in real time. However, the news articles provided give some polling data that needs to be considered. I'll be treating these news articles as my primary source, and will have to do my best to emulate predictions from those kind of sources. 
+
+**2. Break Down the Problem:**
+
+The main question is whether Harris will win all four states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four have to be true for the event to resolve as "yes". This makes the overall probability lower than the individual probabilities of each state. I'll need to estimate the probability of her winning each state and then combine those probabilities.
+
+**3. Inside vs. Outside View:**
+
+*   **Outside View (Base Rates):**  I can't get perfect historical comparisons but, in general, it's relatively rare for a candidate to sweep states that were recently considered safe for the other party. The articles themselves also make it clear that Trump would have to "flip" these states. 
+    *   In 2020, Biden won New Mexico, New Hampshire, Virginia, and Maine.
+    *   In prior elections, these states have generally been considered Democratic strongholds, or at least leaning that way, with New Hampshire the possible exception.
+*   **Inside View:** The recent polling data needs to be taken into account here. The recent news articles paint a picture of several of these states becoming far more competitive than expected, especially New Hampshire.
+
+**4. Under/Overreacting to Evidence:**
+
+*   **Overreacting:** I need to avoid getting carried away by the most recent poll showing Trump leading in New Hampshire. I should be wary of recency bias.
+*   **Underreacting:** It would be equally wrong to ignore these changes, and treat these states as definite "safe" wins for Harris.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Harris:**
+    *   These states have historically leaned Democratic.
+    *   Harris has an established base of support in these states.
+    *   Abortion rights is a strong issue for Democrats in the election.
+*   **Forces Favoring Trump:**
+    *   Trump is surging in some recent polls in these states.
+    *   Issues like transgender athletes in women's sports are energizing Republican voters in New Hampshire.
+    *   There seems to be a trend of Trump gaining among Hispanic/Latino voters, which might impact New Mexico in particular.
+    *   Trump's campaign seems to be putting resources into these states, indicating a chance that he could win them.
+
+**6. Extrapolate Trends Linearly:**
+
+The linear extrapolation of recent trends is difficult due to the amount of contradictory information given by the news articles. I will take a more cautious approach, focusing on the likelihood of specific state outcomes.
+
+**7. Degrees of Doubt:**
+I need to be reasonably precise, not overly confident, but also not indecisive. I will provide a range within the probabilities.
+
+**8. Under/Overconfidence:**
+I will strive to be well calibrated, meaning, my predictions should not be biased towards either extreme.
+
+**9. Errors & Hindsight Bias:**
+I need to be aware that the most recent poll numbers may not reflect the final outcomes and avoid hindsight bias.
+
+**State-by-State Breakdown & Probabilities**
+
+*   **New Hampshire:** The most recent poll has Trump slightly ahead (50.2-49.8). Given that this is a recent shift and the state has been considered Democrat-leaning, I will put Harris at around 40% chance of winning it.
+*   **New Mexico:** The polls show Harris leading, but Trump's momentum could close the gap. Also, some articles suggest that this is a close race due to RFK Jr's support. There is a fair amount of evidence suggesting this state is in play. I'll give Harris a 65% chance to win this state.
+*   **Virginia:** The news reports suggest a tight race, with recent polls showing Harris with a lead of up to 8 points, while other sources mention a "3 point lead" and mention it as a "blue state" on defense, or a state "in play". I will give Harris a 70% chance of winning here.
+*   **Maine:** This is somewhat confusing. The news articles mention that Harris has a "narrow lead" and "6 point lead" and has been seen as a safe state for Harris. Some articles mention that Harris' campaign is looking to flip the 2nd Congressional District of Maine from Trump in 2020, which would seem to imply a prior loss for Biden in 2020, however, the news articles state otherwise. I'm going to give Harris a 80% chance of winning in Maine as a whole.
+
+**Combined Probability:**
+
+Since all four states must be won for the question to resolve "Yes", I will multiply the probabilities. This gives me a combined probability of:
+
+0.40 * 0.65 * 0.70 * 0.80 = 0.1456 or 14.56%
+
+Given the uncertainty, I will use a slightly wider range around this, with a slightly lower probability than my calculations, recognising the difficulty of sweeping all these states.
+
+My Prediction: Between 10.00% and 18.00%, but 13.50% being the most likely. Probability: 13.50%.
+
+
+2024-12-11 16:05:44,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:44,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:44,716 - INFO - Run 1:
+Okay, let's break down this forecasting problem.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   **No specific human predictions:** I don't have access to real-time predictions from platforms like FiveThirtyEight, Polymarket, or Metaculus for *this exact combination* of four states, especially so close to election day. However, I can use the general election forecasts of those platforms as a base rate of what could happen.
+*   **General Polling Trends:** It's very clear from the articles that the race between Harris and Trump is extremely close, both nationally and in many swing states. This indicates a high degree of uncertainty overall.
+
+**2. Break Down the Problem:**
+
+This question can be broken down into the likelihood of Harris winning each of the four states individually, and then we combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic state, but recent articles highlight it is tightening up, with internal polls suggesting it is near neck-and-neck and with Trump planning a rally there, and RFK Jr's support also mentioned.  
+*   **New Hampshire:** Articles suggest it's a traditionally democratic state. There is a recent poll showing Trump narrowly leading, but that is the only poll showing a lead. This poll appears to be an outlier. There is also mention of "subterranean" issues boosting Trump.
+*   **Virginia:** Articles state it is a blue state, but with some shifting towards Trump and the campaign spending resources. Some news outlets suggest Harris is 6% or 8% ahead and another saying it could be in play for the republicans.
+*   **Maine:** The articles mention the importance of the second congressional district of Maine. The state as a whole is expected to go democratic.
+
+**3. Inside vs. Outside View:**
+
+*   **Outside View:**
+    *   Presidential elections are usually close, and polling errors do happen.
+    *   It is unusual but not unprecedented for a single candidate to win 4 states like these. The 2020 results are a relevant reference class.
+    *   Incumbent VP candidates often face headwinds.
+*   **Inside View:**
+    *   The articles suggest a tightening race across many states.
+    *   There's clear momentum for Trump in traditionally blue states that are not traditionally seen as swing states.
+    *   Some articles are reporting a "shock" from internal polling and other evidence such as spending in the states by the candidates suggesting a real contest.
+    *   There's a consistent theme of Trump over performing polls.
+
+**4. Balance Under/Overreacting to Evidence:**
+
+*   **Risk of overreacting:** The 'shock' of Trump leading in some polls may be short-lived and not representative of the overall picture.
+*   **Risk of underreacting:** Dismissing the new polling data completely, given the momentum for Trump, would be a mistake.
+
+**5. Clashing Causal Forces:**
+
+*   **For Harris:**
+    *   Incumbency advantage of the VP position (although this might be weak in this context).
+    *   Democratic leaning of the states in the question.
+    *   Stronger ground game (more offices/staff in states).
+*   **For Trump:**
+    *   Momentum and a possible underestimation in polls.
+    *   Specific hot button issues energising his voters.
+    *   Campaign expansion to states which were not initially predicted to be in play.
+
+**6. Extrapolate Current Trends Linearly**
+
+*   The trend seems to be a tightening race, with some movement towards Trump in states where he was previously not competitive. This could continue, but there is also a chance that some voters will return to their traditional party allegiances. 
+
+**7. Degrees of Doubt:**
+
+*   I cannot be certain of the outcome. The race is close enough that a 50/50 prediction would be wrong as often as right. There is some evidence for a Trump surge in states that were not considered in play. I need to factor this in.
+
+**8. Balance Under/Overconfidence:**
+
+*   There is a temptation to overreact to the latest polls. However, I will remain cautious and avoid being overly confident in a single outcome.
+
+**9. Errors Behind Mistakes:**
+
+*   Past mistakes of ignoring the underestimation of Trump's support in polls can inform my judgment now.
+
+**Detailed State Probabilities:**
+
+Given all of the above, here are the approximate probabilities I'm assigning to each state:
+
+*   **New Mexico:** The internal polls, Trump campaign activity and the mentions of RFK Jr support indicate a real possibility of a Trump win here. I would estimate a 55% probability of Harris winning this state and a 45% chance of Trump winning this state.
+*   **New Hampshire:** The most recent poll mentioned is showing Trump ahead, however this is an outlier among other polls. I would estimate a 70% probability of Harris winning this state and a 30% chance of Trump winning it.
+*  **Virginia:** Some polls suggest a lead of 6 or 8 points for Harris and others suggest it is in play for Trump. I would estimate a 75% probability of Harris winning this state and a 25% chance of Trump winning.
+*   **Maine:** The articles consistently mention the 2nd district as being the one to watch, but give Harris a lead there. The state as a whole also leans towards Harris. I would estimate a 90% probability of Harris winning this state and a 10% chance of Trump winning.
+
+**Combined Probability**
+To calculate the combined probability of Harris winning all four states, I need to multiply the individual probabilities:
+
+0.  55 (New Mexico) * 0.70 (New Hampshire) * 0.75 (Virginia) * 0.90 (Maine) = 0.262
+
+Therefore, there is approximately a 26.2% chance of Harris winning all four states. I should factor in error for this calculation of multiplying probabilities together. I would give a wider range.
+
+**Final Prediction:**
+
+My Prediction: Between 15.00% and 40.00%, but 26.20% being the most likely. Probability: 26.20%.
+
+
+2024-12-11 16:05:44,716 - INFO - Run 1:
+Okay, let's break down this forecasting problem.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   **No specific human predictions:** I don't have access to real-time predictions from platforms like FiveThirtyEight, Polymarket, or Metaculus for *this exact combination* of four states, especially so close to election day. However, I can use the general election forecasts of those platforms as a base rate of what could happen.
+*   **General Polling Trends:** It's very clear from the articles that the race between Harris and Trump is extremely close, both nationally and in many swing states. This indicates a high degree of uncertainty overall.
+
+**2. Break Down the Problem:**
+
+This question can be broken down into the likelihood of Harris winning each of the four states individually, and then we combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic state, but recent articles highlight it is tightening up, with internal polls suggesting it is near neck-and-neck and with Trump planning a rally there, and RFK Jr's support also mentioned.  
+*   **New Hampshire:** Articles suggest it's a traditionally democratic state. There is a recent poll showing Trump narrowly leading, but that is the only poll showing a lead. This poll appears to be an outlier. There is also mention of "subterranean" issues boosting Trump.
+*   **Virginia:** Articles state it is a blue state, but with some shifting towards Trump and the campaign spending resources. Some news outlets suggest Harris is 6% or 8% ahead and another saying it could be in play for the republicans.
+*   **Maine:** The articles mention the importance of the second congressional district of Maine. The state as a whole is expected to go democratic.
+
+**3. Inside vs. Outside View:**
+
+*   **Outside View:**
+    *   Presidential elections are usually close, and polling errors do happen.
+    *   It is unusual but not unprecedented for a single candidate to win 4 states like these. The 2020 results are a relevant reference class.
+    *   Incumbent VP candidates often face headwinds.
+*   **Inside View:**
+    *   The articles suggest a tightening race across many states.
+    *   There's clear momentum for Trump in traditionally blue states that are not traditionally seen as swing states.
+    *   Some articles are reporting a "shock" from internal polling and other evidence such as spending in the states by the candidates suggesting a real contest.
+    *   There's a consistent theme of Trump over performing polls.
+
+**4. Balance Under/Overreacting to Evidence:**
+
+*   **Risk of overreacting:** The 'shock' of Trump leading in some polls may be short-lived and not representative of the overall picture.
+*   **Risk of underreacting:** Dismissing the new polling data completely, given the momentum for Trump, would be a mistake.
+
+**5. Clashing Causal Forces:**
+
+*   **For Harris:**
+    *   Incumbency advantage of the VP position (although this might be weak in this context).
+    *   Democratic leaning of the states in the question.
+    *   Stronger ground game (more offices/staff in states).
+*   **For Trump:**
+    *   Momentum and a possible underestimation in polls.
+    *   Specific hot button issues energising his voters.
+    *   Campaign expansion to states which were not initially predicted to be in play.
+
+**6. Extrapolate Current Trends Linearly**
+
+*   The trend seems to be a tightening race, with some movement towards Trump in states where he was previously not competitive. This could continue, but there is also a chance that some voters will return to their traditional party allegiances. 
+
+**7. Degrees of Doubt:**
+
+*   I cannot be certain of the outcome. The race is close enough that a 50/50 prediction would be wrong as often as right. There is some evidence for a Trump surge in states that were not considered in play. I need to factor this in.
+
+**8. Balance Under/Overconfidence:**
+
+*   There is a temptation to overreact to the latest polls. However, I will remain cautious and avoid being overly confident in a single outcome.
+
+**9. Errors Behind Mistakes:**
+
+*   Past mistakes of ignoring the underestimation of Trump's support in polls can inform my judgment now.
+
+**Detailed State Probabilities:**
+
+Given all of the above, here are the approximate probabilities I'm assigning to each state:
+
+*   **New Mexico:** The internal polls, Trump campaign activity and the mentions of RFK Jr support indicate a real possibility of a Trump win here. I would estimate a 55% probability of Harris winning this state and a 45% chance of Trump winning this state.
+*   **New Hampshire:** The most recent poll mentioned is showing Trump ahead, however this is an outlier among other polls. I would estimate a 70% probability of Harris winning this state and a 30% chance of Trump winning it.
+*  **Virginia:** Some polls suggest a lead of 6 or 8 points for Harris and others suggest it is in play for Trump. I would estimate a 75% probability of Harris winning this state and a 25% chance of Trump winning.
+*   **Maine:** The articles consistently mention the 2nd district as being the one to watch, but give Harris a lead there. The state as a whole also leans towards Harris. I would estimate a 90% probability of Harris winning this state and a 10% chance of Trump winning.
+
+**Combined Probability**
+To calculate the combined probability of Harris winning all four states, I need to multiply the individual probabilities:
+
+0.  55 (New Mexico) * 0.70 (New Hampshire) * 0.75 (Virginia) * 0.90 (Maine) = 0.262
+
+Therefore, there is approximately a 26.2% chance of Harris winning all four states. I should factor in error for this calculation of multiplying probabilities together. I would give a wider range.
+
+**Final Prediction:**
+
+My Prediction: Between 15.00% and 40.00%, but 26.20% being the most likely. Probability: 26.20%.
+
+
+2024-12-11 16:05:57,282 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:57,282 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:57,282 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:05:57,282 - INFO - Run 2:
+Okay, let's break down this forecasting challenge.
+
+**1. Triage and Reference Relevant Predictions**
+
+*   **No direct human predictions:** I don't have access to real-time platforms like Polymarket, FiveThirtyEight or Metaculus, and the articles don't reference any specific forecasters on this particular question of all four states together.
+
+**2. Break into Sub-Problems**
+
+The question asks about Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. To analyze this, I'll evaluate each state individually and then combine the probabilities.
+
+**3. Balance Inside and Outside Views**
+
+*   **Outside View (Base Rates):**
+    *   These states have historically leaned Democratic in recent presidential elections, although New Hampshire has been somewhat swingy. Let's look at the 2020 election results to provide a base point:
+        *   New Mexico: Biden won by 10.8%.
+        *   New Hampshire: Biden won by 7.3%.
+        *   Virginia: Biden won by 10.1%.
+        *   Maine: Biden won by 9.1%.
+    *   Typically, incumbent party candidates have a small advantage, but with Biden not running and Harris at the top, it is uncertain how that incumbency advantage will transfer, if at all.
+    *   Incumbents also usually have a base rate of winning, but as she is taking over for Biden, and the election looks very tight, this base rate advantage is diminished.
+    *   It is not that common for a candidate to win all states together, even if they are leaning towards the same party.
+
+*   **Inside View (Specific Evidence):**
+
+    *   **New Hampshire:** This is the most volatile state of the four according to the articles. Several polls cited show Trump leading by a very slim margin. The New Hampshire Journal/Praecones Analytica poll has Trump at 50.2% and Harris at 49.8%. This is a huge shift from previous polls showing Harris leading and a significant change from 2020. There is a strong indication from the articles that New Hampshire is very competitive and even leaning towards Trump due to various issues such as transgender athlete participation. Some analysts do believe Trump could win this state. There is strong campaign activity by Trump here as well.
+    *   **Virginia:** The articles suggest Virginia is also surprisingly competitive, even though previous data indicates Harris having a stronger lead. There is some surge in early voting for the Republicans. However, Harris is still seen to have an edge.
+    *   **New Mexico:** New Mexico is becoming more competitive, with Trump making gains. While recent polling has Harris still up by three points, internal polls are showing a much closer race. The presence of RFK Jr. also seems to be affecting the votes.
+    *   **Maine:** While the state as a whole is projected to lean toward Harris, the 2nd Congressional district is closer, and Trump won it in both 2016 and 2020, although there are signals Harris is now leading there. Recent polling shows Harris leading in the district, although by a single digit. The Maine 2nd district is seen as a potential factor to decide the election, but also a long shot.
+
+**4. Balance Under- and Overreacting to Evidence**
+
+*   **Underreacting:** It's tempting to just look at the base rates and assume the states will default to Democratic, but the recent polling shifts, particularly in New Hampshire, cannot be ignored. The Trump campaign's focus on these "blue" states suggests they see an opportunity that is supported by recent data, which should not be dismissed.
+*   **Overreacting:** The situation is very volatile. It is important not to extrapolate one poll too far, especially given some polls may be oversampling one party. There is a high level of uncertainty in the last-minute election coverage, and many sources have shown contradictory polls and trends.
+
+**5. Look for Clashing Causal Forces**
+
+*   **Forces favoring Harris:**
+    *   Historical Democratic leaning of the states (excluding New Hampshire's recent volatility).
+    *   Harris's focus on abortion rights is expected to boost Democratic turnout, especially among women.
+    *   Some polls still show Harris leading in most of these states.
+
+*   **Forces favoring Trump:**
+    *   Trump's apparent momentum in the final weeks, with strong rallies and increased campaign activity in traditionally blue states.
+    *   Issues like transgender athlete participation are energizing his base and potentially winning over some voters in New Hampshire.
+    *   Republican gains in early voting numbers.
+    *   The perception of a close race, which may energize Republican voters.
+    *   Some gains among Hispanic and Latino voters that is showing up in states such as New Mexico.
+
+**6. Extrapolate Current Trends Linearly**
+Extrapolating current trends linearly, it does seem like New Hampshire is in play for Trump. Other states are also seeing a tightening race, however the underlying base rate of the states leaning Democratic is still there. Therefore, extrapolating would seem to indicate that Harris could win 3/4 states, but the likelihood of winning all four states is considerably lower.
+
+**7. Strive to Distinguish Degrees of Doubt**
+
+*   **High Doubt:** New Hampshire is highly volatile and leaning towards Trump. Virginia and New Mexico are close, but the base rate suggests Harris may still have an edge. Maine is most likely to go to Harris although the 2nd Congressional district could swing to Trump.
+*   **Moderate Doubt:** The other states will likely be close but the Democratic base rate will probably give them an edge.
+
+**8. Balance Under- and Overconfidence**
+
+*   **Underconfidence:** It's possible the polls are wrong, and Trump wins them all.
+*   **Overconfidence:** It's also possible the polls are wrong the other way, and Harris wins them easily. A balanced approach is necessary.
+
+**9. Look for Errors Behind Mistakes**
+* Hindsight bias could cause me to over-react to the current polling and not taking into account the past patterns. To prevent this I will balance this with outside view base rates as well.
+
+**Putting it Together:**
+
+1.  **New Hampshire:** I estimate a 30% chance that Harris wins New Hampshire. The recent shift is very strong, however, with one week to go until the election, there is room for that to shift.
+2.  **Virginia:** I estimate a 65% chance that Harris wins Virginia. While polls are tight, there is still an indication that it would lean towards Harris.
+3.  **New Mexico:** I estimate a 60% chance that Harris wins New Mexico. While the state is tightening and showing some volatility, her base rate will be a significant factor.
+4. **Maine:** I estimate an 75% chance that Harris wins Maine. Although the 2nd congressional district is uncertain, the rest of the state should likely vote for Harris.
+
+To calculate the likelihood of all four states being won by Harris, I will multiply the individual probabilities: 0.30 * 0.65 * 0.60 * 0.75 = 0.08775 (approximately 8.78%).
+Given the tight races and uncertainty, I will put a range of 5-15%, with 8.78% being the most likely probability.
+
+My Prediction: Between 5.00% and 15.00%, but 8.78% being the most likely. Probability: 8.78%.
+
+
+2024-12-11 16:05:57,282 - INFO - Run 2:
+Okay, let's break down this forecasting challenge.
+
+**1. Triage and Reference Relevant Predictions**
+
+*   **No direct human predictions:** I don't have access to real-time platforms like Polymarket, FiveThirtyEight or Metaculus, and the articles don't reference any specific forecasters on this particular question of all four states together.
+
+**2. Break into Sub-Problems**
+
+The question asks about Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. To analyze this, I'll evaluate each state individually and then combine the probabilities.
+
+**3. Balance Inside and Outside Views**
+
+*   **Outside View (Base Rates):**
+    *   These states have historically leaned Democratic in recent presidential elections, although New Hampshire has been somewhat swingy. Let's look at the 2020 election results to provide a base point:
+        *   New Mexico: Biden won by 10.8%.
+        *   New Hampshire: Biden won by 7.3%.
+        *   Virginia: Biden won by 10.1%.
+        *   Maine: Biden won by 9.1%.
+    *   Typically, incumbent party candidates have a small advantage, but with Biden not running and Harris at the top, it is uncertain how that incumbency advantage will transfer, if at all.
+    *   Incumbents also usually have a base rate of winning, but as she is taking over for Biden, and the election looks very tight, this base rate advantage is diminished.
+    *   It is not that common for a candidate to win all states together, even if they are leaning towards the same party.
+
+*   **Inside View (Specific Evidence):**
+
+    *   **New Hampshire:** This is the most volatile state of the four according to the articles. Several polls cited show Trump leading by a very slim margin. The New Hampshire Journal/Praecones Analytica poll has Trump at 50.2% and Harris at 49.8%. This is a huge shift from previous polls showing Harris leading and a significant change from 2020. There is a strong indication from the articles that New Hampshire is very competitive and even leaning towards Trump due to various issues such as transgender athlete participation. Some analysts do believe Trump could win this state. There is strong campaign activity by Trump here as well.
+    *   **Virginia:** The articles suggest Virginia is also surprisingly competitive, even though previous data indicates Harris having a stronger lead. There is some surge in early voting for the Republicans. However, Harris is still seen to have an edge.
+    *   **New Mexico:** New Mexico is becoming more competitive, with Trump making gains. While recent polling has Harris still up by three points, internal polls are showing a much closer race. The presence of RFK Jr. also seems to be affecting the votes.
+    *   **Maine:** While the state as a whole is projected to lean toward Harris, the 2nd Congressional district is closer, and Trump won it in both 2016 and 2020, although there are signals Harris is now leading there. Recent polling shows Harris leading in the district, although by a single digit. The Maine 2nd district is seen as a potential factor to decide the election, but also a long shot.
+
+**4. Balance Under- and Overreacting to Evidence**
+
+*   **Underreacting:** It's tempting to just look at the base rates and assume the states will default to Democratic, but the recent polling shifts, particularly in New Hampshire, cannot be ignored. The Trump campaign's focus on these "blue" states suggests they see an opportunity that is supported by recent data, which should not be dismissed.
+*   **Overreacting:** The situation is very volatile. It is important not to extrapolate one poll too far, especially given some polls may be oversampling one party. There is a high level of uncertainty in the last-minute election coverage, and many sources have shown contradictory polls and trends.
+
+**5. Look for Clashing Causal Forces**
+
+*   **Forces favoring Harris:**
+    *   Historical Democratic leaning of the states (excluding New Hampshire's recent volatility).
+    *   Harris's focus on abortion rights is expected to boost Democratic turnout, especially among women.
+    *   Some polls still show Harris leading in most of these states.
+
+*   **Forces favoring Trump:**
+    *   Trump's apparent momentum in the final weeks, with strong rallies and increased campaign activity in traditionally blue states.
+    *   Issues like transgender athlete participation are energizing his base and potentially winning over some voters in New Hampshire.
+    *   Republican gains in early voting numbers.
+    *   The perception of a close race, which may energize Republican voters.
+    *   Some gains among Hispanic and Latino voters that is showing up in states such as New Mexico.
+
+**6. Extrapolate Current Trends Linearly**
+Extrapolating current trends linearly, it does seem like New Hampshire is in play for Trump. Other states are also seeing a tightening race, however the underlying base rate of the states leaning Democratic is still there. Therefore, extrapolating would seem to indicate that Harris could win 3/4 states, but the likelihood of winning all four states is considerably lower.
+
+**7. Strive to Distinguish Degrees of Doubt**
+
+*   **High Doubt:** New Hampshire is highly volatile and leaning towards Trump. Virginia and New Mexico are close, but the base rate suggests Harris may still have an edge. Maine is most likely to go to Harris although the 2nd Congressional district could swing to Trump.
+*   **Moderate Doubt:** The other states will likely be close but the Democratic base rate will probably give them an edge.
+
+**8. Balance Under- and Overconfidence**
+
+*   **Underconfidence:** It's possible the polls are wrong, and Trump wins them all.
+*   **Overconfidence:** It's also possible the polls are wrong the other way, and Harris wins them easily. A balanced approach is necessary.
+
+**9. Look for Errors Behind Mistakes**
+* Hindsight bias could cause me to over-react to the current polling and not taking into account the past patterns. To prevent this I will balance this with outside view base rates as well.
+
+**Putting it Together:**
+
+1.  **New Hampshire:** I estimate a 30% chance that Harris wins New Hampshire. The recent shift is very strong, however, with one week to go until the election, there is room for that to shift.
+2.  **Virginia:** I estimate a 65% chance that Harris wins Virginia. While polls are tight, there is still an indication that it would lean towards Harris.
+3.  **New Mexico:** I estimate a 60% chance that Harris wins New Mexico. While the state is tightening and showing some volatility, her base rate will be a significant factor.
+4. **Maine:** I estimate an 75% chance that Harris wins Maine. Although the 2nd congressional district is uncertain, the rest of the state should likely vote for Harris.
+
+To calculate the likelihood of all four states being won by Harris, I will multiply the individual probabilities: 0.30 * 0.65 * 0.60 * 0.75 = 0.08775 (approximately 8.78%).
+Given the tight races and uncertainty, I will put a range of 5-15%, with 8.78% being the most likely probability.
+
+My Prediction: Between 5.00% and 15.00%, but 8.78% being the most likely. Probability: 8.78%.
+
+
+2024-12-11 16:05:57,282 - INFO - Run 2:
+Okay, let's break down this forecasting challenge.
+
+**1. Triage and Reference Relevant Predictions**
+
+*   **No direct human predictions:** I don't have access to real-time platforms like Polymarket, FiveThirtyEight or Metaculus, and the articles don't reference any specific forecasters on this particular question of all four states together.
+
+**2. Break into Sub-Problems**
+
+The question asks about Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. To analyze this, I'll evaluate each state individually and then combine the probabilities.
+
+**3. Balance Inside and Outside Views**
+
+*   **Outside View (Base Rates):**
+    *   These states have historically leaned Democratic in recent presidential elections, although New Hampshire has been somewhat swingy. Let's look at the 2020 election results to provide a base point:
+        *   New Mexico: Biden won by 10.8%.
+        *   New Hampshire: Biden won by 7.3%.
+        *   Virginia: Biden won by 10.1%.
+        *   Maine: Biden won by 9.1%.
+    *   Typically, incumbent party candidates have a small advantage, but with Biden not running and Harris at the top, it is uncertain how that incumbency advantage will transfer, if at all.
+    *   Incumbents also usually have a base rate of winning, but as she is taking over for Biden, and the election looks very tight, this base rate advantage is diminished.
+    *   It is not that common for a candidate to win all states together, even if they are leaning towards the same party.
+
+*   **Inside View (Specific Evidence):**
+
+    *   **New Hampshire:** This is the most volatile state of the four according to the articles. Several polls cited show Trump leading by a very slim margin. The New Hampshire Journal/Praecones Analytica poll has Trump at 50.2% and Harris at 49.8%. This is a huge shift from previous polls showing Harris leading and a significant change from 2020. There is a strong indication from the articles that New Hampshire is very competitive and even leaning towards Trump due to various issues such as transgender athlete participation. Some analysts do believe Trump could win this state. There is strong campaign activity by Trump here as well.
+    *   **Virginia:** The articles suggest Virginia is also surprisingly competitive, even though previous data indicates Harris having a stronger lead. There is some surge in early voting for the Republicans. However, Harris is still seen to have an edge.
+    *   **New Mexico:** New Mexico is becoming more competitive, with Trump making gains. While recent polling has Harris still up by three points, internal polls are showing a much closer race. The presence of RFK Jr. also seems to be affecting the votes.
+    *   **Maine:** While the state as a whole is projected to lean toward Harris, the 2nd Congressional district is closer, and Trump won it in both 2016 and 2020, although there are signals Harris is now leading there. Recent polling shows Harris leading in the district, although by a single digit. The Maine 2nd district is seen as a potential factor to decide the election, but also a long shot.
+
+**4. Balance Under- and Overreacting to Evidence**
+
+*   **Underreacting:** It's tempting to just look at the base rates and assume the states will default to Democratic, but the recent polling shifts, particularly in New Hampshire, cannot be ignored. The Trump campaign's focus on these "blue" states suggests they see an opportunity that is supported by recent data, which should not be dismissed.
+*   **Overreacting:** The situation is very volatile. It is important not to extrapolate one poll too far, especially given some polls may be oversampling one party. There is a high level of uncertainty in the last-minute election coverage, and many sources have shown contradictory polls and trends.
+
+**5. Look for Clashing Causal Forces**
+
+*   **Forces favoring Harris:**
+    *   Historical Democratic leaning of the states (excluding New Hampshire's recent volatility).
+    *   Harris's focus on abortion rights is expected to boost Democratic turnout, especially among women.
+    *   Some polls still show Harris leading in most of these states.
+
+*   **Forces favoring Trump:**
+    *   Trump's apparent momentum in the final weeks, with strong rallies and increased campaign activity in traditionally blue states.
+    *   Issues like transgender athlete participation are energizing his base and potentially winning over some voters in New Hampshire.
+    *   Republican gains in early voting numbers.
+    *   The perception of a close race, which may energize Republican voters.
+    *   Some gains among Hispanic and Latino voters that is showing up in states such as New Mexico.
+
+**6. Extrapolate Current Trends Linearly**
+Extrapolating current trends linearly, it does seem like New Hampshire is in play for Trump. Other states are also seeing a tightening race, however the underlying base rate of the states leaning Democratic is still there. Therefore, extrapolating would seem to indicate that Harris could win 3/4 states, but the likelihood of winning all four states is considerably lower.
+
+**7. Strive to Distinguish Degrees of Doubt**
+
+*   **High Doubt:** New Hampshire is highly volatile and leaning towards Trump. Virginia and New Mexico are close, but the base rate suggests Harris may still have an edge. Maine is most likely to go to Harris although the 2nd Congressional district could swing to Trump.
+*   **Moderate Doubt:** The other states will likely be close but the Democratic base rate will probably give them an edge.
+
+**8. Balance Under- and Overconfidence**
+
+*   **Underconfidence:** It's possible the polls are wrong, and Trump wins them all.
+*   **Overconfidence:** It's also possible the polls are wrong the other way, and Harris wins them easily. A balanced approach is necessary.
+
+**9. Look for Errors Behind Mistakes**
+* Hindsight bias could cause me to over-react to the current polling and not taking into account the past patterns. To prevent this I will balance this with outside view base rates as well.
+
+**Putting it Together:**
+
+1.  **New Hampshire:** I estimate a 30% chance that Harris wins New Hampshire. The recent shift is very strong, however, with one week to go until the election, there is room for that to shift.
+2.  **Virginia:** I estimate a 65% chance that Harris wins Virginia. While polls are tight, there is still an indication that it would lean towards Harris.
+3.  **New Mexico:** I estimate a 60% chance that Harris wins New Mexico. While the state is tightening and showing some volatility, her base rate will be a significant factor.
+4. **Maine:** I estimate an 75% chance that Harris wins Maine. Although the 2nd congressional district is uncertain, the rest of the state should likely vote for Harris.
+
+To calculate the likelihood of all four states being won by Harris, I will multiply the individual probabilities: 0.30 * 0.65 * 0.60 * 0.75 = 0.08775 (approximately 8.78%).
+Given the tight races and uncertainty, I will put a range of 5-15%, with 8.78% being the most likely probability.
+
+My Prediction: Between 5.00% and 15.00%, but 8.78% being the most likely. Probability: 8.78%.
+
+
+2024-12-11 16:06:08,559 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:08,559 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:08,559 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:08,559 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:08,559 - INFO - Run 3:
+Okay, let's break down this forecasting problem step-by-step, applying superforecasting principles.
+
+**1. Triage and Reference Predictions:**
+
+*   **No direct reference predictions found:** I don't have access to live, real-time platforms like FiveThirtyEight, Polymarket, or Metaculus to get specific predictions on this exact question. However, I do have numerous polls and analyses that I will use as a guide, and I'll keep in mind that the overall election is considered to be a close contest.
+
+**2. Break the Problem into Sub-Problems:**
+
+The question asks about Kamala Harris winning all four states. Therefore, we need to assess each state individually first and then consider the probability of all four occurring together.
+
+*   **New Hampshire:** Recent polls show Trump with a very narrow lead. This is a significant shift from earlier polling data, where Harris held a more comfortable advantage. The issue of biological men competing in women's sports is cited as a potential factor energizing voters. Trump has also moved resources to the state.
+*   **New Mexico:** Earlier polls showed Harris with a lead, but more recent information suggests it's very close and could be a surprise win for Trump. RFK Jr.'s support may be pulling votes. Trump is also planning a rally in the state.
+*   **Virginia:** Earlier polls showed Harris with a solid lead, but recent shifts are making it a potential battleground. Trump is actively campaigning in the state.
+*   **Maine:**  The focus here is on Maine's 2nd Congressional District (ME-02), which has one electoral vote. Recent polls show Harris with a lead in ME-02, but this is still a swing district. The overall state is leaning towards Harris, but ME-02 has voted Republican before.
+
+**3. Strike the Right Balance Between Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Historically, these four states (New Mexico, New Hampshire, Virginia, and Maine) are a mix of Democratic strongholds and swing states. In recent elections, New Hampshire has been fairly reliable for Democrats. New Mexico has been a solid Democrat state. Virginia has also generally trended towards Democrats. Maine is mostly democratic, but its 2nd Congressional District has occasionally been more competitive. It's rare, but not impossible, for one candidate to sweep all states in this mix.
+*  **Inside View (Specific Evidence):** Recent polling shows significant shifts. Trump is actively campaigning and gaining in traditionally blue-leaning states. The recent New Hampshire poll is concerning for Harris, as is the closer race in New Mexico and Virginia, and increased enthusiasm for the Republican vote in all states. Trump's campaign is expanding its efforts into these states, and he may benefit from enthusiasm surrounding "subterranean" issues.
+
+**4. Strike the Right Balance Between Under- and Overreacting to Evidence:**
+
+*   **Underreacting:** I can't dismiss the polling shifts. Ignoring the recent momentum of Trump and close poll results would lead to an inaccurate prediction.
+*   **Overreacting:** I need to avoid overemphasizing any single poll. I must consider the overall trend and the margin of error in polls. I should also factor in that campaigns typically ramp up activity towards the end of the election.
+
+**5. Look for the Clashing Causal Forces:**
+
+*   **Pro-Harris:** She has the Democratic Party's institutional advantage. Abortion rights are a strong motivator for her supporters. Early voting favors Democrats. She has traditional advantages in these states.
+*  **Pro-Trump:**  He has strong enthusiasm among his base and may be picking up votes among disaffected democrats. Concerns about men in women's sports, the economy, and immigration are motivating voters towards him. His campaign is also increasing resources to target these states.
+
+**6. Extrapolate Current Trends Linearly:**
+
+*   Current trends suggest a tightening race in all states. Trump has been gaining support in all four states, and while he's still trailing in Maine and Virginia, the gaps are closing. However, linear extrapolation may be inaccurate if the election has late swings due to events, so I will use it as a guide and not a basis for my final estimate.
+
+**7. Strive to Distinguish as Many Degrees of Doubt as the Problem Permits but No More:**
+
+*   This is a complex question with a lot of uncertainty. I will attempt to accurately represent my degree of uncertainty in my range of probability.
+
+**8. Strike the Right Balance Between Under- and Overconfidence:**
+
+*   It is important to not be overconfident here, as the news suggests that any of these states could flip in the final week. It is also important not to be too pessimistic, as these states have generally voted democrat in the past.
+
+**9. Look for the Errors Behind Your Mistakes:**
+
+*   I must avoid confirmation bias and be open to all possible outcomes. I need to also avoid recency bias by placing proper importance on older data points.
+
+**Reasoning and Forecast:**
+
+Based on the analysis above:
+
+*   **New Hampshire:** The most recent poll has Trump ahead, though narrowly. Given that the state is usually Democratic, this makes it roughly a 40% chance of a Harris victory.
+*   **New Mexico:** This is looking increasingly competitive, with a near-tie being suggested. I'll assign this about a 50% chance for Harris.
+*   **Virginia:**  Polls show a slight lead for Harris, but with Trump increasing effort and closing the gap. Let's estimate this at 60% for Harris.
+*   **Maine:** Harris seems to have a higher chance in this state overall, but the focus is really on the 2nd District. Let's assign a 70% chance of Harris winning the state.
+
+To get the probability of *all four* states going to Harris, we need to multiply the probabilities. We also need to keep in mind these states aren't fully independent, as shifts in one state may also impact voters in other states. So the final probability of all four happening together will be *lower* than just multiplying the independent probabilities. Therefore, multiplying them directly: 0.40 * 0.50 * 0.60 * 0.70 = 0.084 (8.4%) is an upper-bound. We then need to adjust this downwards because the states are not completely independent. Given these factors, I will estimate this final probability between 5-10%.
+
+My Prediction: Between 5.00% and 10.00%, but 7.00% being the most likely. Probability: 7.00%.
+
+
+2024-12-11 16:06:08,559 - INFO - Run 3:
+Okay, let's break down this forecasting problem step-by-step, applying superforecasting principles.
+
+**1. Triage and Reference Predictions:**
+
+*   **No direct reference predictions found:** I don't have access to live, real-time platforms like FiveThirtyEight, Polymarket, or Metaculus to get specific predictions on this exact question. However, I do have numerous polls and analyses that I will use as a guide, and I'll keep in mind that the overall election is considered to be a close contest.
+
+**2. Break the Problem into Sub-Problems:**
+
+The question asks about Kamala Harris winning all four states. Therefore, we need to assess each state individually first and then consider the probability of all four occurring together.
+
+*   **New Hampshire:** Recent polls show Trump with a very narrow lead. This is a significant shift from earlier polling data, where Harris held a more comfortable advantage. The issue of biological men competing in women's sports is cited as a potential factor energizing voters. Trump has also moved resources to the state.
+*   **New Mexico:** Earlier polls showed Harris with a lead, but more recent information suggests it's very close and could be a surprise win for Trump. RFK Jr.'s support may be pulling votes. Trump is also planning a rally in the state.
+*   **Virginia:** Earlier polls showed Harris with a solid lead, but recent shifts are making it a potential battleground. Trump is actively campaigning in the state.
+*   **Maine:**  The focus here is on Maine's 2nd Congressional District (ME-02), which has one electoral vote. Recent polls show Harris with a lead in ME-02, but this is still a swing district. The overall state is leaning towards Harris, but ME-02 has voted Republican before.
+
+**3. Strike the Right Balance Between Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Historically, these four states (New Mexico, New Hampshire, Virginia, and Maine) are a mix of Democratic strongholds and swing states. In recent elections, New Hampshire has been fairly reliable for Democrats. New Mexico has been a solid Democrat state. Virginia has also generally trended towards Democrats. Maine is mostly democratic, but its 2nd Congressional District has occasionally been more competitive. It's rare, but not impossible, for one candidate to sweep all states in this mix.
+*  **Inside View (Specific Evidence):** Recent polling shows significant shifts. Trump is actively campaigning and gaining in traditionally blue-leaning states. The recent New Hampshire poll is concerning for Harris, as is the closer race in New Mexico and Virginia, and increased enthusiasm for the Republican vote in all states. Trump's campaign is expanding its efforts into these states, and he may benefit from enthusiasm surrounding "subterranean" issues.
+
+**4. Strike the Right Balance Between Under- and Overreacting to Evidence:**
+
+*   **Underreacting:** I can't dismiss the polling shifts. Ignoring the recent momentum of Trump and close poll results would lead to an inaccurate prediction.
+*   **Overreacting:** I need to avoid overemphasizing any single poll. I must consider the overall trend and the margin of error in polls. I should also factor in that campaigns typically ramp up activity towards the end of the election.
+
+**5. Look for the Clashing Causal Forces:**
+
+*   **Pro-Harris:** She has the Democratic Party's institutional advantage. Abortion rights are a strong motivator for her supporters. Early voting favors Democrats. She has traditional advantages in these states.
+*  **Pro-Trump:**  He has strong enthusiasm among his base and may be picking up votes among disaffected democrats. Concerns about men in women's sports, the economy, and immigration are motivating voters towards him. His campaign is also increasing resources to target these states.
+
+**6. Extrapolate Current Trends Linearly:**
+
+*   Current trends suggest a tightening race in all states. Trump has been gaining support in all four states, and while he's still trailing in Maine and Virginia, the gaps are closing. However, linear extrapolation may be inaccurate if the election has late swings due to events, so I will use it as a guide and not a basis for my final estimate.
+
+**7. Strive to Distinguish as Many Degrees of Doubt as the Problem Permits but No More:**
+
+*   This is a complex question with a lot of uncertainty. I will attempt to accurately represent my degree of uncertainty in my range of probability.
+
+**8. Strike the Right Balance Between Under- and Overconfidence:**
+
+*   It is important to not be overconfident here, as the news suggests that any of these states could flip in the final week. It is also important not to be too pessimistic, as these states have generally voted democrat in the past.
+
+**9. Look for the Errors Behind Your Mistakes:**
+
+*   I must avoid confirmation bias and be open to all possible outcomes. I need to also avoid recency bias by placing proper importance on older data points.
+
+**Reasoning and Forecast:**
+
+Based on the analysis above:
+
+*   **New Hampshire:** The most recent poll has Trump ahead, though narrowly. Given that the state is usually Democratic, this makes it roughly a 40% chance of a Harris victory.
+*   **New Mexico:** This is looking increasingly competitive, with a near-tie being suggested. I'll assign this about a 50% chance for Harris.
+*   **Virginia:**  Polls show a slight lead for Harris, but with Trump increasing effort and closing the gap. Let's estimate this at 60% for Harris.
+*   **Maine:** Harris seems to have a higher chance in this state overall, but the focus is really on the 2nd District. Let's assign a 70% chance of Harris winning the state.
+
+To get the probability of *all four* states going to Harris, we need to multiply the probabilities. We also need to keep in mind these states aren't fully independent, as shifts in one state may also impact voters in other states. So the final probability of all four happening together will be *lower* than just multiplying the independent probabilities. Therefore, multiplying them directly: 0.40 * 0.50 * 0.60 * 0.70 = 0.084 (8.4%) is an upper-bound. We then need to adjust this downwards because the states are not completely independent. Given these factors, I will estimate this final probability between 5-10%.
+
+My Prediction: Between 5.00% and 10.00%, but 7.00% being the most likely. Probability: 7.00%.
+
+
+2024-12-11 16:06:08,559 - INFO - Run 3:
+Okay, let's break down this forecasting problem step-by-step, applying superforecasting principles.
+
+**1. Triage and Reference Predictions:**
+
+*   **No direct reference predictions found:** I don't have access to live, real-time platforms like FiveThirtyEight, Polymarket, or Metaculus to get specific predictions on this exact question. However, I do have numerous polls and analyses that I will use as a guide, and I'll keep in mind that the overall election is considered to be a close contest.
+
+**2. Break the Problem into Sub-Problems:**
+
+The question asks about Kamala Harris winning all four states. Therefore, we need to assess each state individually first and then consider the probability of all four occurring together.
+
+*   **New Hampshire:** Recent polls show Trump with a very narrow lead. This is a significant shift from earlier polling data, where Harris held a more comfortable advantage. The issue of biological men competing in women's sports is cited as a potential factor energizing voters. Trump has also moved resources to the state.
+*   **New Mexico:** Earlier polls showed Harris with a lead, but more recent information suggests it's very close and could be a surprise win for Trump. RFK Jr.'s support may be pulling votes. Trump is also planning a rally in the state.
+*   **Virginia:** Earlier polls showed Harris with a solid lead, but recent shifts are making it a potential battleground. Trump is actively campaigning in the state.
+*   **Maine:**  The focus here is on Maine's 2nd Congressional District (ME-02), which has one electoral vote. Recent polls show Harris with a lead in ME-02, but this is still a swing district. The overall state is leaning towards Harris, but ME-02 has voted Republican before.
+
+**3. Strike the Right Balance Between Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Historically, these four states (New Mexico, New Hampshire, Virginia, and Maine) are a mix of Democratic strongholds and swing states. In recent elections, New Hampshire has been fairly reliable for Democrats. New Mexico has been a solid Democrat state. Virginia has also generally trended towards Democrats. Maine is mostly democratic, but its 2nd Congressional District has occasionally been more competitive. It's rare, but not impossible, for one candidate to sweep all states in this mix.
+*  **Inside View (Specific Evidence):** Recent polling shows significant shifts. Trump is actively campaigning and gaining in traditionally blue-leaning states. The recent New Hampshire poll is concerning for Harris, as is the closer race in New Mexico and Virginia, and increased enthusiasm for the Republican vote in all states. Trump's campaign is expanding its efforts into these states, and he may benefit from enthusiasm surrounding "subterranean" issues.
+
+**4. Strike the Right Balance Between Under- and Overreacting to Evidence:**
+
+*   **Underreacting:** I can't dismiss the polling shifts. Ignoring the recent momentum of Trump and close poll results would lead to an inaccurate prediction.
+*   **Overreacting:** I need to avoid overemphasizing any single poll. I must consider the overall trend and the margin of error in polls. I should also factor in that campaigns typically ramp up activity towards the end of the election.
+
+**5. Look for the Clashing Causal Forces:**
+
+*   **Pro-Harris:** She has the Democratic Party's institutional advantage. Abortion rights are a strong motivator for her supporters. Early voting favors Democrats. She has traditional advantages in these states.
+*  **Pro-Trump:**  He has strong enthusiasm among his base and may be picking up votes among disaffected democrats. Concerns about men in women's sports, the economy, and immigration are motivating voters towards him. His campaign is also increasing resources to target these states.
+
+**6. Extrapolate Current Trends Linearly:**
+
+*   Current trends suggest a tightening race in all states. Trump has been gaining support in all four states, and while he's still trailing in Maine and Virginia, the gaps are closing. However, linear extrapolation may be inaccurate if the election has late swings due to events, so I will use it as a guide and not a basis for my final estimate.
+
+**7. Strive to Distinguish as Many Degrees of Doubt as the Problem Permits but No More:**
+
+*   This is a complex question with a lot of uncertainty. I will attempt to accurately represent my degree of uncertainty in my range of probability.
+
+**8. Strike the Right Balance Between Under- and Overconfidence:**
+
+*   It is important to not be overconfident here, as the news suggests that any of these states could flip in the final week. It is also important not to be too pessimistic, as these states have generally voted democrat in the past.
+
+**9. Look for the Errors Behind Your Mistakes:**
+
+*   I must avoid confirmation bias and be open to all possible outcomes. I need to also avoid recency bias by placing proper importance on older data points.
+
+**Reasoning and Forecast:**
+
+Based on the analysis above:
+
+*   **New Hampshire:** The most recent poll has Trump ahead, though narrowly. Given that the state is usually Democratic, this makes it roughly a 40% chance of a Harris victory.
+*   **New Mexico:** This is looking increasingly competitive, with a near-tie being suggested. I'll assign this about a 50% chance for Harris.
+*   **Virginia:**  Polls show a slight lead for Harris, but with Trump increasing effort and closing the gap. Let's estimate this at 60% for Harris.
+*   **Maine:** Harris seems to have a higher chance in this state overall, but the focus is really on the 2nd District. Let's assign a 70% chance of Harris winning the state.
+
+To get the probability of *all four* states going to Harris, we need to multiply the probabilities. We also need to keep in mind these states aren't fully independent, as shifts in one state may also impact voters in other states. So the final probability of all four happening together will be *lower* than just multiplying the independent probabilities. Therefore, multiplying them directly: 0.40 * 0.50 * 0.60 * 0.70 = 0.084 (8.4%) is an upper-bound. We then need to adjust this downwards because the states are not completely independent. Given these factors, I will estimate this final probability between 5-10%.
+
+My Prediction: Between 5.00% and 10.00%, but 7.00% being the most likely. Probability: 7.00%.
+
+
+2024-12-11 16:06:08,559 - INFO - Run 3:
+Okay, let's break down this forecasting problem step-by-step, applying superforecasting principles.
+
+**1. Triage and Reference Predictions:**
+
+*   **No direct reference predictions found:** I don't have access to live, real-time platforms like FiveThirtyEight, Polymarket, or Metaculus to get specific predictions on this exact question. However, I do have numerous polls and analyses that I will use as a guide, and I'll keep in mind that the overall election is considered to be a close contest.
+
+**2. Break the Problem into Sub-Problems:**
+
+The question asks about Kamala Harris winning all four states. Therefore, we need to assess each state individually first and then consider the probability of all four occurring together.
+
+*   **New Hampshire:** Recent polls show Trump with a very narrow lead. This is a significant shift from earlier polling data, where Harris held a more comfortable advantage. The issue of biological men competing in women's sports is cited as a potential factor energizing voters. Trump has also moved resources to the state.
+*   **New Mexico:** Earlier polls showed Harris with a lead, but more recent information suggests it's very close and could be a surprise win for Trump. RFK Jr.'s support may be pulling votes. Trump is also planning a rally in the state.
+*   **Virginia:** Earlier polls showed Harris with a solid lead, but recent shifts are making it a potential battleground. Trump is actively campaigning in the state.
+*   **Maine:**  The focus here is on Maine's 2nd Congressional District (ME-02), which has one electoral vote. Recent polls show Harris with a lead in ME-02, but this is still a swing district. The overall state is leaning towards Harris, but ME-02 has voted Republican before.
+
+**3. Strike the Right Balance Between Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Historically, these four states (New Mexico, New Hampshire, Virginia, and Maine) are a mix of Democratic strongholds and swing states. In recent elections, New Hampshire has been fairly reliable for Democrats. New Mexico has been a solid Democrat state. Virginia has also generally trended towards Democrats. Maine is mostly democratic, but its 2nd Congressional District has occasionally been more competitive. It's rare, but not impossible, for one candidate to sweep all states in this mix.
+*  **Inside View (Specific Evidence):** Recent polling shows significant shifts. Trump is actively campaigning and gaining in traditionally blue-leaning states. The recent New Hampshire poll is concerning for Harris, as is the closer race in New Mexico and Virginia, and increased enthusiasm for the Republican vote in all states. Trump's campaign is expanding its efforts into these states, and he may benefit from enthusiasm surrounding "subterranean" issues.
+
+**4. Strike the Right Balance Between Under- and Overreacting to Evidence:**
+
+*   **Underreacting:** I can't dismiss the polling shifts. Ignoring the recent momentum of Trump and close poll results would lead to an inaccurate prediction.
+*   **Overreacting:** I need to avoid overemphasizing any single poll. I must consider the overall trend and the margin of error in polls. I should also factor in that campaigns typically ramp up activity towards the end of the election.
+
+**5. Look for the Clashing Causal Forces:**
+
+*   **Pro-Harris:** She has the Democratic Party's institutional advantage. Abortion rights are a strong motivator for her supporters. Early voting favors Democrats. She has traditional advantages in these states.
+*  **Pro-Trump:**  He has strong enthusiasm among his base and may be picking up votes among disaffected democrats. Concerns about men in women's sports, the economy, and immigration are motivating voters towards him. His campaign is also increasing resources to target these states.
+
+**6. Extrapolate Current Trends Linearly:**
+
+*   Current trends suggest a tightening race in all states. Trump has been gaining support in all four states, and while he's still trailing in Maine and Virginia, the gaps are closing. However, linear extrapolation may be inaccurate if the election has late swings due to events, so I will use it as a guide and not a basis for my final estimate.
+
+**7. Strive to Distinguish as Many Degrees of Doubt as the Problem Permits but No More:**
+
+*   This is a complex question with a lot of uncertainty. I will attempt to accurately represent my degree of uncertainty in my range of probability.
+
+**8. Strike the Right Balance Between Under- and Overconfidence:**
+
+*   It is important to not be overconfident here, as the news suggests that any of these states could flip in the final week. It is also important not to be too pessimistic, as these states have generally voted democrat in the past.
+
+**9. Look for the Errors Behind Your Mistakes:**
+
+*   I must avoid confirmation bias and be open to all possible outcomes. I need to also avoid recency bias by placing proper importance on older data points.
+
+**Reasoning and Forecast:**
+
+Based on the analysis above:
+
+*   **New Hampshire:** The most recent poll has Trump ahead, though narrowly. Given that the state is usually Democratic, this makes it roughly a 40% chance of a Harris victory.
+*   **New Mexico:** This is looking increasingly competitive, with a near-tie being suggested. I'll assign this about a 50% chance for Harris.
+*   **Virginia:**  Polls show a slight lead for Harris, but with Trump increasing effort and closing the gap. Let's estimate this at 60% for Harris.
+*   **Maine:** Harris seems to have a higher chance in this state overall, but the focus is really on the 2nd District. Let's assign a 70% chance of Harris winning the state.
+
+To get the probability of *all four* states going to Harris, we need to multiply the probabilities. We also need to keep in mind these states aren't fully independent, as shifts in one state may also impact voters in other states. So the final probability of all four happening together will be *lower* than just multiplying the independent probabilities. Therefore, multiplying them directly: 0.40 * 0.50 * 0.60 * 0.70 = 0.084 (8.4%) is an upper-bound. We then need to adjust this downwards because the states are not completely independent. Given these factors, I will estimate this final probability between 5-10%.
+
+My Prediction: Between 5.00% and 10.00%, but 7.00% being the most likely. Probability: 7.00%.
+
+
+2024-12-11 16:06:19,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:19,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:19,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:19,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:19,716 - INFO - Question: Will Kamala Harris win New Mexico, New Hampshire, Virginia, and Maine in the 2024 election?
+2024-12-11 16:06:19,716 - INFO - Run 4:
+Okay, let's break down this forecasting problem using the superforecasting principles.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   I don't have access to live prediction markets like Polymarket or FiveThirtyEight's models that are specific to this four-state question. I need to rely on the information I have been provided. I'll use polls and expert analysis as a proxy for market predictions. 
+*   No relevant predictions from the information provided.
+
+**2. Break Down the Problem:**
+
+The question is about Kamala Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four must happen for the question to resolve as 'Yes'. I will assess each state individually, then combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic-leaning state, but several articles suggest a tightening race, with some indicating Trump might even win. The latest articles suggest Harris leads by only 3 points and some internal polls suggest the race is neck-and-neck.
+*   **New Hampshire:** Traditionally a swing state, more recently leans Democratic. But the recent poll showing a slight Trump lead is a huge shift and indicates the state is definitely in play. A poll showing a 50.2 to 49.8% lead for Trump is significant, considering Biden won it by 7 points in 2020.
+*   **Virginia:** Traditionally a Democratic state and seen as a safe seat for Harris in earlier articles, it appears that this has shifted more recently with Trump now planning a rally in Virginia and other reports suggesting it is now in play. Early voting is surging for Republicans.
+*   **Maine:** The state is generally Democratic-leaning, but we need to consider the 2nd Congressional District which is more competitive. However, it appears that Harris is leading in Maine overall and also in the 2nd district, according to the University of New Hampshire poll.
+
+**3. Inside vs. Outside Views:**
+
+*   **Outside View (Base Rates):**  Historically, it is difficult for a candidate to sweep a set of states that includes a mix of safe Democratic and swing states. Presidential races are often volatile in the final days, but typically a candidate's lead of more than 2 points a week before the election is pretty hard to overturn. It is very rare to see a candidate win all four states when there is polling data showing they are potentially underperforming in some of those states.
+*   **Inside View (Specific Evidence):**
+    *   **Strong Evidence for Harris:** She's the Democratic nominee, has visited these states, is campaigning hard, and has the advantage in overall electoral votes that lean her way according to some of the earlier polls. She is also ahead in the national popular vote according to some earlier polls.
+    *   **Strong Evidence Against Harris winning all four:** New Hampshire is a recent poll shocker with Trump leading, and New Mexico and Virginia are looking increasingly competitive, although Harris has consistently maintained a slight edge in those two states. The recent articles heavily focus on Trump campaign expanding into these states, suggesting they think they can win and they see the data showing they are competitive.  Trump's rallies and increased campaign efforts in the final days in New Mexico and Virginia could prove to be enough to tip the balance in those states. The close national polling suggests that Trump could easily win these states if he has momentum.
+
+**4. Balancing Under/Overreacting:**
+
+*   The New Hampshire poll is a significant piece of evidence and shouldn't be ignored. This requires a downward adjustment to the probability of Harris winning all 4 states.
+*   It is unlikely that states like Virginia and New Mexico will move dramatically in the next week.
+*   The number of polls indicating an extremely tight race between the two candidates is very concerning for Harris. If momentum is with Trump it's possible that he could win one or even all of these states in the final week.
+*   I will avoid over-reacting to a single poll in New Hampshire.
+*   I will also avoid over-relying on the polling data as things could change dramatically in the final week.
+
+**5. Clashing Causal Forces:**
+
+*   **Harris's Advantages:** Incumbent advantage, Democratic party infrastructure, recent polling leads (albeit narrowing).
+*   **Trump's Advantages:** Anti-establishment appeal, potential late surge in support, high turnout of Republican voters motivated by key cultural issues.
+
+**6. Extrapolate Trends:**
+
+*   Recent trends show the race tightening significantly, and Trump is gaining ground in the blue states. If the trends continue, it would suggest that the probability of all four states going to Harris is rapidly decreasing.
+
+**7. Degrees of Doubt:**
+
+*   There are many sources of uncertainty (polling errors, last-minute voter shifts, etc.), and therefore I will need to use a range of probabilities.
+
+**8. Under/Overconfidence:**
+
+*   I need to be confident enough to make a prediction, but not so confident that I dismiss credible contrary evidence.
+
+**9. Look for Errors (and Avoid Hindsight):**
+
+*   I need to be careful not to let past assumptions cloud my current judgment.
+
+**Combining State Probabilities**
+Now lets put some probabilities on each state individually:
+* **New Mexico:** Given the recent shift, I'll assign a 60% chance of Harris winning.
+* **New Hampshire:** The recent poll puts Trump slightly ahead. Given that other polls have had it as close but still leaning Harris I'll assign a 40% chance of Harris winning.
+* **Virginia:** This also looks tight, but I'll give Harris a slight edge, assigning a 65% chance of winning.
+* **Maine:** Maine appears to be safer for Harris, although the 2nd district is in play. I will assign an 80% chance of Harris winning.
+
+Since all four states need to be won for a 'yes', I need to multiply the probability for each state together:
+0.60 * 0.40 * 0.65 * 0.80 = 0.1248 or 12.48%
+
+Given the potential for error in my assessments and the rapid changes that can occur in the final week of an election campaign, I will broaden that probability slightly to a range between 10% and 15%.
+
+**Final Forecast:**
+
+My Prediction: Between 10.00% and 15.00%, but 12.48% being the most likely. Probability: 12.48%.
+
+
+2024-12-11 16:06:19,716 - INFO - Run 4:
+Okay, let's break down this forecasting problem using the superforecasting principles.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   I don't have access to live prediction markets like Polymarket or FiveThirtyEight's models that are specific to this four-state question. I need to rely on the information I have been provided. I'll use polls and expert analysis as a proxy for market predictions. 
+*   No relevant predictions from the information provided.
+
+**2. Break Down the Problem:**
+
+The question is about Kamala Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four must happen for the question to resolve as 'Yes'. I will assess each state individually, then combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic-leaning state, but several articles suggest a tightening race, with some indicating Trump might even win. The latest articles suggest Harris leads by only 3 points and some internal polls suggest the race is neck-and-neck.
+*   **New Hampshire:** Traditionally a swing state, more recently leans Democratic. But the recent poll showing a slight Trump lead is a huge shift and indicates the state is definitely in play. A poll showing a 50.2 to 49.8% lead for Trump is significant, considering Biden won it by 7 points in 2020.
+*   **Virginia:** Traditionally a Democratic state and seen as a safe seat for Harris in earlier articles, it appears that this has shifted more recently with Trump now planning a rally in Virginia and other reports suggesting it is now in play. Early voting is surging for Republicans.
+*   **Maine:** The state is generally Democratic-leaning, but we need to consider the 2nd Congressional District which is more competitive. However, it appears that Harris is leading in Maine overall and also in the 2nd district, according to the University of New Hampshire poll.
+
+**3. Inside vs. Outside Views:**
+
+*   **Outside View (Base Rates):**  Historically, it is difficult for a candidate to sweep a set of states that includes a mix of safe Democratic and swing states. Presidential races are often volatile in the final days, but typically a candidate's lead of more than 2 points a week before the election is pretty hard to overturn. It is very rare to see a candidate win all four states when there is polling data showing they are potentially underperforming in some of those states.
+*   **Inside View (Specific Evidence):**
+    *   **Strong Evidence for Harris:** She's the Democratic nominee, has visited these states, is campaigning hard, and has the advantage in overall electoral votes that lean her way according to some of the earlier polls. She is also ahead in the national popular vote according to some earlier polls.
+    *   **Strong Evidence Against Harris winning all four:** New Hampshire is a recent poll shocker with Trump leading, and New Mexico and Virginia are looking increasingly competitive, although Harris has consistently maintained a slight edge in those two states. The recent articles heavily focus on Trump campaign expanding into these states, suggesting they think they can win and they see the data showing they are competitive.  Trump's rallies and increased campaign efforts in the final days in New Mexico and Virginia could prove to be enough to tip the balance in those states. The close national polling suggests that Trump could easily win these states if he has momentum.
+
+**4. Balancing Under/Overreacting:**
+
+*   The New Hampshire poll is a significant piece of evidence and shouldn't be ignored. This requires a downward adjustment to the probability of Harris winning all 4 states.
+*   It is unlikely that states like Virginia and New Mexico will move dramatically in the next week.
+*   The number of polls indicating an extremely tight race between the two candidates is very concerning for Harris. If momentum is with Trump it's possible that he could win one or even all of these states in the final week.
+*   I will avoid over-reacting to a single poll in New Hampshire.
+*   I will also avoid over-relying on the polling data as things could change dramatically in the final week.
+
+**5. Clashing Causal Forces:**
+
+*   **Harris's Advantages:** Incumbent advantage, Democratic party infrastructure, recent polling leads (albeit narrowing).
+*   **Trump's Advantages:** Anti-establishment appeal, potential late surge in support, high turnout of Republican voters motivated by key cultural issues.
+
+**6. Extrapolate Trends:**
+
+*   Recent trends show the race tightening significantly, and Trump is gaining ground in the blue states. If the trends continue, it would suggest that the probability of all four states going to Harris is rapidly decreasing.
+
+**7. Degrees of Doubt:**
+
+*   There are many sources of uncertainty (polling errors, last-minute voter shifts, etc.), and therefore I will need to use a range of probabilities.
+
+**8. Under/Overconfidence:**
+
+*   I need to be confident enough to make a prediction, but not so confident that I dismiss credible contrary evidence.
+
+**9. Look for Errors (and Avoid Hindsight):**
+
+*   I need to be careful not to let past assumptions cloud my current judgment.
+
+**Combining State Probabilities**
+Now lets put some probabilities on each state individually:
+* **New Mexico:** Given the recent shift, I'll assign a 60% chance of Harris winning.
+* **New Hampshire:** The recent poll puts Trump slightly ahead. Given that other polls have had it as close but still leaning Harris I'll assign a 40% chance of Harris winning.
+* **Virginia:** This also looks tight, but I'll give Harris a slight edge, assigning a 65% chance of winning.
+* **Maine:** Maine appears to be safer for Harris, although the 2nd district is in play. I will assign an 80% chance of Harris winning.
+
+Since all four states need to be won for a 'yes', I need to multiply the probability for each state together:
+0.60 * 0.40 * 0.65 * 0.80 = 0.1248 or 12.48%
+
+Given the potential for error in my assessments and the rapid changes that can occur in the final week of an election campaign, I will broaden that probability slightly to a range between 10% and 15%.
+
+**Final Forecast:**
+
+My Prediction: Between 10.00% and 15.00%, but 12.48% being the most likely. Probability: 12.48%.
+
+
+2024-12-11 16:06:19,716 - INFO - Run 4:
+Okay, let's break down this forecasting problem using the superforecasting principles.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   I don't have access to live prediction markets like Polymarket or FiveThirtyEight's models that are specific to this four-state question. I need to rely on the information I have been provided. I'll use polls and expert analysis as a proxy for market predictions. 
+*   No relevant predictions from the information provided.
+
+**2. Break Down the Problem:**
+
+The question is about Kamala Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four must happen for the question to resolve as 'Yes'. I will assess each state individually, then combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic-leaning state, but several articles suggest a tightening race, with some indicating Trump might even win. The latest articles suggest Harris leads by only 3 points and some internal polls suggest the race is neck-and-neck.
+*   **New Hampshire:** Traditionally a swing state, more recently leans Democratic. But the recent poll showing a slight Trump lead is a huge shift and indicates the state is definitely in play. A poll showing a 50.2 to 49.8% lead for Trump is significant, considering Biden won it by 7 points in 2020.
+*   **Virginia:** Traditionally a Democratic state and seen as a safe seat for Harris in earlier articles, it appears that this has shifted more recently with Trump now planning a rally in Virginia and other reports suggesting it is now in play. Early voting is surging for Republicans.
+*   **Maine:** The state is generally Democratic-leaning, but we need to consider the 2nd Congressional District which is more competitive. However, it appears that Harris is leading in Maine overall and also in the 2nd district, according to the University of New Hampshire poll.
+
+**3. Inside vs. Outside Views:**
+
+*   **Outside View (Base Rates):**  Historically, it is difficult for a candidate to sweep a set of states that includes a mix of safe Democratic and swing states. Presidential races are often volatile in the final days, but typically a candidate's lead of more than 2 points a week before the election is pretty hard to overturn. It is very rare to see a candidate win all four states when there is polling data showing they are potentially underperforming in some of those states.
+*   **Inside View (Specific Evidence):**
+    *   **Strong Evidence for Harris:** She's the Democratic nominee, has visited these states, is campaigning hard, and has the advantage in overall electoral votes that lean her way according to some of the earlier polls. She is also ahead in the national popular vote according to some earlier polls.
+    *   **Strong Evidence Against Harris winning all four:** New Hampshire is a recent poll shocker with Trump leading, and New Mexico and Virginia are looking increasingly competitive, although Harris has consistently maintained a slight edge in those two states. The recent articles heavily focus on Trump campaign expanding into these states, suggesting they think they can win and they see the data showing they are competitive.  Trump's rallies and increased campaign efforts in the final days in New Mexico and Virginia could prove to be enough to tip the balance in those states. The close national polling suggests that Trump could easily win these states if he has momentum.
+
+**4. Balancing Under/Overreacting:**
+
+*   The New Hampshire poll is a significant piece of evidence and shouldn't be ignored. This requires a downward adjustment to the probability of Harris winning all 4 states.
+*   It is unlikely that states like Virginia and New Mexico will move dramatically in the next week.
+*   The number of polls indicating an extremely tight race between the two candidates is very concerning for Harris. If momentum is with Trump it's possible that he could win one or even all of these states in the final week.
+*   I will avoid over-reacting to a single poll in New Hampshire.
+*   I will also avoid over-relying on the polling data as things could change dramatically in the final week.
+
+**5. Clashing Causal Forces:**
+
+*   **Harris's Advantages:** Incumbent advantage, Democratic party infrastructure, recent polling leads (albeit narrowing).
+*   **Trump's Advantages:** Anti-establishment appeal, potential late surge in support, high turnout of Republican voters motivated by key cultural issues.
+
+**6. Extrapolate Trends:**
+
+*   Recent trends show the race tightening significantly, and Trump is gaining ground in the blue states. If the trends continue, it would suggest that the probability of all four states going to Harris is rapidly decreasing.
+
+**7. Degrees of Doubt:**
+
+*   There are many sources of uncertainty (polling errors, last-minute voter shifts, etc.), and therefore I will need to use a range of probabilities.
+
+**8. Under/Overconfidence:**
+
+*   I need to be confident enough to make a prediction, but not so confident that I dismiss credible contrary evidence.
+
+**9. Look for Errors (and Avoid Hindsight):**
+
+*   I need to be careful not to let past assumptions cloud my current judgment.
+
+**Combining State Probabilities**
+Now lets put some probabilities on each state individually:
+* **New Mexico:** Given the recent shift, I'll assign a 60% chance of Harris winning.
+* **New Hampshire:** The recent poll puts Trump slightly ahead. Given that other polls have had it as close but still leaning Harris I'll assign a 40% chance of Harris winning.
+* **Virginia:** This also looks tight, but I'll give Harris a slight edge, assigning a 65% chance of winning.
+* **Maine:** Maine appears to be safer for Harris, although the 2nd district is in play. I will assign an 80% chance of Harris winning.
+
+Since all four states need to be won for a 'yes', I need to multiply the probability for each state together:
+0.60 * 0.40 * 0.65 * 0.80 = 0.1248 or 12.48%
+
+Given the potential for error in my assessments and the rapid changes that can occur in the final week of an election campaign, I will broaden that probability slightly to a range between 10% and 15%.
+
+**Final Forecast:**
+
+My Prediction: Between 10.00% and 15.00%, but 12.48% being the most likely. Probability: 12.48%.
+
+
+2024-12-11 16:06:19,716 - INFO - Run 4:
+Okay, let's break down this forecasting problem using the superforecasting principles.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   I don't have access to live prediction markets like Polymarket or FiveThirtyEight's models that are specific to this four-state question. I need to rely on the information I have been provided. I'll use polls and expert analysis as a proxy for market predictions. 
+*   No relevant predictions from the information provided.
+
+**2. Break Down the Problem:**
+
+The question is about Kamala Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four must happen for the question to resolve as 'Yes'. I will assess each state individually, then combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic-leaning state, but several articles suggest a tightening race, with some indicating Trump might even win. The latest articles suggest Harris leads by only 3 points and some internal polls suggest the race is neck-and-neck.
+*   **New Hampshire:** Traditionally a swing state, more recently leans Democratic. But the recent poll showing a slight Trump lead is a huge shift and indicates the state is definitely in play. A poll showing a 50.2 to 49.8% lead for Trump is significant, considering Biden won it by 7 points in 2020.
+*   **Virginia:** Traditionally a Democratic state and seen as a safe seat for Harris in earlier articles, it appears that this has shifted more recently with Trump now planning a rally in Virginia and other reports suggesting it is now in play. Early voting is surging for Republicans.
+*   **Maine:** The state is generally Democratic-leaning, but we need to consider the 2nd Congressional District which is more competitive. However, it appears that Harris is leading in Maine overall and also in the 2nd district, according to the University of New Hampshire poll.
+
+**3. Inside vs. Outside Views:**
+
+*   **Outside View (Base Rates):**  Historically, it is difficult for a candidate to sweep a set of states that includes a mix of safe Democratic and swing states. Presidential races are often volatile in the final days, but typically a candidate's lead of more than 2 points a week before the election is pretty hard to overturn. It is very rare to see a candidate win all four states when there is polling data showing they are potentially underperforming in some of those states.
+*   **Inside View (Specific Evidence):**
+    *   **Strong Evidence for Harris:** She's the Democratic nominee, has visited these states, is campaigning hard, and has the advantage in overall electoral votes that lean her way according to some of the earlier polls. She is also ahead in the national popular vote according to some earlier polls.
+    *   **Strong Evidence Against Harris winning all four:** New Hampshire is a recent poll shocker with Trump leading, and New Mexico and Virginia are looking increasingly competitive, although Harris has consistently maintained a slight edge in those two states. The recent articles heavily focus on Trump campaign expanding into these states, suggesting they think they can win and they see the data showing they are competitive.  Trump's rallies and increased campaign efforts in the final days in New Mexico and Virginia could prove to be enough to tip the balance in those states. The close national polling suggests that Trump could easily win these states if he has momentum.
+
+**4. Balancing Under/Overreacting:**
+
+*   The New Hampshire poll is a significant piece of evidence and shouldn't be ignored. This requires a downward adjustment to the probability of Harris winning all 4 states.
+*   It is unlikely that states like Virginia and New Mexico will move dramatically in the next week.
+*   The number of polls indicating an extremely tight race between the two candidates is very concerning for Harris. If momentum is with Trump it's possible that he could win one or even all of these states in the final week.
+*   I will avoid over-reacting to a single poll in New Hampshire.
+*   I will also avoid over-relying on the polling data as things could change dramatically in the final week.
+
+**5. Clashing Causal Forces:**
+
+*   **Harris's Advantages:** Incumbent advantage, Democratic party infrastructure, recent polling leads (albeit narrowing).
+*   **Trump's Advantages:** Anti-establishment appeal, potential late surge in support, high turnout of Republican voters motivated by key cultural issues.
+
+**6. Extrapolate Trends:**
+
+*   Recent trends show the race tightening significantly, and Trump is gaining ground in the blue states. If the trends continue, it would suggest that the probability of all four states going to Harris is rapidly decreasing.
+
+**7. Degrees of Doubt:**
+
+*   There are many sources of uncertainty (polling errors, last-minute voter shifts, etc.), and therefore I will need to use a range of probabilities.
+
+**8. Under/Overconfidence:**
+
+*   I need to be confident enough to make a prediction, but not so confident that I dismiss credible contrary evidence.
+
+**9. Look for Errors (and Avoid Hindsight):**
+
+*   I need to be careful not to let past assumptions cloud my current judgment.
+
+**Combining State Probabilities**
+Now lets put some probabilities on each state individually:
+* **New Mexico:** Given the recent shift, I'll assign a 60% chance of Harris winning.
+* **New Hampshire:** The recent poll puts Trump slightly ahead. Given that other polls have had it as close but still leaning Harris I'll assign a 40% chance of Harris winning.
+* **Virginia:** This also looks tight, but I'll give Harris a slight edge, assigning a 65% chance of winning.
+* **Maine:** Maine appears to be safer for Harris, although the 2nd district is in play. I will assign an 80% chance of Harris winning.
+
+Since all four states need to be won for a 'yes', I need to multiply the probability for each state together:
+0.60 * 0.40 * 0.65 * 0.80 = 0.1248 or 12.48%
+
+Given the potential for error in my assessments and the rapid changes that can occur in the final week of an election campaign, I will broaden that probability slightly to a range between 10% and 15%.
+
+**Final Forecast:**
+
+My Prediction: Between 10.00% and 15.00%, but 12.48% being the most likely. Probability: 12.48%.
+
+
+2024-12-11 16:06:19,716 - INFO - Run 4:
+Okay, let's break down this forecasting problem using the superforecasting principles.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   I don't have access to live prediction markets like Polymarket or FiveThirtyEight's models that are specific to this four-state question. I need to rely on the information I have been provided. I'll use polls and expert analysis as a proxy for market predictions. 
+*   No relevant predictions from the information provided.
+
+**2. Break Down the Problem:**
+
+The question is about Kamala Harris winning *all four* states: New Mexico, New Hampshire, Virginia, and Maine. This is a conjunctive question - all four must happen for the question to resolve as 'Yes'. I will assess each state individually, then combine those probabilities.
+
+*   **New Mexico:** Historically a Democratic-leaning state, but several articles suggest a tightening race, with some indicating Trump might even win. The latest articles suggest Harris leads by only 3 points and some internal polls suggest the race is neck-and-neck.
+*   **New Hampshire:** Traditionally a swing state, more recently leans Democratic. But the recent poll showing a slight Trump lead is a huge shift and indicates the state is definitely in play. A poll showing a 50.2 to 49.8% lead for Trump is significant, considering Biden won it by 7 points in 2020.
+*   **Virginia:** Traditionally a Democratic state and seen as a safe seat for Harris in earlier articles, it appears that this has shifted more recently with Trump now planning a rally in Virginia and other reports suggesting it is now in play. Early voting is surging for Republicans.
+*   **Maine:** The state is generally Democratic-leaning, but we need to consider the 2nd Congressional District which is more competitive. However, it appears that Harris is leading in Maine overall and also in the 2nd district, according to the University of New Hampshire poll.
+
+**3. Inside vs. Outside Views:**
+
+*   **Outside View (Base Rates):**  Historically, it is difficult for a candidate to sweep a set of states that includes a mix of safe Democratic and swing states. Presidential races are often volatile in the final days, but typically a candidate's lead of more than 2 points a week before the election is pretty hard to overturn. It is very rare to see a candidate win all four states when there is polling data showing they are potentially underperforming in some of those states.
+*   **Inside View (Specific Evidence):**
+    *   **Strong Evidence for Harris:** She's the Democratic nominee, has visited these states, is campaigning hard, and has the advantage in overall electoral votes that lean her way according to some of the earlier polls. She is also ahead in the national popular vote according to some earlier polls.
+    *   **Strong Evidence Against Harris winning all four:** New Hampshire is a recent poll shocker with Trump leading, and New Mexico and Virginia are looking increasingly competitive, although Harris has consistently maintained a slight edge in those two states. The recent articles heavily focus on Trump campaign expanding into these states, suggesting they think they can win and they see the data showing they are competitive.  Trump's rallies and increased campaign efforts in the final days in New Mexico and Virginia could prove to be enough to tip the balance in those states. The close national polling suggests that Trump could easily win these states if he has momentum.
+
+**4. Balancing Under/Overreacting:**
+
+*   The New Hampshire poll is a significant piece of evidence and shouldn't be ignored. This requires a downward adjustment to the probability of Harris winning all 4 states.
+*   It is unlikely that states like Virginia and New Mexico will move dramatically in the next week.
+*   The number of polls indicating an extremely tight race between the two candidates is very concerning for Harris. If momentum is with Trump it's possible that he could win one or even all of these states in the final week.
+*   I will avoid over-reacting to a single poll in New Hampshire.
+*   I will also avoid over-relying on the polling data as things could change dramatically in the final week.
+
+**5. Clashing Causal Forces:**
+
+*   **Harris's Advantages:** Incumbent advantage, Democratic party infrastructure, recent polling leads (albeit narrowing).
+*   **Trump's Advantages:** Anti-establishment appeal, potential late surge in support, high turnout of Republican voters motivated by key cultural issues.
+
+**6. Extrapolate Trends:**
+
+*   Recent trends show the race tightening significantly, and Trump is gaining ground in the blue states. If the trends continue, it would suggest that the probability of all four states going to Harris is rapidly decreasing.
+
+**7. Degrees of Doubt:**
+
+*   There are many sources of uncertainty (polling errors, last-minute voter shifts, etc.), and therefore I will need to use a range of probabilities.
+
+**8. Under/Overconfidence:**
+
+*   I need to be confident enough to make a prediction, but not so confident that I dismiss credible contrary evidence.
+
+**9. Look for Errors (and Avoid Hindsight):**
+
+*   I need to be careful not to let past assumptions cloud my current judgment.
+
+**Combining State Probabilities**
+Now lets put some probabilities on each state individually:
+* **New Mexico:** Given the recent shift, I'll assign a 60% chance of Harris winning.
+* **New Hampshire:** The recent poll puts Trump slightly ahead. Given that other polls have had it as close but still leaning Harris I'll assign a 40% chance of Harris winning.
+* **Virginia:** This also looks tight, but I'll give Harris a slight edge, assigning a 65% chance of winning.
+* **Maine:** Maine appears to be safer for Harris, although the 2nd district is in play. I will assign an 80% chance of Harris winning.
+
+Since all four states need to be won for a 'yes', I need to multiply the probability for each state together:
+0.60 * 0.40 * 0.65 * 0.80 = 0.1248 or 12.48%
+
+Given the potential for error in my assessments and the rapid changes that can occur in the final week of an election campaign, I will broaden that probability slightly to a range between 10% and 15%.
+
+**Final Forecast:**
+
+My Prediction: Between 10.00% and 15.00%, but 12.48% being the most likely. Probability: 12.48%.
+
+

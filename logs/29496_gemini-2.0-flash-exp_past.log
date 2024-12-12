@@ -1,0 +1,921 @@
+2024-12-11 15:39:48,584 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:39:48,590 - INFO - Run 0:
+Okay, let's analyze this question systematically.
+
+**1. Triage and Reference Predictions:**
+
+*   **Metaculus:** There's no prior prediction for this specific question on Metaculus.
+*   **Other sources:** FiveThirtyEight and Polymarket don't have relevant predictions for this type of recall resolution.
+*   **My Own Past Performance**: I have a strong track record with similar food recall predictions, giving me some confidence in my method.
+
+**2. Breaking Down the Problem:**
+
+This recall resolution depends on the USDA's FSIS updating the status of the Perdue recall from "Active" to "Closed" on their website. This depends on:
+
+*   **Perdue's actions:** Perdue needs to address the foreign matter contamination issue adequately. They need to demonstrate to the FSIS that they have implemented corrective actions to prevent future contamination.
+*   **FSIS's actions:** The FSIS needs to be satisfied with Perdue's actions and update the recall status on their website. This involves bureaucratic processes that can take time.
+*   **Timeframe:** We only have until November 16, 2024 to resolve this question, which is less than 2 weeks away.
+
+**3. Inside View vs. Outside View:**
+
+*   **Outside View (Base Rate):**  It's difficult to find a base rate for how long specific recalls take to close. However, examining the news articles, we note that many food recalls are ongoing, sometimes involving millions of pounds of products. Some recalls seem to be resolved relatively quickly, while others linger.
+*   **Inside View (Specific Details):**
+    *   The Perdue recall is for foreign matter (metal) contamination, not a biological hazard like Listeria. This type of issue might be resolved faster as it doesn't involve biological testing, only demonstration of proper manufacturing control.
+    *   The recall volume is 167,171 pounds, relatively small compared to the Listeria-related recalls of millions of pounds. This could mean a quicker resolution.
+    *   The articles highlight several other, much larger recalls happening simultaneously (e.g., BrucePac, Boar's Head). This could potentially slow down the process for Perdue's recall if the FSIS resources are stretched.
+    *   The Perdue recall was initiated due to consumer complaints and occurred over a month ago, on Oct 4, while the other big recalls happened more recently. Perdue has thus had more time to take corrective actions.
+    *   No illnesses were reported from Perdue products, which might expedite the closure process.
+
+**4. Balance Under- and Overreacting to Evidence:**
+
+*   **Underreacting:** We must not assume a rapid resolution is guaranteed, given the bureaucracy involved.
+*   **Overreacting:** We must not get bogged down by the complexities of other recall events and over-estimate the time this specific issue will take to resolve, given it is not a biological one.
+
+**5. Clashing Causal Forces:**
+
+*   **Force for closure:** Perdue's efforts to fix the issue, a small recall volume and a relatively simple cause of recall compared to biological contamination.
+*   **Force against closure:** FSIS bureaucracy and the possibility of the agency being busy with larger recall cases.
+
+**6. Extrapolate Current Trends Linearly:**
+
+There isn't a clearly discernible linear trend here. We can observe that recalls happen frequently. The Perdue recall started on October 4th, and given we are November 1st, it has already been going on for almost a month. Thus far, it hasn't been closed, so we have a better indication that closing the recall might take a while, as an assumption that these processes are quick may be incorrect.
+
+**7. Degrees of Doubt:**
+
+We can consider multiple possibilities with varying degrees of doubt:
+    *   High likelihood of closure before November 16: This scenario would require very swift action on Perdue's and FSIS's part, which is unlikely considering that we have two weeks left.
+    *   Moderate likelihood of closure: This scenario is possible, but not the most likely one given bureaucratic processes.
+    *   Low likelihood of closure: This is the scenario that I think is the most likely at this time, given all the information at hand.
+
+**8. Balance Under- and Overconfidence:**
+
+Given the available data, I'm leaning towards being cautious and not overconfident in a swift resolution. There are some positive factors like the nature of contamination and the small recall size, but there are also several logistical hurdles, primarily the bureaucratic processes at play.
+
+**9. Errors Behind Mistakes:**
+
+In the past, I've made mistakes by:
+*   Overestimating the speed of bureaucratic processes.
+*   Underestimating the impact of concurrent events on resource allocation.
+
+**Reasoning and Justification:**
+
+Based on all these factors, the Perdue recall is more likely to remain active before November 16, 2024.  The main reason is bureaucratic inertia and the time that the Perdue case might require to proceed through it. While it is not impossible to be closed in less than two weeks, it is unlikely given the multiple other recalls. 
+
+**Forecast:**
+
+My Prediction: Between 20.00% and 30.00%, but 25.00% being the most likely. Probability: 25.00%.
+
+
+2024-12-11 15:39:59,865 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:39:59,865 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:39:59,866 - INFO - Run 1:
+Okay, let's break down this forecasting problem.
+
+**1. Triage and Reference Predictions:**
+
+*   **Metaculus:** There is a Metaculus question related to this, but it's not visible to me. As a result I can't use it as a reference.
+*   **Other Sources:** I have no other prediction markets to reference.
+
+**2. Break Down the Problem:**
+
+The core question is whether a specific USDA recall will be *closed* by a specific date (November 16, 2024). To tackle this, I need to consider:
+
+*   **What does "closed" mean in this context?** It means the USDA's FSIS website changes the recall status from "Active" to "Closed." This means the recall process is considered complete by the USDA.
+*   **What factors influence a recall being closed?** Generally, these are likely to include:
+    *   The company demonstrating that they have effectively removed the affected products from the market.
+    *   The USDA being satisfied that the cause of the recall is understood and resolved.
+    *   The absence of new incidents or complaints related to the recalled product.
+    *   The USDA has allocated resources to close the recall given the ongoing presence of new food recalls.
+*   **What is the nature of this specific recall?** It involves possible foreign matter (metal) contamination in Perdue chicken nuggets and tenders. This seems less complex to resolve than a widespread listeria outbreak, where the contamination source may be unclear or involve more pervasive issues.
+*   **What is the timeframe?** I have just over two weeks from today, November 1, 2024, until November 16, 2024.
+
+**3. Inside vs. Outside View:**
+
+*   **Outside View (Base Rates):** Historically, how quickly are food recalls closed? This is hard to answer precisely because of the varying nature of recalls (the different types of hazards and the varied scope). Some recalls are closed quickly, perhaps within a few weeks if the issue is simple and contained, while others can remain active for months or even years if investigations are complex or problems recur. A simple metal contamination issue should typically be quicker to resolve than a listeria contamination given that metal is easier to find and less likely to be spread through the facility. 
+    *   However, the timeframes for a recall to be closed may depend on the USDA's workload and available resources (for inspection, analysis and official closure), which can vary over time. Multiple recent listeria outbreaks suggest they will be the highest priority for resources.
+*   **Inside View (Specifics):**
+    *   **Perdue Recall:** The Perdue recall is for a discrete event: potential metal contamination in a specific batch of chicken products made on March 23, 2024. The articles indicate that Perdue received complaints from consumers about metal wires embedded in the product, and that the products have been removed from the shelves. This suggests a contained and readily identifiable problem, which should make closure easier.
+    *   **Listeria Recalls:** There are many recent articles about other recalls, particularly those caused by Listeria contamination, many of which are much larger and likely require more resources to be resolved (e.g., the BrucePac recall of 10+ million pounds of meat and poultry, and the Boar's Head recall of 7 million pounds of deli meat). This is likely to divert USDA resources away from the Perdue recall.
+    *   **No Illnesses Reported:** There are no reports of illnesses associated with the Perdue recall. The lack of illness linked to Perdue's recall suggests that this is not a widespread contamination, and will reduce the likelihood of it being a priority for resources within the USDA.
+    * **Time Remaining**: Given that it is now November 1st, this is a short timeframe to resolve the issue, submit documentation to the USDA, have the USDA audit this documentation and then officially change the status of the recall. Given the competing demands for the USDA's resources, this is more difficult.
+
+**4. Under- vs. Overreacting:**
+
+*   I want to be cautious not to be overly optimistic given that it is an administrative process to close a recall, and there are competing demands for USDA resources. 
+*   I want to avoid over-reacting to the fact that it is a foreign body contamination event as opposed to a biological one, given that it is not the only recall that is happening in this period.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The relatively contained nature of the Perdue recall should allow it to be closed more quickly than a widespread listeria outbreak. Perdue have received reports from consumers suggesting the issue has been identified.
+*   **Forces Against Closure:** The USDA is very busy dealing with recent listeria outbreaks and will have to prioritize. The time remaining before the deadline is relatively short and may not be enough for the USDA to complete the closure. The USDA's workload may mean this is a low priority for them given the absence of illness from the Perdue recall.
+
+**6. Linear Extrapolation:**
+
+*   I cannot linearly extrapolate because the process for closing a recall isn't well defined, but this does not appear to be a long tail event, and should be resolved relatively quickly. I cannot say whether that "quickly" is likely to be within the next two weeks. 
+
+**7. Degrees of Doubt:**
+
+*   I have medium uncertainty. This is a relatively straightforward recall issue, but there are factors that would cause a delay.
+
+**8. Confidence and Prudence:**
+
+*   I want to be both prudent and decisive here. I lean towards the recall *not* being closed in the short timeframe due to administrative hurdles and the competing demands on USDA resources, even though the nature of the recall suggests it could have been closed quickly. 
+
+**9. Learning From Mistakes:**
+
+*   This is a good reminder to consider the resource constraints of regulatory agencies and their processes in closing a recall, which is difficult to quantify and should temper my optimism for a quick closure.
+
+**Forecast:**
+
+I believe that the Perdue recall has a reasonable chance of being closed before November 16, but the USDA workload related to other recalls, the administrative processes required for closure, and the short remaining timeframe make it less likely. Therefore, my probability is significantly less than 50%.
+
+My Prediction: Between 20.00% and 40.00%, but 30.00% being the most likely. Probability: 30.00%.
+
+
+2024-12-11 15:39:59,866 - INFO - Run 1:
+Okay, let's break down this forecasting problem.
+
+**1. Triage and Reference Predictions:**
+
+*   **Metaculus:** There is a Metaculus question related to this, but it's not visible to me. As a result I can't use it as a reference.
+*   **Other Sources:** I have no other prediction markets to reference.
+
+**2. Break Down the Problem:**
+
+The core question is whether a specific USDA recall will be *closed* by a specific date (November 16, 2024). To tackle this, I need to consider:
+
+*   **What does "closed" mean in this context?** It means the USDA's FSIS website changes the recall status from "Active" to "Closed." This means the recall process is considered complete by the USDA.
+*   **What factors influence a recall being closed?** Generally, these are likely to include:
+    *   The company demonstrating that they have effectively removed the affected products from the market.
+    *   The USDA being satisfied that the cause of the recall is understood and resolved.
+    *   The absence of new incidents or complaints related to the recalled product.
+    *   The USDA has allocated resources to close the recall given the ongoing presence of new food recalls.
+*   **What is the nature of this specific recall?** It involves possible foreign matter (metal) contamination in Perdue chicken nuggets and tenders. This seems less complex to resolve than a widespread listeria outbreak, where the contamination source may be unclear or involve more pervasive issues.
+*   **What is the timeframe?** I have just over two weeks from today, November 1, 2024, until November 16, 2024.
+
+**3. Inside vs. Outside View:**
+
+*   **Outside View (Base Rates):** Historically, how quickly are food recalls closed? This is hard to answer precisely because of the varying nature of recalls (the different types of hazards and the varied scope). Some recalls are closed quickly, perhaps within a few weeks if the issue is simple and contained, while others can remain active for months or even years if investigations are complex or problems recur. A simple metal contamination issue should typically be quicker to resolve than a listeria contamination given that metal is easier to find and less likely to be spread through the facility. 
+    *   However, the timeframes for a recall to be closed may depend on the USDA's workload and available resources (for inspection, analysis and official closure), which can vary over time. Multiple recent listeria outbreaks suggest they will be the highest priority for resources.
+*   **Inside View (Specifics):**
+    *   **Perdue Recall:** The Perdue recall is for a discrete event: potential metal contamination in a specific batch of chicken products made on March 23, 2024. The articles indicate that Perdue received complaints from consumers about metal wires embedded in the product, and that the products have been removed from the shelves. This suggests a contained and readily identifiable problem, which should make closure easier.
+    *   **Listeria Recalls:** There are many recent articles about other recalls, particularly those caused by Listeria contamination, many of which are much larger and likely require more resources to be resolved (e.g., the BrucePac recall of 10+ million pounds of meat and poultry, and the Boar's Head recall of 7 million pounds of deli meat). This is likely to divert USDA resources away from the Perdue recall.
+    *   **No Illnesses Reported:** There are no reports of illnesses associated with the Perdue recall. The lack of illness linked to Perdue's recall suggests that this is not a widespread contamination, and will reduce the likelihood of it being a priority for resources within the USDA.
+    * **Time Remaining**: Given that it is now November 1st, this is a short timeframe to resolve the issue, submit documentation to the USDA, have the USDA audit this documentation and then officially change the status of the recall. Given the competing demands for the USDA's resources, this is more difficult.
+
+**4. Under- vs. Overreacting:**
+
+*   I want to be cautious not to be overly optimistic given that it is an administrative process to close a recall, and there are competing demands for USDA resources. 
+*   I want to avoid over-reacting to the fact that it is a foreign body contamination event as opposed to a biological one, given that it is not the only recall that is happening in this period.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The relatively contained nature of the Perdue recall should allow it to be closed more quickly than a widespread listeria outbreak. Perdue have received reports from consumers suggesting the issue has been identified.
+*   **Forces Against Closure:** The USDA is very busy dealing with recent listeria outbreaks and will have to prioritize. The time remaining before the deadline is relatively short and may not be enough for the USDA to complete the closure. The USDA's workload may mean this is a low priority for them given the absence of illness from the Perdue recall.
+
+**6. Linear Extrapolation:**
+
+*   I cannot linearly extrapolate because the process for closing a recall isn't well defined, but this does not appear to be a long tail event, and should be resolved relatively quickly. I cannot say whether that "quickly" is likely to be within the next two weeks. 
+
+**7. Degrees of Doubt:**
+
+*   I have medium uncertainty. This is a relatively straightforward recall issue, but there are factors that would cause a delay.
+
+**8. Confidence and Prudence:**
+
+*   I want to be both prudent and decisive here. I lean towards the recall *not* being closed in the short timeframe due to administrative hurdles and the competing demands on USDA resources, even though the nature of the recall suggests it could have been closed quickly. 
+
+**9. Learning From Mistakes:**
+
+*   This is a good reminder to consider the resource constraints of regulatory agencies and their processes in closing a recall, which is difficult to quantify and should temper my optimism for a quick closure.
+
+**Forecast:**
+
+I believe that the Perdue recall has a reasonable chance of being closed before November 16, but the USDA workload related to other recalls, the administrative processes required for closure, and the short remaining timeframe make it less likely. Therefore, my probability is significantly less than 50%.
+
+My Prediction: Between 20.00% and 40.00%, but 30.00% being the most likely. Probability: 30.00%.
+
+
+2024-12-11 15:40:08,616 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:08,616 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:08,616 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:08,616 - INFO - Run 2:
+Okay, let's analyze this recall question and make a forecast.
+
+**1. Triage and Reference Predictions:**
+
+*   There are no relevant human predictions from the sources listed that I can use as a reference.
+
+**2. Break Down the Problem:**
+
+We need to determine the likelihood of the Perdue chicken nugget recall being closed within the next 15 days (from November 1st to November 15th). This means we need to consider the factors that influence the closure of a USDA recall. These can be broken down into:
+
+*   **Nature of the Recall:** This is a Class II recall, based on foreign material (metal). It's not a widespread contamination like Listeria, which might make it easier to resolve.
+*   **Company Response:** Perdue's response, including how quickly they address the root cause, affects the timeline.
+*   **USDA Process:** The USDA's process for verifying the corrective actions by Perdue and officially closing the recall.
+*   **Time Sensitivity:** A two-week timeframe is relatively short, so the speed of the process matters.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** Based on prior experience with food recalls, closures are not always rapid processes. They involve the company identifying the issue, implementing corrective actions, and the USDA verifying and approving the changes. There are other recalls ongoing at the same time. This suggests a base rate of recalls being open beyond two weeks is relatively high. Recalls relating to foreign material contamination may be resolved faster than those involving biological contaminants like listeria but it is unknown if this will be a significant factor in this case.
+*  **Inside View:** The Perdue recall is due to a specific batch of products produced on March 23, 2024. The foreign material was discovered after consumer complaints. The lack of reported adverse reactions might expedite the resolution.  There aren't strong indicators that the contamination is ongoing or widespread. The recall notice was issued relatively recently on October 4, which is already ~4 weeks ago.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   **Under-reacting:** If I simply assume recalls take a long time to close, I'm ignoring the specific nature of the Perdue recall which may allow it to close more quickly than other recalls.
+*   **Over-reacting:** If I assume that because it's not a listeria outbreak, the recall closure will be rapid, I am ignoring the fact that any recall resolution requires a formal process. This needs to be balanced. The presence of other large recalls at the same time might slightly reduce the USDA's speed in closing this case, but it should not be the main factor.
+
+**5. Clashing Causal Forces:**
+
+*   **Force for Closure:** Limited scope of the recall (specific date of production). Absence of reported illnesses means a quick investigation. Perdue will want to resolve and close this as quickly as possible to resume normal business.
+*   **Force Against Closure:** Time is short; two weeks is not a lot of time in a regulatory environment, especially when it comes to resolving the root cause, verifying this and closing the case. USDA process includes verification, and administrative time. Other ongoing recalls might slow down the process.
+
+**6. Linear Extrapolation:**
+The recall was initiated on October 4th and it is now November 1st. This is around 28 days since the recall was first announced. Typically, it would appear to take several weeks to resolve a recall. There is no clear upward or downward trend to extrapolate beyond that.
+
+**7. Degrees of Doubt:**
+There are many unknown factors regarding Perdue's response, how quickly they can implement corrective action, and the speed at which the USDA processes the closure. While there are positive elements pointing to a quicker resolution, the relatively short timeframe means it is far from certain the recall will be closed within 2 weeks.
+
+**8. Under- and Overconfidence:**
+Being overly confident it will close in 2 weeks, ignoring the potential barriers or administrative processes, would be unwise. Equally, being overly cautious and assuming a long resolution is not optimal.
+
+**9. Errors and Hindsight Bias:**
+I need to be cautious about hindsight bias if it does not close, assuming my initial assessment of its likelihood to close was too high.
+
+**Balancing the Evidence and Making a Prediction:**
+
+Given the time constraints, and the requirement for the company to satisfy the USDA's requirements before a recall can be closed, I think the likelihood of closure by November 16th is relatively low but not impossible. The fact that this recall is not for a contamination like listeria may give it a slightly better chance, but the short timeframe is a significant constraint. I do not believe it will be closed by November 16th.
+
+**Prediction:**
+
+My Prediction: Between 15.00% and 30.00%, but 20.00% being the most likely. Probability: 20.00%.
+
+
+2024-12-11 15:40:08,616 - INFO - Run 2:
+Okay, let's analyze this recall question and make a forecast.
+
+**1. Triage and Reference Predictions:**
+
+*   There are no relevant human predictions from the sources listed that I can use as a reference.
+
+**2. Break Down the Problem:**
+
+We need to determine the likelihood of the Perdue chicken nugget recall being closed within the next 15 days (from November 1st to November 15th). This means we need to consider the factors that influence the closure of a USDA recall. These can be broken down into:
+
+*   **Nature of the Recall:** This is a Class II recall, based on foreign material (metal). It's not a widespread contamination like Listeria, which might make it easier to resolve.
+*   **Company Response:** Perdue's response, including how quickly they address the root cause, affects the timeline.
+*   **USDA Process:** The USDA's process for verifying the corrective actions by Perdue and officially closing the recall.
+*   **Time Sensitivity:** A two-week timeframe is relatively short, so the speed of the process matters.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** Based on prior experience with food recalls, closures are not always rapid processes. They involve the company identifying the issue, implementing corrective actions, and the USDA verifying and approving the changes. There are other recalls ongoing at the same time. This suggests a base rate of recalls being open beyond two weeks is relatively high. Recalls relating to foreign material contamination may be resolved faster than those involving biological contaminants like listeria but it is unknown if this will be a significant factor in this case.
+*  **Inside View:** The Perdue recall is due to a specific batch of products produced on March 23, 2024. The foreign material was discovered after consumer complaints. The lack of reported adverse reactions might expedite the resolution.  There aren't strong indicators that the contamination is ongoing or widespread. The recall notice was issued relatively recently on October 4, which is already ~4 weeks ago.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   **Under-reacting:** If I simply assume recalls take a long time to close, I'm ignoring the specific nature of the Perdue recall which may allow it to close more quickly than other recalls.
+*   **Over-reacting:** If I assume that because it's not a listeria outbreak, the recall closure will be rapid, I am ignoring the fact that any recall resolution requires a formal process. This needs to be balanced. The presence of other large recalls at the same time might slightly reduce the USDA's speed in closing this case, but it should not be the main factor.
+
+**5. Clashing Causal Forces:**
+
+*   **Force for Closure:** Limited scope of the recall (specific date of production). Absence of reported illnesses means a quick investigation. Perdue will want to resolve and close this as quickly as possible to resume normal business.
+*   **Force Against Closure:** Time is short; two weeks is not a lot of time in a regulatory environment, especially when it comes to resolving the root cause, verifying this and closing the case. USDA process includes verification, and administrative time. Other ongoing recalls might slow down the process.
+
+**6. Linear Extrapolation:**
+The recall was initiated on October 4th and it is now November 1st. This is around 28 days since the recall was first announced. Typically, it would appear to take several weeks to resolve a recall. There is no clear upward or downward trend to extrapolate beyond that.
+
+**7. Degrees of Doubt:**
+There are many unknown factors regarding Perdue's response, how quickly they can implement corrective action, and the speed at which the USDA processes the closure. While there are positive elements pointing to a quicker resolution, the relatively short timeframe means it is far from certain the recall will be closed within 2 weeks.
+
+**8. Under- and Overconfidence:**
+Being overly confident it will close in 2 weeks, ignoring the potential barriers or administrative processes, would be unwise. Equally, being overly cautious and assuming a long resolution is not optimal.
+
+**9. Errors and Hindsight Bias:**
+I need to be cautious about hindsight bias if it does not close, assuming my initial assessment of its likelihood to close was too high.
+
+**Balancing the Evidence and Making a Prediction:**
+
+Given the time constraints, and the requirement for the company to satisfy the USDA's requirements before a recall can be closed, I think the likelihood of closure by November 16th is relatively low but not impossible. The fact that this recall is not for a contamination like listeria may give it a slightly better chance, but the short timeframe is a significant constraint. I do not believe it will be closed by November 16th.
+
+**Prediction:**
+
+My Prediction: Between 15.00% and 30.00%, but 20.00% being the most likely. Probability: 20.00%.
+
+
+2024-12-11 15:40:08,616 - INFO - Run 2:
+Okay, let's analyze this recall question and make a forecast.
+
+**1. Triage and Reference Predictions:**
+
+*   There are no relevant human predictions from the sources listed that I can use as a reference.
+
+**2. Break Down the Problem:**
+
+We need to determine the likelihood of the Perdue chicken nugget recall being closed within the next 15 days (from November 1st to November 15th). This means we need to consider the factors that influence the closure of a USDA recall. These can be broken down into:
+
+*   **Nature of the Recall:** This is a Class II recall, based on foreign material (metal). It's not a widespread contamination like Listeria, which might make it easier to resolve.
+*   **Company Response:** Perdue's response, including how quickly they address the root cause, affects the timeline.
+*   **USDA Process:** The USDA's process for verifying the corrective actions by Perdue and officially closing the recall.
+*   **Time Sensitivity:** A two-week timeframe is relatively short, so the speed of the process matters.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** Based on prior experience with food recalls, closures are not always rapid processes. They involve the company identifying the issue, implementing corrective actions, and the USDA verifying and approving the changes. There are other recalls ongoing at the same time. This suggests a base rate of recalls being open beyond two weeks is relatively high. Recalls relating to foreign material contamination may be resolved faster than those involving biological contaminants like listeria but it is unknown if this will be a significant factor in this case.
+*  **Inside View:** The Perdue recall is due to a specific batch of products produced on March 23, 2024. The foreign material was discovered after consumer complaints. The lack of reported adverse reactions might expedite the resolution.  There aren't strong indicators that the contamination is ongoing or widespread. The recall notice was issued relatively recently on October 4, which is already ~4 weeks ago.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   **Under-reacting:** If I simply assume recalls take a long time to close, I'm ignoring the specific nature of the Perdue recall which may allow it to close more quickly than other recalls.
+*   **Over-reacting:** If I assume that because it's not a listeria outbreak, the recall closure will be rapid, I am ignoring the fact that any recall resolution requires a formal process. This needs to be balanced. The presence of other large recalls at the same time might slightly reduce the USDA's speed in closing this case, but it should not be the main factor.
+
+**5. Clashing Causal Forces:**
+
+*   **Force for Closure:** Limited scope of the recall (specific date of production). Absence of reported illnesses means a quick investigation. Perdue will want to resolve and close this as quickly as possible to resume normal business.
+*   **Force Against Closure:** Time is short; two weeks is not a lot of time in a regulatory environment, especially when it comes to resolving the root cause, verifying this and closing the case. USDA process includes verification, and administrative time. Other ongoing recalls might slow down the process.
+
+**6. Linear Extrapolation:**
+The recall was initiated on October 4th and it is now November 1st. This is around 28 days since the recall was first announced. Typically, it would appear to take several weeks to resolve a recall. There is no clear upward or downward trend to extrapolate beyond that.
+
+**7. Degrees of Doubt:**
+There are many unknown factors regarding Perdue's response, how quickly they can implement corrective action, and the speed at which the USDA processes the closure. While there are positive elements pointing to a quicker resolution, the relatively short timeframe means it is far from certain the recall will be closed within 2 weeks.
+
+**8. Under- and Overconfidence:**
+Being overly confident it will close in 2 weeks, ignoring the potential barriers or administrative processes, would be unwise. Equally, being overly cautious and assuming a long resolution is not optimal.
+
+**9. Errors and Hindsight Bias:**
+I need to be cautious about hindsight bias if it does not close, assuming my initial assessment of its likelihood to close was too high.
+
+**Balancing the Evidence and Making a Prediction:**
+
+Given the time constraints, and the requirement for the company to satisfy the USDA's requirements before a recall can be closed, I think the likelihood of closure by November 16th is relatively low but not impossible. The fact that this recall is not for a contamination like listeria may give it a slightly better chance, but the short timeframe is a significant constraint. I do not believe it will be closed by November 16th.
+
+**Prediction:**
+
+My Prediction: Between 15.00% and 30.00%, but 20.00% being the most likely. Probability: 20.00%.
+
+
+2024-12-11 15:40:18,809 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:18,809 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:18,809 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:18,809 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:18,810 - INFO - Run 3:
+Okay, let's analyze this recall question and generate a forecast.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   There are currently no other human predictions on this specific question, so I'll rely on my own analysis.
+
+**2. Break Down the Problem:**
+
+The core question is whether the Perdue recall will be closed by November 16, 2024. This breaks down into a few sub-questions:
+*   What's the typical timeline for closing a food recall of this type?
+*   What are the key factors that drive the closing of a recall?
+*   Are there any unique aspects of this Perdue recall that might accelerate or delay the closure process?
+*   What is the likelihood of bureaucratic delays, or other unanticipated hold-ups?
+
+**3. Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Food recalls vary widely in duration. Some are resolved very quickly (within days), especially if the issue is easily contained and doesn't require significant investigation. Others can drag on for weeks or even months, particularly if the contamination is widespread or difficult to trace.  A "typical" food recall probably has a median duration of a few weeks. However this is difficult to apply as every recall is different.
+*   **Inside View (Specifics of this case):**
+    *   **Nature of the Recall:** This Perdue recall is due to *possible foreign matter contamination (metal)*, not a biological one like Listeria. This might lead to a faster closure since the contamination should be easier to identify and rectify.
+    *  **Recall Size:**  The recall is for about 167,000 pounds of product. This isn't as massive as the other meat recalls described in the articles. A smaller scale may make it easier to manage and close the recall faster.
+    *   **Time Since Recall:** The recall was initiated on October 4, 2024. That is more than 3 weeks ago. This means that some work on resolving this would have already taken place.
+    *   **Lack of Reported Illnesses:** No illnesses have been reported in relation to this recall, suggesting that the problem may be limited and contained.
+   *   **Other recalls** There are multiple other food recalls occurring at the same time, namely a massive 10 million pounds + recall due to listeria concerns. This could lead to the USDA being overloaded and thus slowing the closure of other cases such as this Perdue one.
+    *   **Resolution Mechanism:** The resolution is based on a change in the status of the recall on the USDA's FSIS website. This is a clear and objective criterion.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   I need to avoid over-reacting to the 'good news' of no reported illnesses and the specific nature of the contamination by focusing only on the inside view. A metallic contamination may be easily identified but may be difficult to fully exclude from a production line, which may lead to some delays. Also, I should be cautious about assuming rapid resolution, as bureaucratic processes can sometimes take longer than anticipated.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The specific nature of the contamination (metal), the relatively smaller scale of the recall, the lack of reported illnesses, and the fact that the recall began almost a month ago all push towards a quicker resolution.
+*   **Forces Against Closure:** Bureaucratic delays, backlogs from a huge number of other recalls (due to listeria) and the possibility of further problems being discovered during the investigation.
+
+**6. Linear Extrapolation:**
+
+*   It's not really possible to linearly extrapolate a trend here as there's only one data point (the initiation of the recall) and its not a continuous process. However, it does seem likely that a good deal of the work needed to resolve the recall would already be completed (as its nearly a month since the start of the recall).
+
+**7. Degrees of Doubt:**
+
+*   I can distinguish between a few degrees of likelihood: highly likely, moderately likely, and unlikely. I don't see a scenario where the recall is near certain to be resolved, nor do I think it's near certain to still be active on November 16.
+
+**8. Under- and Overconfidence:**
+
+*   I will aim to express moderate confidence, reflecting the fact that the situation could go either way within the time period. I will aim not to be too confident in either a yes or no answer as the specific details and timelines of USDA procedures are not known.
+
+**9. Errors Behind Mistakes:**
+
+*   I'm trying to avoid over-optimism due to the metal contamination and lack of illness reports by remembering that these things can still cause delays. I'm also aware that a key cause of error in the past has been overconfidence in the speed of government bodies (in both positive and negative directions) and thus will keep a reasonable spread in my probability prediction.
+
+**Putting it all together:**
+
+Given the various factors at play, I believe it is slightly more likely than not that the Perdue recall will be closed by November 16th. The metal contamination might be easier to deal with than a biological one and the scale of the recall is manageable. There have been no reported illnesses and the recall was initiated over 3 weeks ago. However, I can't rule out potential delays. It is also very important to note that there are several other major recalls happening at the same time which may take up USDA resources thus slowing the close of the Purdue recall. 
+
+Therefore I will give it a probability between 50 and 70% to close, with 60% being the most likely outcome.
+
+My Prediction: Between 50.00% and 70.00%, but 60.00% being the most likely. Probability: 60.00%.
+
+
+2024-12-11 15:40:18,810 - INFO - Run 3:
+Okay, let's analyze this recall question and generate a forecast.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   There are currently no other human predictions on this specific question, so I'll rely on my own analysis.
+
+**2. Break Down the Problem:**
+
+The core question is whether the Perdue recall will be closed by November 16, 2024. This breaks down into a few sub-questions:
+*   What's the typical timeline for closing a food recall of this type?
+*   What are the key factors that drive the closing of a recall?
+*   Are there any unique aspects of this Perdue recall that might accelerate or delay the closure process?
+*   What is the likelihood of bureaucratic delays, or other unanticipated hold-ups?
+
+**3. Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Food recalls vary widely in duration. Some are resolved very quickly (within days), especially if the issue is easily contained and doesn't require significant investigation. Others can drag on for weeks or even months, particularly if the contamination is widespread or difficult to trace.  A "typical" food recall probably has a median duration of a few weeks. However this is difficult to apply as every recall is different.
+*   **Inside View (Specifics of this case):**
+    *   **Nature of the Recall:** This Perdue recall is due to *possible foreign matter contamination (metal)*, not a biological one like Listeria. This might lead to a faster closure since the contamination should be easier to identify and rectify.
+    *  **Recall Size:**  The recall is for about 167,000 pounds of product. This isn't as massive as the other meat recalls described in the articles. A smaller scale may make it easier to manage and close the recall faster.
+    *   **Time Since Recall:** The recall was initiated on October 4, 2024. That is more than 3 weeks ago. This means that some work on resolving this would have already taken place.
+    *   **Lack of Reported Illnesses:** No illnesses have been reported in relation to this recall, suggesting that the problem may be limited and contained.
+   *   **Other recalls** There are multiple other food recalls occurring at the same time, namely a massive 10 million pounds + recall due to listeria concerns. This could lead to the USDA being overloaded and thus slowing the closure of other cases such as this Perdue one.
+    *   **Resolution Mechanism:** The resolution is based on a change in the status of the recall on the USDA's FSIS website. This is a clear and objective criterion.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   I need to avoid over-reacting to the 'good news' of no reported illnesses and the specific nature of the contamination by focusing only on the inside view. A metallic contamination may be easily identified but may be difficult to fully exclude from a production line, which may lead to some delays. Also, I should be cautious about assuming rapid resolution, as bureaucratic processes can sometimes take longer than anticipated.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The specific nature of the contamination (metal), the relatively smaller scale of the recall, the lack of reported illnesses, and the fact that the recall began almost a month ago all push towards a quicker resolution.
+*   **Forces Against Closure:** Bureaucratic delays, backlogs from a huge number of other recalls (due to listeria) and the possibility of further problems being discovered during the investigation.
+
+**6. Linear Extrapolation:**
+
+*   It's not really possible to linearly extrapolate a trend here as there's only one data point (the initiation of the recall) and its not a continuous process. However, it does seem likely that a good deal of the work needed to resolve the recall would already be completed (as its nearly a month since the start of the recall).
+
+**7. Degrees of Doubt:**
+
+*   I can distinguish between a few degrees of likelihood: highly likely, moderately likely, and unlikely. I don't see a scenario where the recall is near certain to be resolved, nor do I think it's near certain to still be active on November 16.
+
+**8. Under- and Overconfidence:**
+
+*   I will aim to express moderate confidence, reflecting the fact that the situation could go either way within the time period. I will aim not to be too confident in either a yes or no answer as the specific details and timelines of USDA procedures are not known.
+
+**9. Errors Behind Mistakes:**
+
+*   I'm trying to avoid over-optimism due to the metal contamination and lack of illness reports by remembering that these things can still cause delays. I'm also aware that a key cause of error in the past has been overconfidence in the speed of government bodies (in both positive and negative directions) and thus will keep a reasonable spread in my probability prediction.
+
+**Putting it all together:**
+
+Given the various factors at play, I believe it is slightly more likely than not that the Perdue recall will be closed by November 16th. The metal contamination might be easier to deal with than a biological one and the scale of the recall is manageable. There have been no reported illnesses and the recall was initiated over 3 weeks ago. However, I can't rule out potential delays. It is also very important to note that there are several other major recalls happening at the same time which may take up USDA resources thus slowing the close of the Purdue recall. 
+
+Therefore I will give it a probability between 50 and 70% to close, with 60% being the most likely outcome.
+
+My Prediction: Between 50.00% and 70.00%, but 60.00% being the most likely. Probability: 60.00%.
+
+
+2024-12-11 15:40:18,810 - INFO - Run 3:
+Okay, let's analyze this recall question and generate a forecast.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   There are currently no other human predictions on this specific question, so I'll rely on my own analysis.
+
+**2. Break Down the Problem:**
+
+The core question is whether the Perdue recall will be closed by November 16, 2024. This breaks down into a few sub-questions:
+*   What's the typical timeline for closing a food recall of this type?
+*   What are the key factors that drive the closing of a recall?
+*   Are there any unique aspects of this Perdue recall that might accelerate or delay the closure process?
+*   What is the likelihood of bureaucratic delays, or other unanticipated hold-ups?
+
+**3. Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Food recalls vary widely in duration. Some are resolved very quickly (within days), especially if the issue is easily contained and doesn't require significant investigation. Others can drag on for weeks or even months, particularly if the contamination is widespread or difficult to trace.  A "typical" food recall probably has a median duration of a few weeks. However this is difficult to apply as every recall is different.
+*   **Inside View (Specifics of this case):**
+    *   **Nature of the Recall:** This Perdue recall is due to *possible foreign matter contamination (metal)*, not a biological one like Listeria. This might lead to a faster closure since the contamination should be easier to identify and rectify.
+    *  **Recall Size:**  The recall is for about 167,000 pounds of product. This isn't as massive as the other meat recalls described in the articles. A smaller scale may make it easier to manage and close the recall faster.
+    *   **Time Since Recall:** The recall was initiated on October 4, 2024. That is more than 3 weeks ago. This means that some work on resolving this would have already taken place.
+    *   **Lack of Reported Illnesses:** No illnesses have been reported in relation to this recall, suggesting that the problem may be limited and contained.
+   *   **Other recalls** There are multiple other food recalls occurring at the same time, namely a massive 10 million pounds + recall due to listeria concerns. This could lead to the USDA being overloaded and thus slowing the closure of other cases such as this Perdue one.
+    *   **Resolution Mechanism:** The resolution is based on a change in the status of the recall on the USDA's FSIS website. This is a clear and objective criterion.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   I need to avoid over-reacting to the 'good news' of no reported illnesses and the specific nature of the contamination by focusing only on the inside view. A metallic contamination may be easily identified but may be difficult to fully exclude from a production line, which may lead to some delays. Also, I should be cautious about assuming rapid resolution, as bureaucratic processes can sometimes take longer than anticipated.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The specific nature of the contamination (metal), the relatively smaller scale of the recall, the lack of reported illnesses, and the fact that the recall began almost a month ago all push towards a quicker resolution.
+*   **Forces Against Closure:** Bureaucratic delays, backlogs from a huge number of other recalls (due to listeria) and the possibility of further problems being discovered during the investigation.
+
+**6. Linear Extrapolation:**
+
+*   It's not really possible to linearly extrapolate a trend here as there's only one data point (the initiation of the recall) and its not a continuous process. However, it does seem likely that a good deal of the work needed to resolve the recall would already be completed (as its nearly a month since the start of the recall).
+
+**7. Degrees of Doubt:**
+
+*   I can distinguish between a few degrees of likelihood: highly likely, moderately likely, and unlikely. I don't see a scenario where the recall is near certain to be resolved, nor do I think it's near certain to still be active on November 16.
+
+**8. Under- and Overconfidence:**
+
+*   I will aim to express moderate confidence, reflecting the fact that the situation could go either way within the time period. I will aim not to be too confident in either a yes or no answer as the specific details and timelines of USDA procedures are not known.
+
+**9. Errors Behind Mistakes:**
+
+*   I'm trying to avoid over-optimism due to the metal contamination and lack of illness reports by remembering that these things can still cause delays. I'm also aware that a key cause of error in the past has been overconfidence in the speed of government bodies (in both positive and negative directions) and thus will keep a reasonable spread in my probability prediction.
+
+**Putting it all together:**
+
+Given the various factors at play, I believe it is slightly more likely than not that the Perdue recall will be closed by November 16th. The metal contamination might be easier to deal with than a biological one and the scale of the recall is manageable. There have been no reported illnesses and the recall was initiated over 3 weeks ago. However, I can't rule out potential delays. It is also very important to note that there are several other major recalls happening at the same time which may take up USDA resources thus slowing the close of the Purdue recall. 
+
+Therefore I will give it a probability between 50 and 70% to close, with 60% being the most likely outcome.
+
+My Prediction: Between 50.00% and 70.00%, but 60.00% being the most likely. Probability: 60.00%.
+
+
+2024-12-11 15:40:18,810 - INFO - Run 3:
+Okay, let's analyze this recall question and generate a forecast.
+
+**1. Triage and Reference Relevant Predictions:**
+
+*   There are currently no other human predictions on this specific question, so I'll rely on my own analysis.
+
+**2. Break Down the Problem:**
+
+The core question is whether the Perdue recall will be closed by November 16, 2024. This breaks down into a few sub-questions:
+*   What's the typical timeline for closing a food recall of this type?
+*   What are the key factors that drive the closing of a recall?
+*   Are there any unique aspects of this Perdue recall that might accelerate or delay the closure process?
+*   What is the likelihood of bureaucratic delays, or other unanticipated hold-ups?
+
+**3. Inside and Outside Views:**
+
+*   **Outside View (Base Rate):** Food recalls vary widely in duration. Some are resolved very quickly (within days), especially if the issue is easily contained and doesn't require significant investigation. Others can drag on for weeks or even months, particularly if the contamination is widespread or difficult to trace.  A "typical" food recall probably has a median duration of a few weeks. However this is difficult to apply as every recall is different.
+*   **Inside View (Specifics of this case):**
+    *   **Nature of the Recall:** This Perdue recall is due to *possible foreign matter contamination (metal)*, not a biological one like Listeria. This might lead to a faster closure since the contamination should be easier to identify and rectify.
+    *  **Recall Size:**  The recall is for about 167,000 pounds of product. This isn't as massive as the other meat recalls described in the articles. A smaller scale may make it easier to manage and close the recall faster.
+    *   **Time Since Recall:** The recall was initiated on October 4, 2024. That is more than 3 weeks ago. This means that some work on resolving this would have already taken place.
+    *   **Lack of Reported Illnesses:** No illnesses have been reported in relation to this recall, suggesting that the problem may be limited and contained.
+   *   **Other recalls** There are multiple other food recalls occurring at the same time, namely a massive 10 million pounds + recall due to listeria concerns. This could lead to the USDA being overloaded and thus slowing the closure of other cases such as this Perdue one.
+    *   **Resolution Mechanism:** The resolution is based on a change in the status of the recall on the USDA's FSIS website. This is a clear and objective criterion.
+
+**4. Under- and Overreacting to Evidence:**
+
+*   I need to avoid over-reacting to the 'good news' of no reported illnesses and the specific nature of the contamination by focusing only on the inside view. A metallic contamination may be easily identified but may be difficult to fully exclude from a production line, which may lead to some delays. Also, I should be cautious about assuming rapid resolution, as bureaucratic processes can sometimes take longer than anticipated.
+
+**5. Clashing Causal Forces:**
+
+*   **Forces for Closure:** The specific nature of the contamination (metal), the relatively smaller scale of the recall, the lack of reported illnesses, and the fact that the recall began almost a month ago all push towards a quicker resolution.
+*   **Forces Against Closure:** Bureaucratic delays, backlogs from a huge number of other recalls (due to listeria) and the possibility of further problems being discovered during the investigation.
+
+**6. Linear Extrapolation:**
+
+*   It's not really possible to linearly extrapolate a trend here as there's only one data point (the initiation of the recall) and its not a continuous process. However, it does seem likely that a good deal of the work needed to resolve the recall would already be completed (as its nearly a month since the start of the recall).
+
+**7. Degrees of Doubt:**
+
+*   I can distinguish between a few degrees of likelihood: highly likely, moderately likely, and unlikely. I don't see a scenario where the recall is near certain to be resolved, nor do I think it's near certain to still be active on November 16.
+
+**8. Under- and Overconfidence:**
+
+*   I will aim to express moderate confidence, reflecting the fact that the situation could go either way within the time period. I will aim not to be too confident in either a yes or no answer as the specific details and timelines of USDA procedures are not known.
+
+**9. Errors Behind Mistakes:**
+
+*   I'm trying to avoid over-optimism due to the metal contamination and lack of illness reports by remembering that these things can still cause delays. I'm also aware that a key cause of error in the past has been overconfidence in the speed of government bodies (in both positive and negative directions) and thus will keep a reasonable spread in my probability prediction.
+
+**Putting it all together:**
+
+Given the various factors at play, I believe it is slightly more likely than not that the Perdue recall will be closed by November 16th. The metal contamination might be easier to deal with than a biological one and the scale of the recall is manageable. There have been no reported illnesses and the recall was initiated over 3 weeks ago. However, I can't rule out potential delays. It is also very important to note that there are several other major recalls happening at the same time which may take up USDA resources thus slowing the close of the Purdue recall. 
+
+Therefore I will give it a probability between 50 and 70% to close, with 60% being the most likely outcome.
+
+My Prediction: Between 50.00% and 70.00%, but 60.00% being the most likely. Probability: 60.00%.
+
+
+2024-12-11 15:40:29,675 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:29,675 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:29,675 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:29,675 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:29,675 - INFO - Question: Will the USDA-posted recall of Perdue Foods LLC's Frozen, Ready-To-Eat Chicken Breast Nugget and Tender Products  be closed before November 16, 2024?
+2024-12-11 15:40:29,675 - INFO - Run 4:
+Okay, let's analyze this recall question and generate a well-calibrated forecast.
+
+**1. Triage and Reference Class:**
+
+*   **Reference Class:** USDA food recalls. These are generally complex processes involving investigation, corrective actions by the company, and verification by the USDA. There isn't readily available data on the *exact* duration of recall closures for metal contamination, but we can look at general trends and other types of recalls and then account for this specific type later.
+*   **Human Predictions:** There are no existing predictions on Metaculus or other forecasters for this specific question.
+
+**2. Break into Sub-Problems:**
+
+To evaluate the likelihood of closure before Nov 16th, let's break down what needs to happen:
+
+*   **Investigation Completion:** Perdue needs to identify the source of the metal contamination. They likely have already started this process since a recall was initiated due to consumer complaints and the fact that the recall itself has been initiated means that FSIS has already confirmed there is a need for action.
+*   **Corrective Action Implementation:** Perdue will need to implement corrective actions to prevent future contamination. This can range from equipment upgrades, staff training or process improvements to prevent it again.
+*   **FSIS Verification:** The USDA (FSIS) needs to verify that Perdue's corrective actions are effective and that the risk is eliminated. This involves further inspections, documentation reviews and product testing to ensure metal is not present.
+*   **Official Closure:** Once FSIS is satisfied, they will officially change the recall status from "Active" to "Closed" on the webpage.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** 
+    *   General recalls take time to close, ranging from weeks to months depending on the complexity. A recall for a metal contamination, while serious, might be less complicated than a bacterial outbreak (such as listeria).
+    *   The fact the Perdue recall is from a specific production date (March 23, 2024) and no other dates are mentioned suggests this could be limited to one manufacturing run, making the investigation process more straightforward.
+    *   From the recall articles, a recent spate of other major recalls, (e.g., the BrucePac listeria recall impacting 10 million+ lbs) would mean that FSIS is currently very busy and that could slow down their ability to close out cases.
+*   **Inside View:**
+    *   This specific Perdue recall is for approximately 167,000 lbs of product, which is relatively small compared to the BrucePac recall which is over 11 million pounds of product. This is a relatively small recall, which might suggest a quicker resolution (less product to track and verify).
+    *   The articles state there have been no confirmed illnesses or adverse reactions. While the situation is serious (metal in food is always a concern), the recall isn’t because of immediate illness. This might mean that FSIS isn't under as much pressure as it would be for a bacterial outbreak that has caused confirmed illnesses/deaths. 
+    *   The Perdue recall was initiated on Oct 4th, this is about one month before the resolution date, so they already had a period of time to start their investigation/corrective action.
+
+**4. Balancing Under- and Over-Reaction:**
+
+*   The initial recall was related to customer complaints of foreign materials (metal) found in chicken nuggets. This suggests an issue during the manufacturing/processing stage.
+*   Since the recall is for metal contamination, it might be easier to trace the source and implement a corrective plan, which might be more technical/engineering-focused than bio-contamination.
+*   There is the major listeria recall happening at the same time, this could affect how quickly FSIS can close out the Perdue one.
+*   The resolution date is close, it's Nov 15th, and the recall was issued on Oct 4th. So there is limited time left for FSIS and Purdue to fix the issue and for FSIS to then verify it. 
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Closure:** The relatively small scale of this Perdue recall, the nature of the contamination (metal), and Perdue's interest in a quick resolution.
+*   **Forces Against Closure:** The complexity of the investigation and the verification by FSIS, the current workload of FSIS related to the BrucePac recall, and the limited remaining time.
+
+**6. Linear Extrapolation:**
+
+*   It's difficult to extrapolate a linear trend as we don't have data on the closure time of *similar* recalls of a metal contamination in food. We will go on my best judgment.
+
+**7. Degrees of Doubt:**
+
+*   This is binary, "Yes" or "No." We will use a probability to reflect the degree of certainty.
+
+**8. Balance Under/Over Confidence:**
+
+*   I will remain grounded in the available information, not over confident based on limited specific evidence, but also acknowledge there is time left for action.
+
+**9. Look for Errors:**
+
+*   After the resolution date, this is a perfect scenario to look back on. Hindsight bias might impact future forecasts so this must be considered. If this prediction ends up being wrong we will re-evaluate the balance of inside/outside view, and look at what I should have considered (or should not have).
+
+**Reasoning and Forecast:**
+
+Given all the factors, I am putting a lower probability than what I may expect for something that isn't a foodborne disease issue because the time is short, and there are a lot of food recalls occurring. The Perdue recall seems straightforward and relatively small but the large ongoing listeria outbreak has likely caused a backlog in the FSIS. While the metal contamination is concerning and does require investigation, the fact there has been no confirmed illnesses and that there is no indication it is from a wider production issue may mean it could be quicker to resolve. It is more likely, but not certain, that Perdue will address the source of metal contamination, the FSIS will verify the solution and close it before the resolution date.
+
+My Prediction: Between 35.00% and 55.00%, but 45.00% being the most likely. Probability: 45.00%.
+
+
+2024-12-11 15:40:29,675 - INFO - Run 4:
+Okay, let's analyze this recall question and generate a well-calibrated forecast.
+
+**1. Triage and Reference Class:**
+
+*   **Reference Class:** USDA food recalls. These are generally complex processes involving investigation, corrective actions by the company, and verification by the USDA. There isn't readily available data on the *exact* duration of recall closures for metal contamination, but we can look at general trends and other types of recalls and then account for this specific type later.
+*   **Human Predictions:** There are no existing predictions on Metaculus or other forecasters for this specific question.
+
+**2. Break into Sub-Problems:**
+
+To evaluate the likelihood of closure before Nov 16th, let's break down what needs to happen:
+
+*   **Investigation Completion:** Perdue needs to identify the source of the metal contamination. They likely have already started this process since a recall was initiated due to consumer complaints and the fact that the recall itself has been initiated means that FSIS has already confirmed there is a need for action.
+*   **Corrective Action Implementation:** Perdue will need to implement corrective actions to prevent future contamination. This can range from equipment upgrades, staff training or process improvements to prevent it again.
+*   **FSIS Verification:** The USDA (FSIS) needs to verify that Perdue's corrective actions are effective and that the risk is eliminated. This involves further inspections, documentation reviews and product testing to ensure metal is not present.
+*   **Official Closure:** Once FSIS is satisfied, they will officially change the recall status from "Active" to "Closed" on the webpage.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** 
+    *   General recalls take time to close, ranging from weeks to months depending on the complexity. A recall for a metal contamination, while serious, might be less complicated than a bacterial outbreak (such as listeria).
+    *   The fact the Perdue recall is from a specific production date (March 23, 2024) and no other dates are mentioned suggests this could be limited to one manufacturing run, making the investigation process more straightforward.
+    *   From the recall articles, a recent spate of other major recalls, (e.g., the BrucePac listeria recall impacting 10 million+ lbs) would mean that FSIS is currently very busy and that could slow down their ability to close out cases.
+*   **Inside View:**
+    *   This specific Perdue recall is for approximately 167,000 lbs of product, which is relatively small compared to the BrucePac recall which is over 11 million pounds of product. This is a relatively small recall, which might suggest a quicker resolution (less product to track and verify).
+    *   The articles state there have been no confirmed illnesses or adverse reactions. While the situation is serious (metal in food is always a concern), the recall isn’t because of immediate illness. This might mean that FSIS isn't under as much pressure as it would be for a bacterial outbreak that has caused confirmed illnesses/deaths. 
+    *   The Perdue recall was initiated on Oct 4th, this is about one month before the resolution date, so they already had a period of time to start their investigation/corrective action.
+
+**4. Balancing Under- and Over-Reaction:**
+
+*   The initial recall was related to customer complaints of foreign materials (metal) found in chicken nuggets. This suggests an issue during the manufacturing/processing stage.
+*   Since the recall is for metal contamination, it might be easier to trace the source and implement a corrective plan, which might be more technical/engineering-focused than bio-contamination.
+*   There is the major listeria recall happening at the same time, this could affect how quickly FSIS can close out the Perdue one.
+*   The resolution date is close, it's Nov 15th, and the recall was issued on Oct 4th. So there is limited time left for FSIS and Purdue to fix the issue and for FSIS to then verify it. 
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Closure:** The relatively small scale of this Perdue recall, the nature of the contamination (metal), and Perdue's interest in a quick resolution.
+*   **Forces Against Closure:** The complexity of the investigation and the verification by FSIS, the current workload of FSIS related to the BrucePac recall, and the limited remaining time.
+
+**6. Linear Extrapolation:**
+
+*   It's difficult to extrapolate a linear trend as we don't have data on the closure time of *similar* recalls of a metal contamination in food. We will go on my best judgment.
+
+**7. Degrees of Doubt:**
+
+*   This is binary, "Yes" or "No." We will use a probability to reflect the degree of certainty.
+
+**8. Balance Under/Over Confidence:**
+
+*   I will remain grounded in the available information, not over confident based on limited specific evidence, but also acknowledge there is time left for action.
+
+**9. Look for Errors:**
+
+*   After the resolution date, this is a perfect scenario to look back on. Hindsight bias might impact future forecasts so this must be considered. If this prediction ends up being wrong we will re-evaluate the balance of inside/outside view, and look at what I should have considered (or should not have).
+
+**Reasoning and Forecast:**
+
+Given all the factors, I am putting a lower probability than what I may expect for something that isn't a foodborne disease issue because the time is short, and there are a lot of food recalls occurring. The Perdue recall seems straightforward and relatively small but the large ongoing listeria outbreak has likely caused a backlog in the FSIS. While the metal contamination is concerning and does require investigation, the fact there has been no confirmed illnesses and that there is no indication it is from a wider production issue may mean it could be quicker to resolve. It is more likely, but not certain, that Perdue will address the source of metal contamination, the FSIS will verify the solution and close it before the resolution date.
+
+My Prediction: Between 35.00% and 55.00%, but 45.00% being the most likely. Probability: 45.00%.
+
+
+2024-12-11 15:40:29,675 - INFO - Run 4:
+Okay, let's analyze this recall question and generate a well-calibrated forecast.
+
+**1. Triage and Reference Class:**
+
+*   **Reference Class:** USDA food recalls. These are generally complex processes involving investigation, corrective actions by the company, and verification by the USDA. There isn't readily available data on the *exact* duration of recall closures for metal contamination, but we can look at general trends and other types of recalls and then account for this specific type later.
+*   **Human Predictions:** There are no existing predictions on Metaculus or other forecasters for this specific question.
+
+**2. Break into Sub-Problems:**
+
+To evaluate the likelihood of closure before Nov 16th, let's break down what needs to happen:
+
+*   **Investigation Completion:** Perdue needs to identify the source of the metal contamination. They likely have already started this process since a recall was initiated due to consumer complaints and the fact that the recall itself has been initiated means that FSIS has already confirmed there is a need for action.
+*   **Corrective Action Implementation:** Perdue will need to implement corrective actions to prevent future contamination. This can range from equipment upgrades, staff training or process improvements to prevent it again.
+*   **FSIS Verification:** The USDA (FSIS) needs to verify that Perdue's corrective actions are effective and that the risk is eliminated. This involves further inspections, documentation reviews and product testing to ensure metal is not present.
+*   **Official Closure:** Once FSIS is satisfied, they will officially change the recall status from "Active" to "Closed" on the webpage.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** 
+    *   General recalls take time to close, ranging from weeks to months depending on the complexity. A recall for a metal contamination, while serious, might be less complicated than a bacterial outbreak (such as listeria).
+    *   The fact the Perdue recall is from a specific production date (March 23, 2024) and no other dates are mentioned suggests this could be limited to one manufacturing run, making the investigation process more straightforward.
+    *   From the recall articles, a recent spate of other major recalls, (e.g., the BrucePac listeria recall impacting 10 million+ lbs) would mean that FSIS is currently very busy and that could slow down their ability to close out cases.
+*   **Inside View:**
+    *   This specific Perdue recall is for approximately 167,000 lbs of product, which is relatively small compared to the BrucePac recall which is over 11 million pounds of product. This is a relatively small recall, which might suggest a quicker resolution (less product to track and verify).
+    *   The articles state there have been no confirmed illnesses or adverse reactions. While the situation is serious (metal in food is always a concern), the recall isn’t because of immediate illness. This might mean that FSIS isn't under as much pressure as it would be for a bacterial outbreak that has caused confirmed illnesses/deaths. 
+    *   The Perdue recall was initiated on Oct 4th, this is about one month before the resolution date, so they already had a period of time to start their investigation/corrective action.
+
+**4. Balancing Under- and Over-Reaction:**
+
+*   The initial recall was related to customer complaints of foreign materials (metal) found in chicken nuggets. This suggests an issue during the manufacturing/processing stage.
+*   Since the recall is for metal contamination, it might be easier to trace the source and implement a corrective plan, which might be more technical/engineering-focused than bio-contamination.
+*   There is the major listeria recall happening at the same time, this could affect how quickly FSIS can close out the Perdue one.
+*   The resolution date is close, it's Nov 15th, and the recall was issued on Oct 4th. So there is limited time left for FSIS and Purdue to fix the issue and for FSIS to then verify it. 
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Closure:** The relatively small scale of this Perdue recall, the nature of the contamination (metal), and Perdue's interest in a quick resolution.
+*   **Forces Against Closure:** The complexity of the investigation and the verification by FSIS, the current workload of FSIS related to the BrucePac recall, and the limited remaining time.
+
+**6. Linear Extrapolation:**
+
+*   It's difficult to extrapolate a linear trend as we don't have data on the closure time of *similar* recalls of a metal contamination in food. We will go on my best judgment.
+
+**7. Degrees of Doubt:**
+
+*   This is binary, "Yes" or "No." We will use a probability to reflect the degree of certainty.
+
+**8. Balance Under/Over Confidence:**
+
+*   I will remain grounded in the available information, not over confident based on limited specific evidence, but also acknowledge there is time left for action.
+
+**9. Look for Errors:**
+
+*   After the resolution date, this is a perfect scenario to look back on. Hindsight bias might impact future forecasts so this must be considered. If this prediction ends up being wrong we will re-evaluate the balance of inside/outside view, and look at what I should have considered (or should not have).
+
+**Reasoning and Forecast:**
+
+Given all the factors, I am putting a lower probability than what I may expect for something that isn't a foodborne disease issue because the time is short, and there are a lot of food recalls occurring. The Perdue recall seems straightforward and relatively small but the large ongoing listeria outbreak has likely caused a backlog in the FSIS. While the metal contamination is concerning and does require investigation, the fact there has been no confirmed illnesses and that there is no indication it is from a wider production issue may mean it could be quicker to resolve. It is more likely, but not certain, that Perdue will address the source of metal contamination, the FSIS will verify the solution and close it before the resolution date.
+
+My Prediction: Between 35.00% and 55.00%, but 45.00% being the most likely. Probability: 45.00%.
+
+
+2024-12-11 15:40:29,675 - INFO - Run 4:
+Okay, let's analyze this recall question and generate a well-calibrated forecast.
+
+**1. Triage and Reference Class:**
+
+*   **Reference Class:** USDA food recalls. These are generally complex processes involving investigation, corrective actions by the company, and verification by the USDA. There isn't readily available data on the *exact* duration of recall closures for metal contamination, but we can look at general trends and other types of recalls and then account for this specific type later.
+*   **Human Predictions:** There are no existing predictions on Metaculus or other forecasters for this specific question.
+
+**2. Break into Sub-Problems:**
+
+To evaluate the likelihood of closure before Nov 16th, let's break down what needs to happen:
+
+*   **Investigation Completion:** Perdue needs to identify the source of the metal contamination. They likely have already started this process since a recall was initiated due to consumer complaints and the fact that the recall itself has been initiated means that FSIS has already confirmed there is a need for action.
+*   **Corrective Action Implementation:** Perdue will need to implement corrective actions to prevent future contamination. This can range from equipment upgrades, staff training or process improvements to prevent it again.
+*   **FSIS Verification:** The USDA (FSIS) needs to verify that Perdue's corrective actions are effective and that the risk is eliminated. This involves further inspections, documentation reviews and product testing to ensure metal is not present.
+*   **Official Closure:** Once FSIS is satisfied, they will officially change the recall status from "Active" to "Closed" on the webpage.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** 
+    *   General recalls take time to close, ranging from weeks to months depending on the complexity. A recall for a metal contamination, while serious, might be less complicated than a bacterial outbreak (such as listeria).
+    *   The fact the Perdue recall is from a specific production date (March 23, 2024) and no other dates are mentioned suggests this could be limited to one manufacturing run, making the investigation process more straightforward.
+    *   From the recall articles, a recent spate of other major recalls, (e.g., the BrucePac listeria recall impacting 10 million+ lbs) would mean that FSIS is currently very busy and that could slow down their ability to close out cases.
+*   **Inside View:**
+    *   This specific Perdue recall is for approximately 167,000 lbs of product, which is relatively small compared to the BrucePac recall which is over 11 million pounds of product. This is a relatively small recall, which might suggest a quicker resolution (less product to track and verify).
+    *   The articles state there have been no confirmed illnesses or adverse reactions. While the situation is serious (metal in food is always a concern), the recall isn’t because of immediate illness. This might mean that FSIS isn't under as much pressure as it would be for a bacterial outbreak that has caused confirmed illnesses/deaths. 
+    *   The Perdue recall was initiated on Oct 4th, this is about one month before the resolution date, so they already had a period of time to start their investigation/corrective action.
+
+**4. Balancing Under- and Over-Reaction:**
+
+*   The initial recall was related to customer complaints of foreign materials (metal) found in chicken nuggets. This suggests an issue during the manufacturing/processing stage.
+*   Since the recall is for metal contamination, it might be easier to trace the source and implement a corrective plan, which might be more technical/engineering-focused than bio-contamination.
+*   There is the major listeria recall happening at the same time, this could affect how quickly FSIS can close out the Perdue one.
+*   The resolution date is close, it's Nov 15th, and the recall was issued on Oct 4th. So there is limited time left for FSIS and Purdue to fix the issue and for FSIS to then verify it. 
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Closure:** The relatively small scale of this Perdue recall, the nature of the contamination (metal), and Perdue's interest in a quick resolution.
+*   **Forces Against Closure:** The complexity of the investigation and the verification by FSIS, the current workload of FSIS related to the BrucePac recall, and the limited remaining time.
+
+**6. Linear Extrapolation:**
+
+*   It's difficult to extrapolate a linear trend as we don't have data on the closure time of *similar* recalls of a metal contamination in food. We will go on my best judgment.
+
+**7. Degrees of Doubt:**
+
+*   This is binary, "Yes" or "No." We will use a probability to reflect the degree of certainty.
+
+**8. Balance Under/Over Confidence:**
+
+*   I will remain grounded in the available information, not over confident based on limited specific evidence, but also acknowledge there is time left for action.
+
+**9. Look for Errors:**
+
+*   After the resolution date, this is a perfect scenario to look back on. Hindsight bias might impact future forecasts so this must be considered. If this prediction ends up being wrong we will re-evaluate the balance of inside/outside view, and look at what I should have considered (or should not have).
+
+**Reasoning and Forecast:**
+
+Given all the factors, I am putting a lower probability than what I may expect for something that isn't a foodborne disease issue because the time is short, and there are a lot of food recalls occurring. The Perdue recall seems straightforward and relatively small but the large ongoing listeria outbreak has likely caused a backlog in the FSIS. While the metal contamination is concerning and does require investigation, the fact there has been no confirmed illnesses and that there is no indication it is from a wider production issue may mean it could be quicker to resolve. It is more likely, but not certain, that Perdue will address the source of metal contamination, the FSIS will verify the solution and close it before the resolution date.
+
+My Prediction: Between 35.00% and 55.00%, but 45.00% being the most likely. Probability: 45.00%.
+
+
+2024-12-11 15:40:29,675 - INFO - Run 4:
+Okay, let's analyze this recall question and generate a well-calibrated forecast.
+
+**1. Triage and Reference Class:**
+
+*   **Reference Class:** USDA food recalls. These are generally complex processes involving investigation, corrective actions by the company, and verification by the USDA. There isn't readily available data on the *exact* duration of recall closures for metal contamination, but we can look at general trends and other types of recalls and then account for this specific type later.
+*   **Human Predictions:** There are no existing predictions on Metaculus or other forecasters for this specific question.
+
+**2. Break into Sub-Problems:**
+
+To evaluate the likelihood of closure before Nov 16th, let's break down what needs to happen:
+
+*   **Investigation Completion:** Perdue needs to identify the source of the metal contamination. They likely have already started this process since a recall was initiated due to consumer complaints and the fact that the recall itself has been initiated means that FSIS has already confirmed there is a need for action.
+*   **Corrective Action Implementation:** Perdue will need to implement corrective actions to prevent future contamination. This can range from equipment upgrades, staff training or process improvements to prevent it again.
+*   **FSIS Verification:** The USDA (FSIS) needs to verify that Perdue's corrective actions are effective and that the risk is eliminated. This involves further inspections, documentation reviews and product testing to ensure metal is not present.
+*   **Official Closure:** Once FSIS is satisfied, they will officially change the recall status from "Active" to "Closed" on the webpage.
+
+**3. Inside and Outside Views:**
+
+*   **Outside View:** 
+    *   General recalls take time to close, ranging from weeks to months depending on the complexity. A recall for a metal contamination, while serious, might be less complicated than a bacterial outbreak (such as listeria).
+    *   The fact the Perdue recall is from a specific production date (March 23, 2024) and no other dates are mentioned suggests this could be limited to one manufacturing run, making the investigation process more straightforward.
+    *   From the recall articles, a recent spate of other major recalls, (e.g., the BrucePac listeria recall impacting 10 million+ lbs) would mean that FSIS is currently very busy and that could slow down their ability to close out cases.
+*   **Inside View:**
+    *   This specific Perdue recall is for approximately 167,000 lbs of product, which is relatively small compared to the BrucePac recall which is over 11 million pounds of product. This is a relatively small recall, which might suggest a quicker resolution (less product to track and verify).
+    *   The articles state there have been no confirmed illnesses or adverse reactions. While the situation is serious (metal in food is always a concern), the recall isn’t because of immediate illness. This might mean that FSIS isn't under as much pressure as it would be for a bacterial outbreak that has caused confirmed illnesses/deaths. 
+    *   The Perdue recall was initiated on Oct 4th, this is about one month before the resolution date, so they already had a period of time to start their investigation/corrective action.
+
+**4. Balancing Under- and Over-Reaction:**
+
+*   The initial recall was related to customer complaints of foreign materials (metal) found in chicken nuggets. This suggests an issue during the manufacturing/processing stage.
+*   Since the recall is for metal contamination, it might be easier to trace the source and implement a corrective plan, which might be more technical/engineering-focused than bio-contamination.
+*   There is the major listeria recall happening at the same time, this could affect how quickly FSIS can close out the Perdue one.
+*   The resolution date is close, it's Nov 15th, and the recall was issued on Oct 4th. So there is limited time left for FSIS and Purdue to fix the issue and for FSIS to then verify it. 
+
+**5. Clashing Causal Forces:**
+
+*   **Forces Favoring Closure:** The relatively small scale of this Perdue recall, the nature of the contamination (metal), and Perdue's interest in a quick resolution.
+*   **Forces Against Closure:** The complexity of the investigation and the verification by FSIS, the current workload of FSIS related to the BrucePac recall, and the limited remaining time.
+
+**6. Linear Extrapolation:**
+
+*   It's difficult to extrapolate a linear trend as we don't have data on the closure time of *similar* recalls of a metal contamination in food. We will go on my best judgment.
+
+**7. Degrees of Doubt:**
+
+*   This is binary, "Yes" or "No." We will use a probability to reflect the degree of certainty.
+
+**8. Balance Under/Over Confidence:**
+
+*   I will remain grounded in the available information, not over confident based on limited specific evidence, but also acknowledge there is time left for action.
+
+**9. Look for Errors:**
+
+*   After the resolution date, this is a perfect scenario to look back on. Hindsight bias might impact future forecasts so this must be considered. If this prediction ends up being wrong we will re-evaluate the balance of inside/outside view, and look at what I should have considered (or should not have).
+
+**Reasoning and Forecast:**
+
+Given all the factors, I am putting a lower probability than what I may expect for something that isn't a foodborne disease issue because the time is short, and there are a lot of food recalls occurring. The Perdue recall seems straightforward and relatively small but the large ongoing listeria outbreak has likely caused a backlog in the FSIS. While the metal contamination is concerning and does require investigation, the fact there has been no confirmed illnesses and that there is no indication it is from a wider production issue may mean it could be quicker to resolve. It is more likely, but not certain, that Perdue will address the source of metal contamination, the FSIS will verify the solution and close it before the resolution date.
+
+My Prediction: Between 35.00% and 55.00%, but 45.00% being the most likely. Probability: 45.00%.
+
+
