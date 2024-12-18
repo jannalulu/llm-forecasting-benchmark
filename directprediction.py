@@ -58,7 +58,7 @@ def get_news_for_question(question_id):
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "aibq4_predictions_past_gemini_2_flash.json" # test
+  json_filename = "aibq4_predictions_past_gemini_exp_1206.json" # test
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:

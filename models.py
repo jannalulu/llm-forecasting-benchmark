@@ -14,10 +14,10 @@ OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
 GPT_MODEL = "gpt-4o"
-GEMINI_MODEL = "gemini-2.0-flash-exp"
+GEMINI_MODEL = "gemini-exp-1206"
 
 max_retries = 10
-base_delay = 1
+base_delay = 2
 
 def get_claude_prediction(question_details, formatted_articles):
   client = Anthropic(api_key=ANTHROPIC_API_KEY)
