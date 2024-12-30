@@ -11,10 +11,12 @@ load_dotenv()
 
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
 GPT_MODEL = "gpt-4o"
 GEMINI_MODEL = "gemini-exp-1206"
+DEEPSEEK_MODEL = "deepseek-chat" # deepseek-chat-v3
 
 max_retries = 10
 base_delay = 2
@@ -118,6 +120,45 @@ def get_gemini_prediction(question_details, formatted_articles):
       else:
         logging.error(f"Gemini API error persisted after {max_retries} retries: {e}")
         return None
+
+def get_deepseek_prediction(question_details,formatted_articles):
+
+  client = OpenAI(
+    api_key=DEEPSEEK_API_KEY, 
+    base_url="https://api.deepseek.com"
+  )
+
+  prompt_input = {
+  "title": question_details["title"],
+  "background": question_details.get("background", ""),
+  "resolution_criteria": question_details.get("resolution_criteria", ""),
+  "fine_print": question_details.get("fine_print", ""),
+  "formatted_articles": formatted_articles,
+  "today": question_details["open_time"]
+  }
+
+  for attempt in range(max_retries):
+    try:
+      response = client.chat.completions.create(
+        model=DEEPSEEK_MODEL,
+        max_tokens = 8000,
+        messages=[
+          {"role": "user", "content": DIRECT_PREDICTION.format(**prompt_input)}
+        ],
+        stream=False
+      )
+      
+      deepseek_text = response.choices[0].message.content
+      return deepseek_text
+    except Exception as e:
+      if attempt < max_retries - 1:
+        delay = base_delay * (2 ** attempt)  # Exponential backoff
+        logging.warning(f"Deepseek API error on attempt {attempt + 1}/{max_retries}. Retrying in {delay} seconds... Error: {e}")
+        time.sleep(delay)
+      else:
+        logging.error(f"Deepseek API error persisted after {max_retries} retries: {e}")
+        return None
+
 
 def get_claude_prediction_narrative(question_details, formatted_articles):
    
