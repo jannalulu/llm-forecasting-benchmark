@@ -11,6 +11,7 @@ load_dotenv()
 
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+GEMINI_API_KEY= os.environ.get('GEMINI_API_KEY')
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
@@ -88,7 +89,7 @@ def get_gpt_prediction(question_details, formatted_articles):
 
 def get_gemini_prediction(question_details, formatted_articles):
   client = OpenAI(
-    api_key=os.environ.get("GEMINI_API_KEY"),
+    api_key=GEMINI_API_KEY,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
   )
 
@@ -173,9 +174,6 @@ def get_claude_prediction_narrative(question_details, formatted_articles):
   }
 
   client = Anthropic(api_key=ANTHROPIC_API_KEY)
-
-  max_retries = 10
-  base_delay = 1
 
   for attempt in range(max_retries):
     try:
