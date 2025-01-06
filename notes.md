@@ -104,6 +104,18 @@ Ensemble Brier Scores (score, standard error):
 Median Ensemble: 0.2227, 0.0189
 Mean Ensemble: 0.2194, 0.0173
 
+### Brier scores for Deepseek v3:
+Individual Model Brier Scores (score, standard error):
+deepseekv30: 0.2086, 0.0130
+deepseekv31: 0.2178, 0.0130
+deepseekv32: 0.2292, 0.0142
+deepseekv33: 0.2108, 0.0132
+deepseekv34: 0.2180, 0.0132
+
+Ensemble Brier Scores (score, standard error):
+Median Ensemble: 0.2116, 0.0127
+Mean Ensemble: 0.2071, 0.0121
+
 ### future prompt:
 Average Brier Scores (score, standard error):
 gpt0: 0.2099, 0.0143

@@ -8,6 +8,11 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def extract_probabilities(text):
+    # Handle None input
+    if text is None:
+        logging.info("Received null/None input, returning default values")
+        return None, None, None
+    
     # Find the prediction line
     prediction_match = re.search(r'Between ([\d.]+)% and ([\d.]+)%, (?:but |with )([\d.]+)% being the most likely\.', text)
     if prediction_match:
@@ -37,26 +42,26 @@ def process_json_data(json_file):
         results[question_id] = {}
         
         for i in range(5):
-            gemini_key = f'gemini-2.0-flash-exp_reasoning{i}'
+            llm_key = f'deepseek-chat_reasoning{i}'
             
-            if gemini_key in item:
-                results[question_id][f'geminiflash2{i}'] = extract_probabilities(item[gemini_key])
+            if llm_key in item:
+                results[question_id][f'deepseekv3{i}'] = extract_probabilities(item[llm_key])
 
     return results
 
-def write_to_csv(results, filename='aibq4_outcomes_past_gemini_flash2.csv'):
+def write_to_csv(results, filename='aibq3_outcomes_past_deepseekv3.csv'):
     file_exists = os.path.isfile(filename)
     
     with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         
         if not file_exists:
-            headers = ['question_id'] + [f'{model}{i}_{metric}' for model in ['geminiflash2'] for i in range(5) for metric in ['min', 'max', 'final']]
+            headers = ['question_id'] + [f'{model}{i}_{metric}' for model in ['deepseekv3'] for i in range(5) for metric in ['min', 'max', 'final']]
             writer.writerow(headers)
         
         for question_id, probabilities in results.items():
             row = [question_id]
-            for model in ['geminiflash2']:
+            for model in ['deepseekv3']:
                 for i in range(5):
                     key = f'{model}{i}'
                     probs = probabilities.get(key, (None, None, None))
@@ -66,6 +71,6 @@ def write_to_csv(results, filename='aibq4_outcomes_past_gemini_flash2.csv'):
     logging.info(f"Results written to {filename}")
 
 if __name__ == "__main__":
-    json_file = "aibq4_predictions_past_gemini_flash2.json" 
+    json_file = "aibq3_predictions_past_deepseekv3.json" 
     results = process_json_data(json_file)
     write_to_csv(results)
