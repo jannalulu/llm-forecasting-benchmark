@@ -11,6 +11,8 @@ Scraping folder contains scraping information
 - `classification.py` gets Gemini to categorize the questions
 - `metaculus_data_aibq3_categories.csv` has all the categories
 - `metaculus_data_path.json` exists because claude sonnet 3.5 old errorred out in the first resolution
+- `random_sample.py` gets the category distributions across Q3 and Q4 tournaments and selects a representative subset by category
+- `get_question_details.py` takes the question_ids in a file and gets the information associated with that id out of json files
 
 Graphs folder contains visualizations
 
