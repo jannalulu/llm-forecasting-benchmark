@@ -227,3 +227,23 @@ claude4: 0.2629
 Ensemble Brier Scores:
 Median Ensemble: 0.1566
 Mean Ensemble: 0.1748
+
+### Category proportions:
+category (across aibq3 and aibq4)
+Politics & Governance    0.374732
+Economics & Business     0.218415
+Science & Tech           0.113490
+Arts & Recreation        0.087794
+Sports                   0.083512
+Healthcare & Biology     0.081370
+Environment & Energy     0.040685
+
+Category distribution in subset (100 questions picked at random from aibq3 and aibq4):
+category
+Politics & Governance    0.38
+Economics & Business     0.22
+Science & Tech           0.11
+Arts & Recreation        0.09
+Sports                   0.08
+Healthcare & Biology     0.08
+Environment & Energy     0.04

@@ -23,3 +23,8 @@
   [] Run Brier score analysis etc.
 [x] Download data for aibq4 from server
 [x] Refactor direct prediction and narrative prediction code
+
+# Paper
+[] Frame as the models are getting better every iteration --> correlates with other benchmarks?
+[] Point out that log scores are better than Brier scores
+[] Community prediction of pros were higher than community prediction of bots
