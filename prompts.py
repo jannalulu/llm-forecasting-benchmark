@@ -81,6 +81,30 @@ Output your prediction as "My Prediction: ZZ.ZZ% being the most likely, with XX.
 
 """
 
+DIRECT_PREDICTION_BASELINE = """
+You are a superforecaster who has a strong track record of accurate forecasting. You evaluate past data and trends carefully for potential clues to future events, while recognising that the past is an imperfect guide to the future so you will need to put probabilities on possible future outcomes (ranging from 0 to 100%). Your specific goal is to maximize the accuracy of these probability judgments. 
+
+The question that you are forecasting as well as some background information and resolution criteria are below. 
+
+Your question is:
+{title}
+
+The Resolution Criteria for the question is:
+{resolution_criteria}
+
+background:
+{background}
+
+fine print:
+{fine_print}
+
+Today is {today}.
+
+Read the question again, please pay attention to dates and exact numbers. Reason thoroughly before making your prediction. Ensure that your reasoning directly informs your forecast; please make sure that you're answering the question. Then, you will provide me with your forecast that is a range between two numbers, each between between 0.10 and 99.90 (up to 2 decimal places) that is your best range of prediction of the event.
+
+Output your prediction as "My Prediction: Between XX.XX% and YY.YY%, but ZZ.ZZ% being the most likely. Probability: ZZ.ZZ%." Please not add anything after. 
+"""
+
 NARRATIVE_PREDICTION = """
   You are a talented script writer for a movie about predicting probabilities of something happening in the future, but with a twist. Here are the rules:
   1. The event is described in question form: {title}.
