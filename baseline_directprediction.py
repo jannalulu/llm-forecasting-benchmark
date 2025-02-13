@@ -11,14 +11,14 @@ logging.basicConfig(
   level=logging.INFO,
   format='%(asctime)s - %(levelname)s - %(message)s',
   handlers=[
-    logging.FileHandler("forecasting.log", mode='a', encoding='utf-8'),
+    logging.FileHandler("baseline_forecasting.log", mode='a', encoding='utf-8'),
     logging.StreamHandler(sys.stdout)
   ]
 )
 
 def setup_question_logger(question_id, model_name):
   """Set up a logger for a specific question and model."""
-  log_filename = f"logs/{question_id}_{model_name}_past.log" # test
+  log_filename = f"logs/baseline_{question_id}_{model_name}_past.log" # test
   logger = logging.getLogger(f"{question_id}_{model_name}")
   logger.setLevel(logging.INFO)
   file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
@@ -51,11 +51,10 @@ def list_questions():
 
 def log_questions_json(questions_data):
   """Log question predictions to a JSON file."""
-  json_filename = "baseline_predictions_gpt4o.json" # test
+  json_filename = "baseline_predictions_claude_sonnet.json" # test
   logging.info(f"Adding {len(questions_data)} items to the collection")
   
   try:
-    # Read existing data if file exists
     if os.path.exists(json_filename):
       with open(json_filename, 'r', encoding='utf-8') as json_file:
         existing_data = json.load(json_file)
@@ -94,11 +93,11 @@ def main():
     for run in range(1):
       print(f"Run {run} for question {question_id}")
       
-      llm_result = get_baseline_gpt_prediction(question) # get_"llm"_prediction
-      print(f"{GPT_MODEL} response (Run {run}): {llm_result}")
-      log_question_reasoning(question_id, llm_result, question['title'], GPT_MODEL, run)
+      llm_result = get_baseline_claude_prediction(question) # get_"llm"_prediction
+      print(f"{CLAUDE_MODEL} response (Run {run}): {llm_result}")
+      log_question_reasoning(question_id, llm_result, question['title'], CLAUDE_MODEL, run)
 
-      question_data[f"{GPT_MODEL}_reasoning{run}"] = llm_result
+      question_data[f"{CLAUDE_MODEL}_reasoning"] = llm_result
 
     batch_questions_data.append(question_data)
 
