@@ -17,7 +17,7 @@ DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
 GPT_MODEL = "gpt-4o-2024-08-06"
-GEMINI_MODEL = "gemini-exp-1206"
+GEMINI_MODEL = "gemini-2.0-flash"
 DEEPSEEK_MODEL = "deepseek-chat" # deepseek-chat-v3
 
 max_retries = 10
