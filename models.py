@@ -16,7 +16,7 @@ GEMINI_API_KEY= os.environ.get('GEMINI_API_KEY')
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
 
 CLAUDE_MODEL = "claude-3-5-haiku-20241022"
-GPT_MODEL = "gpt-4o"
+GPT_MODEL = "gpt-4o-2024-08-06"
 GEMINI_MODEL = "gemini-exp-1206"
 DEEPSEEK_MODEL = "deepseek-chat" # deepseek-chat-v3
 
@@ -313,7 +313,7 @@ def get_claude_prediction_narrative(question_details, formatted_articles):
   for attempt in range(max_retries):
     try:
       response = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
+        model=CLAUDE_MODEL,
         max_tokens=4096,
         temperature=0.5,
         messages=[
@@ -346,7 +346,7 @@ def get_gpt_prediction_narrative(question_details, formatted_articles):
 
   try:
     response = client.chat.completions.create(
-      model="gpt-4o",
+      model=GPT_MODEL,
       temperature=0.5,
       messages=[
         {"role": "user", "content": NARRATIVE_PREDICTION.format(**prompt_input)}
