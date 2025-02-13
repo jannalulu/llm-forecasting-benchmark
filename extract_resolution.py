@@ -1,4 +1,3 @@
-# This script processes resolution data from metaculus_data_aibq3.json which is created by scraping/metaculus_aibq3.py
 import json
 import csv
 
@@ -21,9 +20,9 @@ def process_json_file(input_file, output_file):
     writer.writerow(['question_id', 'resolution'])
     writer.writerows(csv_data)
 
-  print(f"File '{output_file}' has been created successfully.")
+  print(f"File '{output_file}' has been created.")
 
-input_file = 'scraping/metaculus_data_aibq4_wd.json'
-output_file = 'aibq4_resolutions.csv'
+input_file = 'scraping/metaculus_data_subset_wd.json'
+output_file = 'baseline_subset_resolutions.csv'
 
 process_json_file(input_file, output_file)
