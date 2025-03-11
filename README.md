@@ -1,2 +1,2 @@
-# llm-forecasting-q3
+# llm-forecasting
 code for testing llm forecasting abilities
